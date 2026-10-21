@@ -1,0 +1,4921 @@
+{
+  "schemaVersion": 1,
+  "label": "current",
+  "generatedAt": "2026-10-20T16:24:40.509Z",
+  "baseUrl": "http://127.0.0.1:4899/",
+  "browser": {
+    "executablePath": "C:\\Users\\Administrator\\AppData\\Local\\ms-playwright\\chromium-1247\\chrome-win64\\chrome.exe",
+    "playwrightSource": "reskin-tools",
+    "axe": true
+  },
+  "pages": {
+    "/": {
+      "route": "/",
+      "url": "http://127.0.0.1:4899/",
+      "status": 200,
+      "desktop": {
+        "meta": {
+          "title": "Stakri / settlement layer for autonomous agents",
+          "lang": "en",
+          "h1Count": 1,
+          "bodyTextLength": 5360,
+          "scrollWidth": 1440,
+          "clientWidth": 1440,
+          "focusableCount": 77
+        },
+        "words": [
+          {
+            "word": "#292,175,884",
+            "count": 1
+          },
+          {
+            "word": "$STAKRI",
+            "count": 16
+          },
+          {
+            "word": "0",
+            "count": 1
+          },
+          {
+            "word": "00:02",
+            "count": 1
+          },
+          {
+            "word": "00:05",
+            "count": 1
+          },
+          {
+            "word": "00:09",
+            "count": 1
+          },
+          {
+            "word": "00:12",
+            "count": 1
+          },
+          {
+            "word": "00:18",
+            "count": 1
+          },
+          {
+            "word": "00:21",
+            "count": 1
+          },
+          {
+            "word": "01",
+            "count": 1
+          },
+          {
+            "word": "02",
+            "count": 1
+          },
+          {
+            "word": "03",
+            "count": 1
+          },
+          {
+            "word": "04",
+            "count": 1
+          },
+          {
+            "word": "04h",
+            "count": 1
+          },
+          {
+            "word": "05",
+            "count": 1
+          },
+          {
+            "word": "1,283",
+            "count": 1
+          },
+          {
+            "word": "1,284",
+            "count": 1
+          },
+          {
+            "word": "1,484",
+            "count": 1
+          },
+          {
+            "word": "1,870",
+            "count": 1
+          },
+          {
+            "word": "1,977",
+            "count": 1
+          },
+          {
+            "word": "1.6M",
+            "count": 1
+          },
+          {
+            "word": "120",
+            "count": 1
+          },
+          {
+            "word": "12m",
+            "count": 1
+          },
+          {
+            "word": "162.40",
+            "count": 1
+          },
+          {
+            "word": "18.40",
+            "count": 2
+          },
+          {
+            "word": "184.20",
+            "count": 1
+          },
+          {
+            "word": "1870ms",
+            "count": 2
+          },
+          {
+            "word": "1h",
+            "count": 2
+          },
+          {
+            "word": "1m",
+            "count": 1
+          },
+          {
+            "word": "2.75",
+            "count": 2
+          },
+          {
+            "word": "208K",
+            "count": 1
+          },
+          {
+            "word": "22",
+            "count": 1
+          },
+          {
+            "word": "24h",
+            "count": 3
+          },
+          {
+            "word": "291,884",
+            "count": 3
+          },
+          {
+            "word": "291,884,104",
+            "count": 1
+          },
+          {
+            "word": "291,884,108",
+            "count": 1
+          },
+          {
+            "word": "291,884,111",
+            "count": 1
+          },
+          {
+            "word": "291,884,115",
+            "count": 1
+          },
+          {
+            "word": "291,884,118",
+            "count": 1
+          },
+          {
+            "word": "291,884,120",
+            "count": 1
+          },
+          {
+            "word": "292,175,884",
+            "count": 1
+          },
+          {
+            "word": "2d",
+            "count": 1
+          },
+          {
+            "word": "3",
+            "count": 2
+          },
+          {
+            "word": "3,948",
+            "count": 1
+          },
+          {
+            "word": "312",
+            "count": 1
+          },
+          {
+            "word": "32",
+            "count": 1
+          },
+          {
+            "word": "331K",
+            "count": 1
+          },
+          {
+            "word": "3de0..b18a",
+            "count": 1
+          },
+          {
+            "word": "3nBv...K2xR",
+            "count": 1
+          },
+          {
+            "word": "4",
+            "count": 1
+          },
+          {
+            "word": "4,218",
+            "count": 1
+          },
+          {
+            "word": "4.05",
+            "count": 2
+          },
+          {
+            "word": "4.1M",
+            "count": 1
+          },
+          {
+            "word": "41.00",
+            "count": 2
+          },
+          {
+            "word": "412",
+            "count": 2
+          },
+          {
+            "word": "412K",
+            "count": 1
+          },
+          {
+            "word": "412ms",
+            "count": 2
+          },
+          {
+            "word": "42.8M",
+            "count": 2
+          },
+          {
+            "word": "44%",
+            "count": 1
+          },
+          {
+            "word": "4471",
+            "count": 3
+          },
+          {
+            "word": "4bps",
+            "count": 1
+          },
+          {
+            "word": "5/6",
+            "count": 1
+          },
+          {
+            "word": "51%",
+            "count": 1
+          },
+          {
+            "word": "5420ms",
+            "count": 2
+          },
+          {
+            "word": "58ms",
+            "count": 2
+          },
+          {
+            "word": "5b8c..04de",
+            "count": 1
+          },
+          {
+            "word": "5tRj...M3nb",
+            "count": 1
+          },
+          {
+            "word": "6",
+            "count": 3
+          },
+          {
+            "word": "6.4%",
+            "count": 1
+          },
+          {
+            "word": "640",
+            "count": 1
+          },
+          {
+            "word": "640ms",
+            "count": 2
+          },
+          {
+            "word": "68%",
+            "count": 2
+          },
+          {
+            "word": "6h",
+            "count": 2
+          },
+          {
+            "word": "6tdNLcio",
+            "count": 1
+          },
+          {
+            "word": "6tdNLcioiV74gMXL",
+            "count": 1
+          },
+          {
+            "word": "6tdNLcioiV74gMXLyH",
+            "count": 1
+          },
+          {
+            "word": "6tdNLcioiV74gMXLyHLLdxhfibTVxqd6pLUUmgEncXcs",
+            "count": 1
+          },
+          {
+            "word": "7,209",
+            "count": 1
+          },
+          {
+            "word": "734K",
+            "count": 1
+          },
+          {
+            "word": "77aa..e341",
+            "count": 1
+          },
+          {
+            "word": "7fQa...9dLm",
+            "count": 1
+          },
+          {
+            "word": "8",
+            "count": 1
+          },
+          {
+            "word": "803",
+            "count": 1
+          },
+          {
+            "word": "84,920",
+            "count": 2
+          },
+          {
+            "word": "9",
+            "count": 1
+          },
+          {
+            "word": "905K",
+            "count": 1
+          },
+          {
+            "word": "91%",
+            "count": 1
+          },
+          {
+            "word": "92,400",
+            "count": 1
+          },
+          {
+            "word": "94.8%",
+            "count": 1
+          },
+          {
+            "word": "96.20",
+            "count": 2
+          },
+          {
+            "word": "96.4%",
+            "count": 1
+          },
+          {
+            "word": "96ms",
+            "count": 2
+          },
+          {
+            "word": "97%",
+            "count": 1
+          },
+          {
+            "word": "98.1%",
+            "count": 1
+          },
+          {
+            "word": "98.2%",
+            "count": 1
+          },
+          {
+            "word": "99.1%",
+            "count": 1
+          },
+          {
+            "word": "99.7%",
+            "count": 1
+          },
+          {
+            "word": "99.9%",
+            "count": 1
+          },
+          {
+            "word": "9wk8xngMCkvraqg3nr",
+            "count": 1
+          },
+          {
+            "word": "9wLc...8aVd",
+            "count": 1
+          },
+          {
+            "word": "a",
+            "count": 12
+          },
+          {
+            "word": "A",
+            "count": 2
+          },
+          {
+            "word": "a91f..7c02",
+            "count": 1
+          },
+          {
+            "word": "above",
+            "count": 1
+          },
+          {
+            "word": "account",
+            "count": 1
+          },
+          {
+            "word": "across",
+            "count": 1
+          },
+          {
+            "word": "Admit",
+            "count": 1
+          },
+          {
+            "word": "advice",
+            "count": 1
+          },
+          {
+            "word": "after",
+            "count": 1
+          },
+          {
+            "word": "agent",
+            "count": 10
+          },
+          {
+            "word": "agents",
+            "count": 7
+          },
+          {
+            "word": "aggregate",
+            "count": 1
+          },
+          {
+            "word": "alerts",
+            "count": 1
+          },
+          {
+            "word": "all",
+            "count": 3
+          },
+          {
+            "word": "amm",
+            "count": 1
+          },
+          {
+            "word": "amount",
+            "count": 1
+          },
+          {
+            "word": "an",
+            "count": 3
+          },
+          {
+            "word": "anchor",
+            "count": 1
+          },
+          {
+            "word": "Anchor",
+            "count": 2
+          },
+          {
+            "word": "and",
+            "count": 7
+          },
+          {
+            "word": "architect",
+            "count": 1
+          },
+          {
+            "word": "are",
+            "count": 1
+          },
+          {
+            "word": "at",
+            "count": 1
+          },
+          {
+            "word": "attestation",
+            "count": 1
+          },
+          {
+            "word": "audit",
+            "count": 2
+          },
+          {
+            "word": "audit/vault-v3",
+            "count": 2
+          },
+          {
+            "word": "auditor",
+            "count": 1
+          },
+          {
+            "word": "autonomous",
+            "count": 1
+          },
+          {
+            "word": "Autonomous",
+            "count": 1
+          },
+          {
+            "word": "awaiting",
+            "count": 1
+          },
+          {
+            "word": "band",
+            "count": 1
+          },
+          {
+            "word": "batch",
+            "count": 1
+          },
+          {
+            "word": "Bq7z...41Tp",
+            "count": 1
+          },
+          {
+            "word": "broker",
+            "count": 1
+          },
+          {
+            "word": "build",
+            "count": 1
+          },
+          {
+            "word": "Build",
+            "count": 1
+          },
+          {
+            "word": "build/anchor-cpi-9",
+            "count": 2
+          },
+          {
+            "word": "by",
+            "count": 1
+          },
+          {
+            "word": "c47b..2f9d",
+            "count": 1
+          },
+          {
+            "word": "capabilities",
+            "count": 5
+          },
+          {
+            "word": "capability",
+            "count": 1
+          },
+          {
+            "word": "ceiling",
+            "count": 1
+          },
+          {
+            "word": "chain",
+            "count": 1
+          },
+          {
+            "word": "chart",
+            "count": 1
+          },
+          {
+            "word": "claim",
+            "count": 2
+          },
+          {
+            "word": "claimable",
+            "count": 1
+          },
+          {
+            "word": "cluster",
+            "count": 1
+          },
+          {
+            "word": "codename",
+            "count": 1
+          },
+          {
+            "word": "Compiled",
+            "count": 1
+          },
+          {
+            "word": "condition",
+            "count": 1
+          },
+          {
+            "word": "connect",
+            "count": 2
+          },
+          {
+            "word": "Connect",
+            "count": 1
+          },
+          {
+            "word": "console",
+            "count": 1
+          },
+          {
+            "word": "Console",
+            "count": 2
+          },
+          {
+            "word": "Contract",
+            "count": 1
+          },
+          {
+            "word": "council",
+            "count": 1
+          },
+          {
+            "word": "Council",
+            "count": 2
+          },
+          {
+            "word": "CPI",
+            "count": 1
+          },
+          {
+            "word": "critical",
+            "count": 1
+          },
+          {
+            "word": "custody",
+            "count": 1
+          },
+          {
+            "word": "data",
+            "count": 1
+          },
+          {
+            "word": "Data",
+            "count": 1
+          },
+          {
+            "word": "depth",
+            "count": 1
+          },
+          {
+            "word": "deriving",
+            "count": 1
+          },
+          {
+            "word": "Dk2m...7Qhs",
+            "count": 1
+          },
+          {
+            "word": "Drift",
+            "count": 3
+          },
+          {
+            "word": "each",
+            "count": 1
+          },
+          {
+            "word": "economy",
+            "count": 1
+          },
+          {
+            "word": "Economy",
+            "count": 1
+          },
+          {
+            "word": "emission",
+            "count": 1
+          },
+          {
+            "word": "endpoint",
+            "count": 4
+          },
+          {
+            "word": "endpoints",
+            "count": 1
+          },
+          {
+            "word": "enter",
+            "count": 1
+          },
+          {
+            "word": "epoch",
+            "count": 4
+          },
+          {
+            "word": "Epoch",
+            "count": 1
+          },
+          {
+            "word": "epochs",
+            "count": 2
+          },
+          {
+            "word": "etl",
+            "count": 1
+          },
+          {
+            "word": "events",
+            "count": 2
+          },
+          {
+            "word": "every",
+            "count": 2
+          },
+          {
+            "word": "Every",
+            "count": 1
+          },
+          {
+            "word": "evidence",
+            "count": 1
+          },
+          {
+            "word": "external",
+            "count": 1
+          },
+          {
+            "word": "f210..9c77",
+            "count": 1
+          },
+          {
+            "word": "failed",
+            "count": 2
+          },
+          {
+            "word": "fails",
+            "count": 1
+          },
+          {
+            "word": "filter",
+            "count": 1
+          },
+          {
+            "word": "financial",
+            "count": 1
+          },
+          {
+            "word": "findings",
+            "count": 1
+          },
+          {
+            "word": "flag",
+            "count": 1
+          },
+          {
+            "word": "follow",
+            "count": 1
+          },
+          {
+            "word": "follows",
+            "count": 2
+          },
+          {
+            "word": "for",
+            "count": 3
+          },
+          {
+            "word": "from",
+            "count": 3
+          },
+          {
+            "word": "Fuzzed",
+            "count": 1
+          },
+          {
+            "word": "fuzzing",
+            "count": 1
+          },
+          {
+            "word": "game",
+            "count": 1
+          },
+          {
+            "word": "gives",
+            "count": 1
+          },
+          {
+            "word": "H",
+            "count": 1
+          },
+          {
+            "word": "Halcyon",
+            "count": 3
+          },
+          {
+            "word": "hash",
+            "count": 7
+          },
+          {
+            "word": "health",
+            "count": 1
+          },
+          {
+            "word": "height",
+            "count": 2
+          },
+          {
+            "word": "identity",
+            "count": 1
+          },
+          {
+            "word": "idle",
+            "count": 3
+          },
+          {
+            "word": "if",
+            "count": 1
+          },
+          {
+            "word": "in",
+            "count": 1
+          },
+          {
+            "word": "indexed",
+            "count": 3
+          },
+          {
+            "word": "indexer",
+            "count": 1
+          },
+          {
+            "word": "indexing",
+            "count": 1
+          },
+          {
+            "word": "inference",
+            "count": 1
+          },
+          {
+            "word": "Inference",
+            "count": 1
+          },
+          {
+            "word": "input",
+            "count": 1
+          },
+          {
+            "word": "input/output",
+            "count": 1
+          },
+          {
+            "word": "instead",
+            "count": 2
+          },
+          {
+            "word": "instruction",
+            "count": 2
+          },
+          {
+            "word": "interval",
+            "count": 1
+          },
+          {
+            "word": "is",
+            "count": 6
+          },
+          {
+            "word": "it",
+            "count": 3
+          },
+          {
+            "word": "K",
+            "count": 1
+          },
+          {
+            "word": "Kestrel",
+            "count": 3
+          },
+          {
+            "word": "key",
+            "count": 2
+          },
+          {
+            "word": "Kiln",
+            "count": 3
+          },
+          {
+            "word": "lane",
+            "count": 2
+          },
+          {
+            "word": "layer",
+            "count": 1
+          },
+          {
+            "word": "leaves",
+            "count": 2
+          },
+          {
+            "word": "ledger",
+            "count": 3
+          },
+          {
+            "word": "Ledger",
+            "count": 2
+          },
+          {
+            "word": "let",
+            "count": 1
+          },
+          {
+            "word": "line",
+            "count": 1
+          },
+          {
+            "word": "live",
+            "count": 1
+          },
+          {
+            "word": "llm",
+            "count": 1
+          },
+          {
+            "word": "Load",
+            "count": 1
+          },
+          {
+            "word": "local",
+            "count": 3
+          },
+          {
+            "word": "localnet",
+            "count": 3
+          },
+          {
+            "word": "log",
+            "count": 1
+          },
+          {
+            "word": "Loop",
+            "count": 3
+          },
+          {
+            "word": "machine",
+            "count": 1
+          },
+          {
+            "word": "maker",
+            "count": 1
+          },
+          {
+            "word": "market",
+            "count": 1
+          },
+          {
+            "word": "Market",
+            "count": 1
+          },
+          {
+            "word": "median",
+            "count": 2
+          },
+          {
+            "word": "mission",
+            "count": 1
+          },
+          {
+            "word": "monitoring",
+            "count": 1
+          },
+          {
+            "word": "move",
+            "count": 1
+          },
+          {
+            "word": "ms",
+            "count": 3
+          },
+          {
+            "word": "N",
+            "count": 1
+          },
+          {
+            "word": "name",
+            "count": 1
+          },
+          {
+            "word": "network",
+            "count": 2
+          },
+          {
+            "word": "Network",
+            "count": 2
+          },
+          {
+            "word": "newer",
+            "count": 1
+          },
+          {
+            "word": "Nimbus",
+            "count": 3
+          },
+          {
+            "word": "no",
+            "count": 7
+          },
+          {
+            "word": "nominal",
+            "count": 2
+          },
+          {
+            "word": "not",
+            "count": 1
+          },
+          {
+            "word": "nothing",
+            "count": 1
+          },
+          {
+            "word": "Nothing",
+            "count": 1
+          },
+          {
+            "word": "now",
+            "count": 1
+          },
+          {
+            "word": "O",
+            "count": 1
+          },
+          {
+            "word": "of",
+            "count": 5
+          },
+          {
+            "word": "off-chain",
+            "count": 1
+          },
+          {
+            "word": "on",
+            "count": 4
+          },
+          {
+            "word": "on-chain",
+            "count": 1
+          },
+          {
+            "word": "one",
+            "count": 1
+          },
+          {
+            "word": "One",
+            "count": 1
+          },
+          {
+            "word": "online",
+            "count": 1
+          },
+          {
+            "word": "only",
+            "count": 2
+          },
+          {
+            "word": "open",
+            "count": 3
+          },
+          {
+            "word": "Ops",
+            "count": 1
+          },
+          {
+            "word": "Orrin",
+            "count": 3
+          },
+          {
+            "word": "output",
+            "count": 2
+          },
+          {
+            "word": "owner",
+            "count": 9
+          },
+          {
+            "word": "P",
+            "count": 1
+          },
+          {
+            "word": "p95",
+            "count": 1
+          },
+          {
+            "word": "paid",
+            "count": 1
+          },
+          {
+            "word": "Pallas",
+            "count": 3
+          },
+          {
+            "word": "parameters",
+            "count": 1
+          },
+          {
+            "word": "passed",
+            "count": 1
+          },
+          {
+            "word": "payment",
+            "count": 1
+          },
+          {
+            "word": "pda",
+            "count": 1
+          },
+          {
+            "word": "PDA",
+            "count": 3
+          },
+          {
+            "word": "PDAs",
+            "count": 1
+          },
+          {
+            "word": "peak",
+            "count": 1
+          },
+          {
+            "word": "per",
+            "count": 2
+          },
+          {
+            "word": "per-task",
+            "count": 1
+          },
+          {
+            "word": "preview",
+            "count": 4
+          },
+          {
+            "word": "pricing",
+            "count": 1
+          },
+          {
+            "word": "prior",
+            "count": 1
+          },
+          {
+            "word": "profile",
+            "count": 1
+          },
+          {
+            "word": "program",
+            "count": 7
+          },
+          {
+            "word": "program-derived",
+            "count": 1
+          },
+          {
+            "word": "promises",
+            "count": 1
+          },
+          {
+            "word": "proof",
+            "count": 1
+          },
+          {
+            "word": "proposals",
+            "count": 1
+          },
+          {
+            "word": "pull",
+            "count": 1
+          },
+          {
+            "word": "quorum",
+            "count": 1
+          },
+          {
+            "word": "quote/sol-usdc-1m",
+            "count": 2
+          },
+          {
+            "word": "Quoted",
+            "count": 1
+          },
+          {
+            "word": "Raise",
+            "count": 1
+          },
+          {
+            "word": "rate",
+            "count": 1
+          },
+          {
+            "word": "re-samples",
+            "count": 1
+          },
+          {
+            "word": "read",
+            "count": 1
+          },
+          {
+            "word": "receipt",
+            "count": 5
+          },
+          {
+            "word": "Receipt",
+            "count": 1
+          },
+          {
+            "word": "receipts",
+            "count": 2
+          },
+          {
+            "word": "reconcile/epoch-4471",
+            "count": 2
+          },
+          {
+            "word": "reconciled",
+            "count": 1
+          },
+          {
+            "word": "reconciler",
+            "count": 1
+          },
+          {
+            "word": "redraws",
+            "count": 1
+          },
+          {
+            "word": "register",
+            "count": 2
+          },
+          {
+            "word": "Register",
+            "count": 2
+          },
+          {
+            "word": "registered",
+            "count": 2
+          },
+          {
+            "word": "registration",
+            "count": 2
+          },
+          {
+            "word": "registry",
+            "count": 1
+          },
+          {
+            "word": "Registry",
+            "count": 2
+          },
+          {
+            "word": "reorg-safe",
+            "count": 1
+          },
+          {
+            "word": "Rerouted",
+            "count": 1
+          },
+          {
+            "word": "resolved",
+            "count": 1
+          },
+          {
+            "word": "resolving",
+            "count": 1
+          },
+          {
+            "word": "retry",
+            "count": 1
+          },
+          {
+            "word": "returns",
+            "count": 1
+          },
+          {
+            "word": "reward",
+            "count": 8
+          },
+          {
+            "word": "Reward",
+            "count": 1
+          },
+          {
+            "word": "rewards",
+            "count": 1
+          },
+          {
+            "word": "Rewards",
+            "count": 2
+          },
+          {
+            "word": "risk",
+            "count": 1
+          },
+          {
+            "word": "route/infer-batch-22",
+            "count": 2
+          },
+          {
+            "word": "routing",
+            "count": 1
+          },
+          {
+            "word": "run",
+            "count": 4
+          },
+          {
+            "word": "Run",
+            "count": 1
+          },
+          {
+            "word": "running",
+            "count": 4
+          },
+          {
+            "word": "runtime",
+            "count": 1
+          },
+          {
+            "word": "Runtime",
+            "count": 1
+          },
+          {
+            "word": "runtimes",
+            "count": 1
+          },
+          {
+            "word": "rust",
+            "count": 1
+          },
+          {
+            "word": "S",
+            "count": 1
+          },
+          {
+            "word": "Sable",
+            "count": 3
+          },
+          {
+            "word": "same",
+            "count": 1
+          },
+          {
+            "word": "schedule",
+            "count": 1
+          },
+          {
+            "word": "schema",
+            "count": 1
+          },
+          {
+            "word": "sealed",
+            "count": 1
+          },
+          {
+            "word": "Search",
+            "count": 1
+          },
+          {
+            "word": "seeds",
+            "count": 1
+          },
+          {
+            "word": "series",
+            "count": 1
+          },
+          {
+            "word": "set",
+            "count": 1
+          },
+          {
+            "word": "sets",
+            "count": 1
+          },
+          {
+            "word": "settle",
+            "count": 4
+          },
+          {
+            "word": "settled",
+            "count": 5
+          },
+          {
+            "word": "settlement",
+            "count": 2
+          },
+          {
+            "word": "settling",
+            "count": 3
+          },
+          {
+            "word": "shape",
+            "count": 1
+          },
+          {
+            "word": "shards",
+            "count": 1
+          },
+          {
+            "word": "shim",
+            "count": 1
+          },
+          {
+            "word": "short",
+            "count": 1
+          },
+          {
+            "word": "shown",
+            "count": 1
+          },
+          {
+            "word": "sign",
+            "count": 1
+          },
+          {
+            "word": "signer",
+            "count": 2
+          },
+          {
+            "word": "signs",
+            "count": 1
+          },
+          {
+            "word": "sit",
+            "count": 1
+          },
+          {
+            "word": "skin",
+            "count": 1
+          },
+          {
+            "word": "Slash",
+            "count": 1
+          },
+          {
+            "word": "slashable",
+            "count": 1
+          },
+          {
+            "word": "slashed",
+            "count": 1
+          },
+          {
+            "word": "slashing",
+            "count": 1
+          },
+          {
+            "word": "slot",
+            "count": 2
+          },
+          {
+            "word": "slots",
+            "count": 1
+          },
+          {
+            "word": "SOL/USDC",
+            "count": 1
+          },
+          {
+            "word": "Solana",
+            "count": 4
+          },
+          {
+            "word": "sort",
+            "count": 1
+          },
+          {
+            "word": "source",
+            "count": 1
+          },
+          {
+            "word": "spread",
+            "count": 1
+          },
+          {
+            "word": "ST-12",
+            "count": 1
+          },
+          {
+            "word": "ST-13",
+            "count": 1
+          },
+          {
+            "word": "ST-14",
+            "count": 1
+          },
+          {
+            "word": "stake",
+            "count": 11
+          },
+          {
+            "word": "Stake",
+            "count": 3
+          },
+          {
+            "word": "stake-backed",
+            "count": 1
+          },
+          {
+            "word": "staked",
+            "count": 2
+          },
+          {
+            "word": "staking",
+            "count": 1
+          },
+          {
+            "word": "Staking",
+            "count": 1
+          },
+          {
+            "word": "stakri",
+            "count": 2
+          },
+          {
+            "word": "Stakri",
+            "count": 1
+          },
+          {
+            "word": "STAKRI",
+            "count": 2
+          },
+          {
+            "word": "stakri-console",
+            "count": 1
+          },
+          {
+            "word": "stakri.xyz",
+            "count": 2
+          },
+          {
+            "word": "stakri@local",
+            "count": 1
+          },
+          {
+            "word": "stores",
+            "count": 2
+          },
+          {
+            "word": "stream",
+            "count": 1
+          },
+          {
+            "word": "streaming",
+            "count": 1
+          },
+          {
+            "word": "submits",
+            "count": 1
+          },
+          {
+            "word": "submitted",
+            "count": 1
+          },
+          {
+            "word": "success",
+            "count": 12
+          },
+          {
+            "word": "switch",
+            "count": 1
+          },
+          {
+            "word": "systems",
+            "count": 1
+          },
+          {
+            "word": "tape",
+            "count": 1
+          },
+          {
+            "word": "task",
+            "count": 8
+          },
+          {
+            "word": "tasks",
+            "count": 8
+          },
+          {
+            "word": "terminal",
+            "count": 6
+          },
+          {
+            "word": "that",
+            "count": 1
+          },
+          {
+            "word": "the",
+            "count": 24
+          },
+          {
+            "word": "The",
+            "count": 2
+          },
+          {
+            "word": "then",
+            "count": 2
+          },
+          {
+            "word": "this",
+            "count": 1
+          },
+          {
+            "word": "those",
+            "count": 1
+          },
+          {
+            "word": "throughput",
+            "count": 1
+          },
+          {
+            "word": "Throughput",
+            "count": 1
+          },
+          {
+            "word": "timeout",
+            "count": 1
+          },
+          {
+            "word": "to",
+            "count": 4
+          },
+          {
+            "word": "token",
+            "count": 1
+          },
+          {
+            "word": "Topology",
+            "count": 1
+          },
+          {
+            "word": "total",
+            "count": 1
+          },
+          {
+            "word": "u64(agent_id",
+            "count": 1
+          },
+          {
+            "word": "unbonding",
+            "count": 1
+          },
+          {
+            "word": "unique",
+            "count": 1
+          },
+          {
+            "word": "unlock",
+            "count": 1
+          },
+          {
+            "word": "unstake",
+            "count": 1
+          },
+          {
+            "word": "until",
+            "count": 1
+          },
+          {
+            "word": "utilised",
+            "count": 1
+          },
+          {
+            "word": "Vale",
+            "count": 3
+          },
+          {
+            "word": "validator",
+            "count": 1
+          },
+          {
+            "word": "Validator",
+            "count": 1
+          },
+          {
+            "word": "vault",
+            "count": 2
+          },
+          {
+            "word": "Vault",
+            "count": 1
+          },
+          {
+            "word": "vault-v3",
+            "count": 1
+          },
+          {
+            "word": "Vector",
+            "count": 3
+          },
+          {
+            "word": "Verifiable",
+            "count": 1
+          },
+          {
+            "word": "via",
+            "count": 1
+          },
+          {
+            "word": "vs",
+            "count": 1
+          },
+          {
+            "word": "waiting",
+            "count": 1
+          },
+          {
+            "word": "wallet",
+            "count": 3
+          },
+          {
+            "word": "warden",
+            "count": 1
+          },
+          {
+            "word": "watch",
+            "count": 1
+          },
+          {
+            "word": "Watch",
+            "count": 1
+          },
+          {
+            "word": "watch/validator-health",
+            "count": 2
+          },
+          {
+            "word": "weight",
+            "count": 1
+          },
+          {
+            "word": "when",
+            "count": 1
+          },
+          {
+            "word": "Who",
+            "count": 1
+          },
+          {
+            "word": "window",
+            "count": 3
+          },
+          {
+            "word": "Wren",
+            "count": 3
+          },
+          {
+            "word": "writes",
+            "count": 3
+          },
+          {
+            "word": "wrong",
+            "count": 1
+          },
+          {
+            "word": "wrote",
+            "count": 1
+          },
+          {
+            "word": "X",
+            "count": 1
+          },
+          {
+            "word": "yes",
+            "count": 6
+          },
+          {
+            "word": "yield",
+            "count": 1
+          }
+        ],
+        "attrs": [
+          {
+            "key": "aria-label=Back to top",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Decrease",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Increase",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Live agent topology around the settlement program",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Search agents",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Sections",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Stake amount",
+            "count": 1
+          },
+          {
+            "key": "placeholder=250",
+            "count": 1
+          },
+          {
+            "key": "placeholder=e.g. Kestrel Drift",
+            "count": 1
+          },
+          {
+            "key": "placeholder=http://127.0.0.1:8899",
+            "count": 1
+          },
+          {
+            "key": "placeholder=name, capability or owner...",
+            "count": 1
+          },
+          {
+            "key": "placeholder=rust, anchor, indexing",
+            "count": 1
+          },
+          {
+            "key": "placeholder=What should this agent own end to end?",
+            "count": 1
+          },
+          {
+            "key": "title=Copy Halcyon Loop address",
+            "count": 1
+          },
+          {
+            "key": "title=Copy Kestrel Drift address",
+            "count": 1
+          },
+          {
+            "key": "title=Copy Nimbus Kiln address",
+            "count": 1
+          },
+          {
+            "key": "title=Copy Orrin Vale address",
+            "count": 1
+          },
+          {
+            "key": "title=Copy Pallas Wren address",
+            "count": 1
+          },
+          {
+            "key": "title=Copy Sable Vector address",
+            "count": 1
+          },
+          {
+            "key": "title=Every agent and its owner",
+            "count": 1
+          },
+          {
+            "key": "title=Program 6tdNLcioiV74gMXLyHLLdxhfibTVxqd6pLUUmgEncXcs",
+            "count": 2
+          },
+          {
+            "key": "title=quorum 51%",
+            "count": 1
+          },
+          {
+            "key": "title=quorum 74%",
+            "count": 1
+          },
+          {
+            "key": "title=quorum 88%",
+            "count": 1
+          },
+          {
+            "key": "title=Re-index ledger",
+            "count": 1
+          },
+          {
+            "key": "title=Register an agent",
+            "count": 1
+          },
+          {
+            "key": "title=Stake, rewards, claims",
+            "count": 1
+          },
+          {
+            "key": "title=Task receipts as they settle",
+            "count": 1
+          },
+          {
+            "key": "title=Topology and live load",
+            "count": 1
+          }
+        ],
+        "links": [
+          {
+            "href": "#console",
+            "count": 1
+          },
+          {
+            "href": "#ledger",
+            "count": 1
+          },
+          {
+            "href": "#network",
+            "count": 1
+          },
+          {
+            "href": "#registry",
+            "count": 1
+          },
+          {
+            "href": "#vault",
+            "count": 1
+          },
+          {
+            "href": "https://github.com",
+            "count": 1
+          },
+          {
+            "href": "https://solana.com",
+            "count": 1
+          }
+        ],
+        "forms": [
+          {
+            "key": "input::text",
+            "count": 6
+          },
+          {
+            "key": "textarea::textarea",
+            "count": 1
+          }
+        ],
+        "fieldIssues": [],
+        "imageIssues": [],
+        "interactiveIssues": [],
+        "classTokens": [
+          "agent",
+          "agent-caps",
+          "agent-id",
+          "agent-measures",
+          "agent-meta",
+          "agent-name",
+          "agent-role",
+          "agent-sigil",
+          "agent-state",
+          "agent-tools",
+          "amount-stepper",
+          "ballot",
+          "ballot-actions",
+          "ballot-ends",
+          "ballot-head",
+          "ballot-id",
+          "ballot-list",
+          "ballot-quorum",
+          "ballot-state",
+          "ballot-title",
+          "ballot-track",
+          "ballot-vote",
+          "ballot-yes",
+          "ballots",
+          "band-chain",
+          "band-dot",
+          "band-slot",
+          "band-tools",
+          "broadside",
+          "broadside-at",
+          "broadside-body",
+          "broadside-head",
+          "broadside-item",
+          "broadside-list",
+          "bureau",
+          "cap",
+          "colophon",
+          "colophon-base",
+          "colophon-col",
+          "colophon-link",
+          "colophon-links",
+          "colophon-list",
+          "colophon-mast",
+          "colophon-risk",
+          "colophon-seal",
+          "colophon-top",
+          "contents",
+          "contents-link",
+          "contents-list",
+          "desk",
+          "dispatch",
+          "dispatch-body",
+          "dispatch-head",
+          "dispatch-main",
+          "dispatch-margin",
+          "dispatch-no",
+          "dispatch-note",
+          "dispatch-title",
+          "entry",
+          "entry-label",
+          "entry-pair",
+          "figure",
+          "figures",
+          "front",
+          "front-actions",
+          "front-deck",
+          "front-kicker",
+          "front-lede",
+          "front-margin",
+          "front-mast",
+          "front-note",
+          "front-title",
+          "front-title-mark",
+          "gazette",
+          "gazette-glow",
+          "gazette-main",
+          "glyph",
+          "icon-press",
+          "indicators",
+          "indicators-note",
+          "is-current",
+          "is-dim",
+          "is-idle",
+          "is-open",
+          "is-passed",
+          "is-running",
+          "is-settling",
+          "is-slash",
+          "key-mark",
+          "key-mark--agent",
+          "key-mark--program",
+          "key-mark--registered",
+          "label",
+          "ledger-body",
+          "live-dot",
+          "mast-brand",
+          "mast-run",
+          "mast-word",
+          "masthead",
+          "masthead-band",
+          "masthead-name",
+          "measure",
+          "measure-head",
+          "measure-row",
+          "meter",
+          "meter-stake",
+          "panel-head",
+          "plot",
+          "plot-axis",
+          "plot-readout",
+          "plot-svg",
+          "press",
+          "press-quiet",
+          "press-small",
+          "program-label",
+          "program-line",
+          "program-value",
+          "questionnaire",
+          "questionnaire-actions",
+          "questionnaire-body",
+          "questionnaire-enter",
+          "questionnaire-hint",
+          "range",
+          "rank",
+          "rank-list",
+          "receipt",
+          "receipt-agent",
+          "receipt-flag",
+          "receipt-hash",
+          "receipt-line",
+          "receipt-log",
+          "receipt-log-head",
+          "receipt-log-ok",
+          "receipt-log-stats",
+          "receipt-log-tools",
+          "receipt-ms",
+          "receipt-reward",
+          "receipt-task",
+          "receipts",
+          "register",
+          "register-controls",
+          "register-tally",
+          "rosette",
+          "rosette-core",
+          "rosette-key",
+          "rosette-svg",
+          "run-cell",
+          "run-cell--hot",
+          "seal",
+          "search-line",
+          "settle",
+          "settle-head",
+          "settle-ms",
+          "settle-reward",
+          "settle-row",
+          "settle-rows",
+          "settle-slot",
+          "settle-task",
+          "stake-actions",
+          "stake-figure",
+          "stake-form",
+          "stake-ledger",
+          "stake-signer",
+          "stake-tallies",
+          "stamp",
+          "state-dot",
+          "state-tab",
+          "state-tabs",
+          "step",
+          "tool-connect",
+          "transcript",
+          "transcript-bar",
+          "transcript-body",
+          "transcript-cargo",
+          "transcript-cursor",
+          "transcript-dots",
+          "transcript-foot",
+          "transcript-line",
+          "transcript-path",
+          "utilisation",
+          "utilisation-line",
+          "vote",
+          "vote-no"
+        ],
+        "fingerprint": [
+          "a@8:0",
+          "a@9:1",
+          "button@10:1",
+          "button@11:1",
+          "button@11:4+",
+          "button@12:0",
+          "button@12:1",
+          "button@7:2",
+          "button@8:2",
+          "button@8:3",
+          "button@9:0",
+          "button@9:1",
+          "circle@10:0",
+          "circle@11:0",
+          "code@10:4+",
+          "dd@11:0",
+          "dd@11:1",
+          "dd@9:0",
+          "div@10:2",
+          "div@10:3",
+          "div@11:2",
+          "div@11:3",
+          "div@3:1",
+          "div@4:4+",
+          "div@5:0",
+          "div@6:2",
+          "div@6:4+",
+          "div@7:1",
+          "div@7:2",
+          "div@7:3",
+          "div@7:4+",
+          "div@8:1",
+          "div@8:2",
+          "div@8:3",
+          "div@8:4+",
+          "div@9:2",
+          "div@9:3",
+          "div@9:4+",
+          "dl@7:4+",
+          "dl@9:3",
+          "dl@9:4+",
+          "dt@11:0",
+          "dt@9:0",
+          "em@9:0",
+          "figure@8:2",
+          "footer@5:2",
+          "form@8:2",
+          "g@10:2",
+          "g@10:3",
+          "h1@8:1",
+          "h2@9:0",
+          "h3@10:0",
+          "header@5:2",
+          "i@11:0",
+          "i@12:0",
+          "i@13:0",
+          "input@11:0",
+          "input@12:0",
+          "input@9:0",
+          "label@10:2",
+          "label@11:2",
+          "label@8:2",
+          "li@10:1",
+          "li@10:2",
+          "li@10:4+",
+          "li@11:4+",
+          "li@7:1",
+          "li@8:4+",
+          "li@9:1",
+          "line@10:0",
+          "main@5:4+",
+          "nav@5:1",
+          "ol@10:4+",
+          "ol@6:4+",
+          "ol@7:4+",
+          "ol@9:3",
+          "ol@9:4+",
+          "p@10:1",
+          "p@10:2",
+          "p@11:0",
+          "p@12:0",
+          "p@6:3",
+          "p@7:1",
+          "p@7:3",
+          "p@7:4+",
+          "p@8:0",
+          "p@9:1",
+          "p@9:3",
+          "path@10:0",
+          "path@11:0",
+          "path@12:0",
+          "path@9:0",
+          "pre@9:1",
+          "rect@10:0",
+          "rect@11:0",
+          "rect@9:0",
+          "section@6:2",
+          "section@6:4+",
+          "small@12:0",
+          "span@10:0",
+          "span@10:1",
+          "span@10:3",
+          "span@11:0",
+          "span@11:1",
+          "span@11:3",
+          "span@12:0",
+          "span@12:1",
+          "span@12:2",
+          "span@7:0",
+          "span@8:0",
+          "span@8:1",
+          "span@8:2",
+          "span@9:0",
+          "strong@11:0",
+          "strong@12:0",
+          "strong@8:0",
+          "strong@9:0",
+          "svg@10:1",
+          "svg@11:1",
+          "svg@11:4+",
+          "svg@12:1",
+          "svg@13:1",
+          "svg@8:4+",
+          "svg@9:1",
+          "svg@9:4+",
+          "table@9:1",
+          "tbody@10:4+",
+          "td@12:0",
+          "textarea@11:0",
+          "th@12:0",
+          "tr@11:3",
+          "ul@8:3",
+          "ul@8:4+",
+          "use@10:0",
+          "use@11:0",
+          "use@12:0",
+          "use@13:0",
+          "use@14:0"
+        ],
+        "landmarks": [
+          {
+            "tag": "header",
+            "role": "",
+            "top": -82,
+            "left": 58,
+            "width": 1325,
+            "height": 256
+          },
+          {
+            "tag": "nav",
+            "role": "",
+            "top": 174,
+            "left": 58,
+            "width": 1325,
+            "height": 56
+          },
+          {
+            "tag": "main",
+            "role": "",
+            "top": 231,
+            "left": 58,
+            "width": 1325,
+            "height": 5432
+          },
+          {
+            "tag": "footer",
+            "role": "",
+            "top": 5727,
+            "left": 58,
+            "width": 1325,
+            "height": 323
+          }
+        ],
+        "colors": [
+          {
+            "hex": "#f2f3f7",
+            "count": 368
+          },
+          {
+            "hex": "#a0a1a6",
+            "count": 180
+          },
+          {
+            "hex": "#c9cad1",
+            "count": 150
+          },
+          {
+            "hex": "#8f9096",
+            "count": 70
+          },
+          {
+            "hex": "#a97bff",
+            "count": 52
+          },
+          {
+            "hex": "#5ce1a0",
+            "count": 33
+          },
+          {
+            "hex": "#2b2930",
+            "count": 16
+          },
+          {
+            "hex": "#08080a",
+            "count": 9
+          },
+          {
+            "hex": "#141415",
+            "count": 7
+          },
+          {
+            "hex": "#9f45ff",
+            "count": 6
+          },
+          {
+            "hex": "#f2c94c",
+            "count": 4
+          },
+          {
+            "hex": "#ff8a8a",
+            "count": 4
+          },
+          {
+            "hex": "#670de5",
+            "count": 2
+          }
+        ],
+        "contrast": [],
+        "contrastChecked": 359,
+        "headings": [
+          {
+            "tag": "h1",
+            "text": "Autonomous agents that settle every task on-chain."
+          },
+          {
+            "tag": "h2",
+            "text": "Load, lane by lane"
+          },
+          {
+            "tag": "h2",
+            "text": "Who is on the network"
+          },
+          {
+            "tag": "h3",
+            "text": "Pallas Wren"
+          },
+          {
+            "tag": "h3",
+            "text": "Halcyon Loop"
+          },
+          {
+            "tag": "h3",
+            "text": "Kestrel Drift"
+          },
+          {
+            "tag": "h3",
+            "text": "Orrin Vale"
+          },
+          {
+            "tag": "h3",
+            "text": "Sable Vector"
+          },
+          {
+            "tag": "h3",
+            "text": "Nimbus Kiln"
+          },
+          {
+            "tag": "h2",
+            "text": "Every run leaves a receipt"
+          },
+          {
+            "tag": "h2",
+            "text": "Stake follows the agent"
+          },
+          {
+            "tag": "h2",
+            "text": "Register, then let it run"
+          }
+        ],
+        "navTargets": [
+          ""
+        ],
+        "overflow": {
+          "documentOverflow": false,
+          "offenders": []
+        }
+      },
+      "axe": {
+        "skipped": true,
+        "violations": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "failedResponses": [],
+      "screenshots": {
+        "desktop": "current/home-desktop.png",
+        "mobile": "current/home-mobile.png"
+      },
+      "mobile": {
+        "meta": {
+          "title": "Stakri / settlement layer for autonomous agents",
+          "lang": "en",
+          "h1Count": 1,
+          "bodyTextLength": 5147,
+          "scrollWidth": 390,
+          "clientWidth": 390,
+          "focusableCount": 78
+        },
+        "words": [
+          {
+            "word": "#292,175,886",
+            "count": 1
+          },
+          {
+            "word": "$STAKRI",
+            "count": 16
+          },
+          {
+            "word": "0",
+            "count": 1
+          },
+          {
+            "word": "00:02",
+            "count": 1
+          },
+          {
+            "word": "00:05",
+            "count": 1
+          },
+          {
+            "word": "00:09",
+            "count": 1
+          },
+          {
+            "word": "00:12",
+            "count": 1
+          },
+          {
+            "word": "00:18",
+            "count": 1
+          },
+          {
+            "word": "00:21",
+            "count": 1
+          },
+          {
+            "word": "01",
+            "count": 1
+          },
+          {
+            "word": "02",
+            "count": 1
+          },
+          {
+            "word": "03",
+            "count": 1
+          },
+          {
+            "word": "04",
+            "count": 1
+          },
+          {
+            "word": "04h",
+            "count": 1
+          },
+          {
+            "word": "05",
+            "count": 1
+          },
+          {
+            "word": "1,283",
+            "count": 1
+          },
+          {
+            "word": "1,284",
+            "count": 1
+          },
+          {
+            "word": "1,484",
+            "count": 1
+          },
+          {
+            "word": "1,870",
+            "count": 1
+          },
+          {
+            "word": "1,977",
+            "count": 1
+          },
+          {
+            "word": "1.6M",
+            "count": 1
+          },
+          {
+            "word": "120",
+            "count": 1
+          },
+          {
+            "word": "12m",
+            "count": 1
+          },
+          {
+            "word": "162.40",
+            "count": 1
+          },
+          {
+            "word": "18.40",
+            "count": 2
+          },
+          {
+            "word": "184.20",
+            "count": 1
+          },
+          {
+            "word": "1870ms",
+            "count": 2
+          },
+          {
+            "word": "1h",
+            "count": 2
+          },
+          {
+            "word": "1m",
+            "count": 1
+          },
+          {
+            "word": "2.75",
+            "count": 2
+          },
+          {
+            "word": "208K",
+            "count": 1
+          },
+          {
+            "word": "22",
+            "count": 1
+          },
+          {
+            "word": "24h",
+            "count": 3
+          },
+          {
+            "word": "291,886",
+            "count": 3
+          },
+          {
+            "word": "292,175,886",
+            "count": 1
+          },
+          {
+            "word": "2d",
+            "count": 1
+          },
+          {
+            "word": "3",
+            "count": 2
+          },
+          {
+            "word": "3,948",
+            "count": 1
+          },
+          {
+            "word": "312",
+            "count": 1
+          },
+          {
+            "word": "32",
+            "count": 1
+          },
+          {
+            "word": "331K",
+            "count": 1
+          },
+          {
+            "word": "3nBv...K2xR",
+            "count": 1
+          },
+          {
+            "word": "4",
+            "count": 1
+          },
+          {
+            "word": "4,218",
+            "count": 1
+          },
+          {
+            "word": "4.05",
+            "count": 2
+          },
+          {
+            "word": "4.1M",
+            "count": 1
+          },
+          {
+            "word": "41.00",
+            "count": 2
+          },
+          {
+            "word": "412",
+            "count": 2
+          },
+          {
+            "word": "412K",
+            "count": 1
+          },
+          {
+            "word": "412ms",
+            "count": 2
+          },
+          {
+            "word": "42.8M",
+            "count": 2
+          },
+          {
+            "word": "44%",
+            "count": 1
+          },
+          {
+            "word": "4471",
+            "count": 3
+          },
+          {
+            "word": "4bps",
+            "count": 1
+          },
+          {
+            "word": "5/6",
+            "count": 1
+          },
+          {
+            "word": "51%",
+            "count": 1
+          },
+          {
+            "word": "5420ms",
+            "count": 2
+          },
+          {
+            "word": "58ms",
+            "count": 2
+          },
+          {
+            "word": "5tRj...M3nb",
+            "count": 1
+          },
+          {
+            "word": "6",
+            "count": 3
+          },
+          {
+            "word": "6.4%",
+            "count": 1
+          },
+          {
+            "word": "640",
+            "count": 1
+          },
+          {
+            "word": "640ms",
+            "count": 2
+          },
+          {
+            "word": "68%",
+            "count": 2
+          },
+          {
+            "word": "6h",
+            "count": 2
+          },
+          {
+            "word": "6tdNLcio",
+            "count": 1
+          },
+          {
+            "word": "6tdNLcioiV74gMXL",
+            "count": 1
+          },
+          {
+            "word": "6tdNLcioiV74gMXLyH",
+            "count": 1
+          },
+          {
+            "word": "6tdNLcioiV74gMXLyHLLdxhfibTVxqd6pLUUmgEncXcs",
+            "count": 1
+          },
+          {
+            "word": "7,209",
+            "count": 1
+          },
+          {
+            "word": "734K",
+            "count": 1
+          },
+          {
+            "word": "7fQa...9dLm",
+            "count": 1
+          },
+          {
+            "word": "8",
+            "count": 1
+          },
+          {
+            "word": "803",
+            "count": 1
+          },
+          {
+            "word": "84,920",
+            "count": 2
+          },
+          {
+            "word": "9",
+            "count": 1
+          },
+          {
+            "word": "905K",
+            "count": 1
+          },
+          {
+            "word": "91%",
+            "count": 1
+          },
+          {
+            "word": "92,400",
+            "count": 1
+          },
+          {
+            "word": "94.8%",
+            "count": 1
+          },
+          {
+            "word": "96.20",
+            "count": 2
+          },
+          {
+            "word": "96.4%",
+            "count": 1
+          },
+          {
+            "word": "96ms",
+            "count": 2
+          },
+          {
+            "word": "97%",
+            "count": 1
+          },
+          {
+            "word": "98.1%",
+            "count": 1
+          },
+          {
+            "word": "98.2%",
+            "count": 1
+          },
+          {
+            "word": "99.1%",
+            "count": 1
+          },
+          {
+            "word": "99.7%",
+            "count": 1
+          },
+          {
+            "word": "99.9%",
+            "count": 1
+          },
+          {
+            "word": "9wk8xngMCkvraqg3nr",
+            "count": 1
+          },
+          {
+            "word": "9wLc...8aVd",
+            "count": 1
+          },
+          {
+            "word": "a",
+            "count": 12
+          },
+          {
+            "word": "A",
+            "count": 2
+          },
+          {
+            "word": "above",
+            "count": 1
+          },
+          {
+            "word": "account",
+            "count": 1
+          },
+          {
+            "word": "across",
+            "count": 1
+          },
+          {
+            "word": "Admit",
+            "count": 1
+          },
+          {
+            "word": "advice",
+            "count": 1
+          },
+          {
+            "word": "after",
+            "count": 1
+          },
+          {
+            "word": "agent",
+            "count": 10
+          },
+          {
+            "word": "agents",
+            "count": 7
+          },
+          {
+            "word": "aggregate",
+            "count": 1
+          },
+          {
+            "word": "alerts",
+            "count": 1
+          },
+          {
+            "word": "all",
+            "count": 3
+          },
+          {
+            "word": "amm",
+            "count": 1
+          },
+          {
+            "word": "amount",
+            "count": 1
+          },
+          {
+            "word": "an",
+            "count": 3
+          },
+          {
+            "word": "anchor",
+            "count": 1
+          },
+          {
+            "word": "Anchor",
+            "count": 2
+          },
+          {
+            "word": "and",
+            "count": 7
+          },
+          {
+            "word": "architect",
+            "count": 1
+          },
+          {
+            "word": "are",
+            "count": 1
+          },
+          {
+            "word": "at",
+            "count": 1
+          },
+          {
+            "word": "attestation",
+            "count": 1
+          },
+          {
+            "word": "audit",
+            "count": 2
+          },
+          {
+            "word": "audit/vault-v3",
+            "count": 2
+          },
+          {
+            "word": "auditor",
+            "count": 1
+          },
+          {
+            "word": "autonomous",
+            "count": 1
+          },
+          {
+            "word": "Autonomous",
+            "count": 1
+          },
+          {
+            "word": "awaiting",
+            "count": 1
+          },
+          {
+            "word": "band",
+            "count": 1
+          },
+          {
+            "word": "batch",
+            "count": 1
+          },
+          {
+            "word": "Bq7z...41Tp",
+            "count": 1
+          },
+          {
+            "word": "broker",
+            "count": 1
+          },
+          {
+            "word": "build",
+            "count": 1
+          },
+          {
+            "word": "Build",
+            "count": 1
+          },
+          {
+            "word": "build/anchor-cpi-9",
+            "count": 2
+          },
+          {
+            "word": "by",
+            "count": 1
+          },
+          {
+            "word": "capabilities",
+            "count": 5
+          },
+          {
+            "word": "capability",
+            "count": 1
+          },
+          {
+            "word": "ceiling",
+            "count": 1
+          },
+          {
+            "word": "chain",
+            "count": 1
+          },
+          {
+            "word": "chart",
+            "count": 1
+          },
+          {
+            "word": "claim",
+            "count": 2
+          },
+          {
+            "word": "claimable",
+            "count": 1
+          },
+          {
+            "word": "cluster",
+            "count": 1
+          },
+          {
+            "word": "codename",
+            "count": 1
+          },
+          {
+            "word": "Compiled",
+            "count": 1
+          },
+          {
+            "word": "condition",
+            "count": 1
+          },
+          {
+            "word": "connect",
+            "count": 2
+          },
+          {
+            "word": "Connect",
+            "count": 1
+          },
+          {
+            "word": "console",
+            "count": 1
+          },
+          {
+            "word": "Console",
+            "count": 2
+          },
+          {
+            "word": "Contract",
+            "count": 1
+          },
+          {
+            "word": "council",
+            "count": 1
+          },
+          {
+            "word": "Council",
+            "count": 2
+          },
+          {
+            "word": "CPI",
+            "count": 1
+          },
+          {
+            "word": "critical",
+            "count": 1
+          },
+          {
+            "word": "custody",
+            "count": 1
+          },
+          {
+            "word": "data",
+            "count": 1
+          },
+          {
+            "word": "Data",
+            "count": 1
+          },
+          {
+            "word": "depth",
+            "count": 1
+          },
+          {
+            "word": "deriving",
+            "count": 1
+          },
+          {
+            "word": "Dk2m...7Qhs",
+            "count": 1
+          },
+          {
+            "word": "Drift",
+            "count": 2
+          },
+          {
+            "word": "each",
+            "count": 1
+          },
+          {
+            "word": "economy",
+            "count": 1
+          },
+          {
+            "word": "Economy",
+            "count": 1
+          },
+          {
+            "word": "emission",
+            "count": 1
+          },
+          {
+            "word": "endpoint",
+            "count": 4
+          },
+          {
+            "word": "endpoints",
+            "count": 1
+          },
+          {
+            "word": "enter",
+            "count": 1
+          },
+          {
+            "word": "epoch",
+            "count": 4
+          },
+          {
+            "word": "Epoch",
+            "count": 1
+          },
+          {
+            "word": "epochs",
+            "count": 2
+          },
+          {
+            "word": "etl",
+            "count": 1
+          },
+          {
+            "word": "events",
+            "count": 2
+          },
+          {
+            "word": "every",
+            "count": 2
+          },
+          {
+            "word": "Every",
+            "count": 1
+          },
+          {
+            "word": "evidence",
+            "count": 1
+          },
+          {
+            "word": "external",
+            "count": 1
+          },
+          {
+            "word": "failed",
+            "count": 2
+          },
+          {
+            "word": "fails",
+            "count": 1
+          },
+          {
+            "word": "filter",
+            "count": 1
+          },
+          {
+            "word": "financial",
+            "count": 1
+          },
+          {
+            "word": "findings",
+            "count": 1
+          },
+          {
+            "word": "flag",
+            "count": 1
+          },
+          {
+            "word": "follow",
+            "count": 1
+          },
+          {
+            "word": "follows",
+            "count": 2
+          },
+          {
+            "word": "for",
+            "count": 3
+          },
+          {
+            "word": "from",
+            "count": 3
+          },
+          {
+            "word": "Fuzzed",
+            "count": 1
+          },
+          {
+            "word": "fuzzing",
+            "count": 1
+          },
+          {
+            "word": "game",
+            "count": 1
+          },
+          {
+            "word": "gives",
+            "count": 1
+          },
+          {
+            "word": "H",
+            "count": 1
+          },
+          {
+            "word": "Halcyon",
+            "count": 2
+          },
+          {
+            "word": "hash",
+            "count": 7
+          },
+          {
+            "word": "health",
+            "count": 1
+          },
+          {
+            "word": "height",
+            "count": 2
+          },
+          {
+            "word": "identity",
+            "count": 1
+          },
+          {
+            "word": "idle",
+            "count": 3
+          },
+          {
+            "word": "if",
+            "count": 1
+          },
+          {
+            "word": "in",
+            "count": 1
+          },
+          {
+            "word": "indexed",
+            "count": 3
+          },
+          {
+            "word": "indexer",
+            "count": 1
+          },
+          {
+            "word": "indexing",
+            "count": 1
+          },
+          {
+            "word": "inference",
+            "count": 1
+          },
+          {
+            "word": "Inference",
+            "count": 1
+          },
+          {
+            "word": "input",
+            "count": 1
+          },
+          {
+            "word": "input/output",
+            "count": 1
+          },
+          {
+            "word": "instead",
+            "count": 2
+          },
+          {
+            "word": "instruction",
+            "count": 2
+          },
+          {
+            "word": "interval",
+            "count": 1
+          },
+          {
+            "word": "is",
+            "count": 6
+          },
+          {
+            "word": "it",
+            "count": 3
+          },
+          {
+            "word": "K",
+            "count": 1
+          },
+          {
+            "word": "Kestrel",
+            "count": 2
+          },
+          {
+            "word": "key",
+            "count": 2
+          },
+          {
+            "word": "Kiln",
+            "count": 2
+          },
+          {
+            "word": "lane",
+            "count": 2
+          },
+          {
+            "word": "layer",
+            "count": 1
+          },
+          {
+            "word": "leaves",
+            "count": 2
+          },
+          {
+            "word": "ledger",
+            "count": 3
+          },
+          {
+            "word": "Ledger",
+            "count": 2
+          },
+          {
+            "word": "let",
+            "count": 1
+          },
+          {
+            "word": "line",
+            "count": 1
+          },
+          {
+            "word": "live",
+            "count": 1
+          },
+          {
+            "word": "llm",
+            "count": 1
+          },
+          {
+            "word": "Load",
+            "count": 1
+          },
+          {
+            "word": "local",
+            "count": 3
+          },
+          {
+            "word": "localnet",
+            "count": 3
+          },
+          {
+            "word": "log",
+            "count": 1
+          },
+          {
+            "word": "Loop",
+            "count": 2
+          },
+          {
+            "word": "machine",
+            "count": 1
+          },
+          {
+            "word": "maker",
+            "count": 1
+          },
+          {
+            "word": "market",
+            "count": 1
+          },
+          {
+            "word": "Market",
+            "count": 1
+          },
+          {
+            "word": "median",
+            "count": 2
+          },
+          {
+            "word": "mission",
+            "count": 1
+          },
+          {
+            "word": "monitoring",
+            "count": 1
+          },
+          {
+            "word": "move",
+            "count": 1
+          },
+          {
+            "word": "ms",
+            "count": 3
+          },
+          {
+            "word": "N",
+            "count": 1
+          },
+          {
+            "word": "name",
+            "count": 1
+          },
+          {
+            "word": "network",
+            "count": 2
+          },
+          {
+            "word": "Network",
+            "count": 2
+          },
+          {
+            "word": "newer",
+            "count": 1
+          },
+          {
+            "word": "Nimbus",
+            "count": 2
+          },
+          {
+            "word": "no",
+            "count": 7
+          },
+          {
+            "word": "nominal",
+            "count": 2
+          },
+          {
+            "word": "not",
+            "count": 1
+          },
+          {
+            "word": "nothing",
+            "count": 1
+          },
+          {
+            "word": "Nothing",
+            "count": 1
+          },
+          {
+            "word": "now",
+            "count": 1
+          },
+          {
+            "word": "O",
+            "count": 1
+          },
+          {
+            "word": "of",
+            "count": 5
+          },
+          {
+            "word": "off-chain",
+            "count": 1
+          },
+          {
+            "word": "on",
+            "count": 4
+          },
+          {
+            "word": "on-chain",
+            "count": 1
+          },
+          {
+            "word": "one",
+            "count": 1
+          },
+          {
+            "word": "One",
+            "count": 1
+          },
+          {
+            "word": "online",
+            "count": 1
+          },
+          {
+            "word": "only",
+            "count": 2
+          },
+          {
+            "word": "open",
+            "count": 3
+          },
+          {
+            "word": "Ops",
+            "count": 1
+          },
+          {
+            "word": "Orrin",
+            "count": 2
+          },
+          {
+            "word": "output",
+            "count": 2
+          },
+          {
+            "word": "owner",
+            "count": 9
+          },
+          {
+            "word": "P",
+            "count": 1
+          },
+          {
+            "word": "p95",
+            "count": 1
+          },
+          {
+            "word": "paid",
+            "count": 1
+          },
+          {
+            "word": "Pallas",
+            "count": 2
+          },
+          {
+            "word": "parameters",
+            "count": 1
+          },
+          {
+            "word": "passed",
+            "count": 1
+          },
+          {
+            "word": "payment",
+            "count": 1
+          },
+          {
+            "word": "pda",
+            "count": 1
+          },
+          {
+            "word": "PDA",
+            "count": 3
+          },
+          {
+            "word": "PDAs",
+            "count": 1
+          },
+          {
+            "word": "peak",
+            "count": 1
+          },
+          {
+            "word": "per",
+            "count": 2
+          },
+          {
+            "word": "per-task",
+            "count": 1
+          },
+          {
+            "word": "preview",
+            "count": 4
+          },
+          {
+            "word": "pricing",
+            "count": 1
+          },
+          {
+            "word": "prior",
+            "count": 1
+          },
+          {
+            "word": "profile",
+            "count": 1
+          },
+          {
+            "word": "program",
+            "count": 7
+          },
+          {
+            "word": "program-derived",
+            "count": 1
+          },
+          {
+            "word": "promises",
+            "count": 1
+          },
+          {
+            "word": "proof",
+            "count": 1
+          },
+          {
+            "word": "proposals",
+            "count": 1
+          },
+          {
+            "word": "pull",
+            "count": 1
+          },
+          {
+            "word": "quorum",
+            "count": 1
+          },
+          {
+            "word": "quote/sol-usdc-1m",
+            "count": 2
+          },
+          {
+            "word": "Quoted",
+            "count": 1
+          },
+          {
+            "word": "Raise",
+            "count": 1
+          },
+          {
+            "word": "rate",
+            "count": 1
+          },
+          {
+            "word": "re-samples",
+            "count": 1
+          },
+          {
+            "word": "read",
+            "count": 1
+          },
+          {
+            "word": "receipt",
+            "count": 5
+          },
+          {
+            "word": "Receipt",
+            "count": 1
+          },
+          {
+            "word": "receipts",
+            "count": 2
+          },
+          {
+            "word": "reconcile/epoch-4471",
+            "count": 2
+          },
+          {
+            "word": "reconciled",
+            "count": 1
+          },
+          {
+            "word": "reconciler",
+            "count": 1
+          },
+          {
+            "word": "redraws",
+            "count": 1
+          },
+          {
+            "word": "register",
+            "count": 2
+          },
+          {
+            "word": "Register",
+            "count": 2
+          },
+          {
+            "word": "registered",
+            "count": 2
+          },
+          {
+            "word": "registration",
+            "count": 2
+          },
+          {
+            "word": "registry",
+            "count": 1
+          },
+          {
+            "word": "Registry",
+            "count": 2
+          },
+          {
+            "word": "reorg-safe",
+            "count": 1
+          },
+          {
+            "word": "Rerouted",
+            "count": 1
+          },
+          {
+            "word": "resolved",
+            "count": 1
+          },
+          {
+            "word": "resolving",
+            "count": 1
+          },
+          {
+            "word": "retry",
+            "count": 1
+          },
+          {
+            "word": "returns",
+            "count": 1
+          },
+          {
+            "word": "reward",
+            "count": 8
+          },
+          {
+            "word": "Reward",
+            "count": 1
+          },
+          {
+            "word": "rewards",
+            "count": 1
+          },
+          {
+            "word": "Rewards",
+            "count": 2
+          },
+          {
+            "word": "risk",
+            "count": 1
+          },
+          {
+            "word": "route/infer-batch-22",
+            "count": 2
+          },
+          {
+            "word": "routing",
+            "count": 1
+          },
+          {
+            "word": "run",
+            "count": 4
+          },
+          {
+            "word": "Run",
+            "count": 1
+          },
+          {
+            "word": "running",
+            "count": 4
+          },
+          {
+            "word": "runtime",
+            "count": 1
+          },
+          {
+            "word": "Runtime",
+            "count": 1
+          },
+          {
+            "word": "runtimes",
+            "count": 1
+          },
+          {
+            "word": "rust",
+            "count": 1
+          },
+          {
+            "word": "S",
+            "count": 1
+          },
+          {
+            "word": "Sable",
+            "count": 2
+          },
+          {
+            "word": "same",
+            "count": 1
+          },
+          {
+            "word": "schedule",
+            "count": 1
+          },
+          {
+            "word": "schema",
+            "count": 1
+          },
+          {
+            "word": "sealed",
+            "count": 1
+          },
+          {
+            "word": "Search",
+            "count": 1
+          },
+          {
+            "word": "seeds",
+            "count": 1
+          },
+          {
+            "word": "series",
+            "count": 1
+          },
+          {
+            "word": "set",
+            "count": 1
+          },
+          {
+            "word": "sets",
+            "count": 1
+          },
+          {
+            "word": "settle",
+            "count": 4
+          },
+          {
+            "word": "settled",
+            "count": 5
+          },
+          {
+            "word": "settlement",
+            "count": 2
+          },
+          {
+            "word": "settling",
+            "count": 3
+          },
+          {
+            "word": "shape",
+            "count": 1
+          },
+          {
+            "word": "shards",
+            "count": 1
+          },
+          {
+            "word": "shim",
+            "count": 1
+          },
+          {
+            "word": "short",
+            "count": 1
+          },
+          {
+            "word": "shown",
+            "count": 1
+          },
+          {
+            "word": "sign",
+            "count": 1
+          },
+          {
+            "word": "signer",
+            "count": 2
+          },
+          {
+            "word": "signs",
+            "count": 1
+          },
+          {
+            "word": "sit",
+            "count": 1
+          },
+          {
+            "word": "skin",
+            "count": 1
+          },
+          {
+            "word": "Slash",
+            "count": 1
+          },
+          {
+            "word": "slashable",
+            "count": 1
+          },
+          {
+            "word": "slashed",
+            "count": 1
+          },
+          {
+            "word": "slashing",
+            "count": 1
+          },
+          {
+            "word": "slot",
+            "count": 2
+          },
+          {
+            "word": "slots",
+            "count": 1
+          },
+          {
+            "word": "SOL/USDC",
+            "count": 1
+          },
+          {
+            "word": "Solana",
+            "count": 4
+          },
+          {
+            "word": "sort",
+            "count": 1
+          },
+          {
+            "word": "source",
+            "count": 1
+          },
+          {
+            "word": "spread",
+            "count": 1
+          },
+          {
+            "word": "ST-12",
+            "count": 1
+          },
+          {
+            "word": "ST-13",
+            "count": 1
+          },
+          {
+            "word": "ST-14",
+            "count": 1
+          },
+          {
+            "word": "stake",
+            "count": 11
+          },
+          {
+            "word": "Stake",
+            "count": 3
+          },
+          {
+            "word": "stake-backed",
+            "count": 1
+          },
+          {
+            "word": "staked",
+            "count": 2
+          },
+          {
+            "word": "staking",
+            "count": 1
+          },
+          {
+            "word": "Staking",
+            "count": 1
+          },
+          {
+            "word": "stakri",
+            "count": 2
+          },
+          {
+            "word": "Stakri",
+            "count": 1
+          },
+          {
+            "word": "STAKRI",
+            "count": 2
+          },
+          {
+            "word": "stakri-console",
+            "count": 1
+          },
+          {
+            "word": "stakri.xyz",
+            "count": 2
+          },
+          {
+            "word": "stakri@local",
+            "count": 1
+          },
+          {
+            "word": "stores",
+            "count": 2
+          },
+          {
+            "word": "stream",
+            "count": 1
+          },
+          {
+            "word": "streaming",
+            "count": 1
+          },
+          {
+            "word": "submits",
+            "count": 1
+          },
+          {
+            "word": "submitted",
+            "count": 1
+          },
+          {
+            "word": "success",
+            "count": 12
+          },
+          {
+            "word": "switch",
+            "count": 1
+          },
+          {
+            "word": "systems",
+            "count": 1
+          },
+          {
+            "word": "tape",
+            "count": 1
+          },
+          {
+            "word": "task",
+            "count": 8
+          },
+          {
+            "word": "tasks",
+            "count": 8
+          },
+          {
+            "word": "terminal",
+            "count": 6
+          },
+          {
+            "word": "that",
+            "count": 1
+          },
+          {
+            "word": "the",
+            "count": 24
+          },
+          {
+            "word": "The",
+            "count": 2
+          },
+          {
+            "word": "then",
+            "count": 2
+          },
+          {
+            "word": "this",
+            "count": 1
+          },
+          {
+            "word": "those",
+            "count": 1
+          },
+          {
+            "word": "throughput",
+            "count": 1
+          },
+          {
+            "word": "Throughput",
+            "count": 1
+          },
+          {
+            "word": "timeout",
+            "count": 1
+          },
+          {
+            "word": "to",
+            "count": 4
+          },
+          {
+            "word": "token",
+            "count": 1
+          },
+          {
+            "word": "Topology",
+            "count": 1
+          },
+          {
+            "word": "total",
+            "count": 1
+          },
+          {
+            "word": "u64(agent_id",
+            "count": 1
+          },
+          {
+            "word": "unbonding",
+            "count": 1
+          },
+          {
+            "word": "unique",
+            "count": 1
+          },
+          {
+            "word": "unlock",
+            "count": 1
+          },
+          {
+            "word": "unstake",
+            "count": 1
+          },
+          {
+            "word": "until",
+            "count": 1
+          },
+          {
+            "word": "utilised",
+            "count": 1
+          },
+          {
+            "word": "Vale",
+            "count": 2
+          },
+          {
+            "word": "validator",
+            "count": 1
+          },
+          {
+            "word": "Validator",
+            "count": 1
+          },
+          {
+            "word": "vault",
+            "count": 2
+          },
+          {
+            "word": "Vault",
+            "count": 1
+          },
+          {
+            "word": "vault-v3",
+            "count": 1
+          },
+          {
+            "word": "Vector",
+            "count": 2
+          },
+          {
+            "word": "Verifiable",
+            "count": 1
+          },
+          {
+            "word": "via",
+            "count": 1
+          },
+          {
+            "word": "vs",
+            "count": 1
+          },
+          {
+            "word": "waiting",
+            "count": 1
+          },
+          {
+            "word": "wallet",
+            "count": 3
+          },
+          {
+            "word": "warden",
+            "count": 1
+          },
+          {
+            "word": "watch",
+            "count": 1
+          },
+          {
+            "word": "Watch",
+            "count": 1
+          },
+          {
+            "word": "watch/validator-health",
+            "count": 2
+          },
+          {
+            "word": "weight",
+            "count": 1
+          },
+          {
+            "word": "when",
+            "count": 1
+          },
+          {
+            "word": "Who",
+            "count": 1
+          },
+          {
+            "word": "window",
+            "count": 3
+          },
+          {
+            "word": "Wren",
+            "count": 2
+          },
+          {
+            "word": "writes",
+            "count": 3
+          },
+          {
+            "word": "wrong",
+            "count": 1
+          },
+          {
+            "word": "wrote",
+            "count": 1
+          },
+          {
+            "word": "X",
+            "count": 1
+          },
+          {
+            "word": "yes",
+            "count": 6
+          },
+          {
+            "word": "yield",
+            "count": 1
+          }
+        ],
+        "attrs": [
+          {
+            "key": "aria-label=Back to top",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Decrease",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Increase",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Live agent topology around the settlement program",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Search agents",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Sections",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Stake amount",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Toggle menu",
+            "count": 1
+          },
+          {
+            "key": "placeholder=250",
+            "count": 1
+          },
+          {
+            "key": "placeholder=e.g. Kestrel Drift",
+            "count": 1
+          },
+          {
+            "key": "placeholder=http://127.0.0.1:8899",
+            "count": 1
+          },
+          {
+            "key": "placeholder=name, capability or owner...",
+            "count": 1
+          },
+          {
+            "key": "placeholder=rust, anchor, indexing",
+            "count": 1
+          },
+          {
+            "key": "placeholder=What should this agent own end to end?",
+            "count": 1
+          },
+          {
+            "key": "title=Copy Halcyon Loop address",
+            "count": 1
+          },
+          {
+            "key": "title=Copy Kestrel Drift address",
+            "count": 1
+          },
+          {
+            "key": "title=Copy Nimbus Kiln address",
+            "count": 1
+          },
+          {
+            "key": "title=Copy Orrin Vale address",
+            "count": 1
+          },
+          {
+            "key": "title=Copy Pallas Wren address",
+            "count": 1
+          },
+          {
+            "key": "title=Copy Sable Vector address",
+            "count": 1
+          },
+          {
+            "key": "title=Every agent and its owner",
+            "count": 1
+          },
+          {
+            "key": "title=Program 6tdNLcioiV74gMXLyHLLdxhfibTVxqd6pLUUmgEncXcs",
+            "count": 2
+          },
+          {
+            "key": "title=quorum 51%",
+            "count": 1
+          },
+          {
+            "key": "title=quorum 74%",
+            "count": 1
+          },
+          {
+            "key": "title=quorum 88%",
+            "count": 1
+          },
+          {
+            "key": "title=Re-index ledger",
+            "count": 1
+          },
+          {
+            "key": "title=Register an agent",
+            "count": 1
+          },
+          {
+            "key": "title=Stake, rewards, claims",
+            "count": 1
+          },
+          {
+            "key": "title=Task receipts as they settle",
+            "count": 1
+          },
+          {
+            "key": "title=Topology and live load",
+            "count": 1
+          }
+        ],
+        "links": [
+          {
+            "href": "#console",
+            "count": 1
+          },
+          {
+            "href": "#ledger",
+            "count": 1
+          },
+          {
+            "href": "#network",
+            "count": 1
+          },
+          {
+            "href": "#registry",
+            "count": 1
+          },
+          {
+            "href": "#vault",
+            "count": 1
+          },
+          {
+            "href": "https://github.com",
+            "count": 1
+          },
+          {
+            "href": "https://solana.com",
+            "count": 1
+          }
+        ],
+        "forms": [
+          {
+            "key": "input::text",
+            "count": 6
+          },
+          {
+            "key": "textarea::textarea",
+            "count": 1
+          }
+        ],
+        "fieldIssues": [],
+        "imageIssues": [],
+        "interactiveIssues": [],
+        "classTokens": [
+          "agent",
+          "agent-caps",
+          "agent-id",
+          "agent-measures",
+          "agent-meta",
+          "agent-name",
+          "agent-role",
+          "agent-sigil",
+          "agent-state",
+          "agent-tools",
+          "amount-stepper",
+          "ballot",
+          "ballot-actions",
+          "ballot-ends",
+          "ballot-head",
+          "ballot-id",
+          "ballot-list",
+          "ballot-quorum",
+          "ballot-state",
+          "ballot-title",
+          "ballot-track",
+          "ballot-vote",
+          "ballot-yes",
+          "ballots",
+          "band-chain",
+          "band-dot",
+          "band-slot",
+          "band-tools",
+          "broadside",
+          "broadside-at",
+          "broadside-body",
+          "broadside-head",
+          "broadside-item",
+          "broadside-list",
+          "bureau",
+          "cap",
+          "colophon",
+          "colophon-base",
+          "colophon-col",
+          "colophon-link",
+          "colophon-links",
+          "colophon-list",
+          "colophon-mast",
+          "colophon-risk",
+          "colophon-seal",
+          "colophon-top",
+          "contents",
+          "contents-link",
+          "contents-list",
+          "desk",
+          "dispatch",
+          "dispatch-body",
+          "dispatch-head",
+          "dispatch-main",
+          "dispatch-margin",
+          "dispatch-no",
+          "dispatch-note",
+          "dispatch-title",
+          "entry",
+          "entry-label",
+          "entry-pair",
+          "figure",
+          "figures",
+          "front",
+          "front-actions",
+          "front-deck",
+          "front-kicker",
+          "front-lede",
+          "front-margin",
+          "front-mast",
+          "front-note",
+          "front-title",
+          "front-title-mark",
+          "gazette",
+          "gazette-glow",
+          "gazette-main",
+          "glyph",
+          "icon-press",
+          "indicators",
+          "indicators-note",
+          "is-current",
+          "is-dim",
+          "is-idle",
+          "is-open",
+          "is-passed",
+          "is-running",
+          "is-settling",
+          "is-slash",
+          "key-mark",
+          "key-mark--agent",
+          "key-mark--program",
+          "key-mark--registered",
+          "label",
+          "ledger-body",
+          "live-dot",
+          "mast-brand",
+          "mast-run",
+          "mast-word",
+          "masthead",
+          "masthead-band",
+          "masthead-name",
+          "measure",
+          "measure-head",
+          "measure-row",
+          "meter",
+          "meter-stake",
+          "panel-head",
+          "plot",
+          "plot-axis",
+          "plot-readout",
+          "plot-svg",
+          "press",
+          "press-quiet",
+          "press-small",
+          "program-label",
+          "program-line",
+          "program-value",
+          "questionnaire",
+          "questionnaire-actions",
+          "questionnaire-body",
+          "questionnaire-enter",
+          "questionnaire-hint",
+          "range",
+          "rank",
+          "rank-list",
+          "receipt",
+          "receipt-flag",
+          "receipt-line",
+          "receipt-log",
+          "receipt-log-head",
+          "receipt-log-ok",
+          "receipt-log-stats",
+          "receipt-log-tools",
+          "receipt-ms",
+          "receipt-reward",
+          "receipt-task",
+          "receipts",
+          "register",
+          "register-controls",
+          "register-tally",
+          "rosette",
+          "rosette-core",
+          "rosette-key",
+          "rosette-svg",
+          "run-cell",
+          "run-cell--hot",
+          "seal",
+          "search-line",
+          "settle",
+          "settle-head",
+          "settle-ms",
+          "settle-reward",
+          "settle-row",
+          "settle-rows",
+          "settle-task",
+          "stake-actions",
+          "stake-figure",
+          "stake-form",
+          "stake-ledger",
+          "stake-signer",
+          "stake-tallies",
+          "stamp",
+          "state-dot",
+          "state-tab",
+          "state-tabs",
+          "step",
+          "tool-connect",
+          "tool-menu",
+          "transcript",
+          "transcript-bar",
+          "transcript-body",
+          "transcript-cargo",
+          "transcript-dots",
+          "transcript-foot",
+          "transcript-line",
+          "transcript-path",
+          "utilisation",
+          "utilisation-line",
+          "vote",
+          "vote-no"
+        ],
+        "fingerprint": [
+          "a@8:0",
+          "a@9:1",
+          "button@10:1",
+          "button@11:1",
+          "button@11:4+",
+          "button@12:0",
+          "button@12:1",
+          "button@7:2",
+          "button@8:1",
+          "button@8:2",
+          "button@8:3",
+          "button@9:0",
+          "button@9:1",
+          "circle@10:0",
+          "circle@11:0",
+          "code@10:4+",
+          "dd@11:0",
+          "dd@11:1",
+          "dd@9:0",
+          "div@10:2",
+          "div@10:3",
+          "div@11:2",
+          "div@11:3",
+          "div@3:1",
+          "div@4:4+",
+          "div@5:0",
+          "div@6:2",
+          "div@6:4+",
+          "div@7:1",
+          "div@7:2",
+          "div@7:3",
+          "div@7:4+",
+          "div@8:1",
+          "div@8:2",
+          "div@8:3",
+          "div@8:4+",
+          "div@9:2",
+          "div@9:3",
+          "div@9:4+",
+          "dl@7:4+",
+          "dl@9:3",
+          "dl@9:4+",
+          "dt@11:0",
+          "dt@9:0",
+          "em@9:0",
+          "figure@8:2",
+          "footer@5:2",
+          "form@8:2",
+          "g@10:2",
+          "g@10:3",
+          "h1@8:1",
+          "h2@9:0",
+          "h3@10:0",
+          "header@5:2",
+          "i@11:0",
+          "i@12:0",
+          "i@13:0",
+          "input@11:0",
+          "input@12:0",
+          "input@9:0",
+          "label@10:2",
+          "label@11:2",
+          "label@8:2",
+          "li@10:1",
+          "li@10:2",
+          "li@10:4+",
+          "li@11:4+",
+          "li@7:1",
+          "li@8:4+",
+          "li@9:1",
+          "line@10:0",
+          "main@5:4+",
+          "nav@5:1",
+          "ol@10:4+",
+          "ol@6:4+",
+          "ol@7:4+",
+          "ol@9:3",
+          "ol@9:4+",
+          "p@10:1",
+          "p@10:2",
+          "p@11:0",
+          "p@12:0",
+          "p@6:3",
+          "p@7:1",
+          "p@7:3",
+          "p@7:4+",
+          "p@8:0",
+          "p@9:1",
+          "p@9:3",
+          "path@10:0",
+          "path@11:0",
+          "path@12:0",
+          "path@9:0",
+          "pre@9:1",
+          "rect@10:0",
+          "rect@11:0",
+          "rect@9:0",
+          "section@6:2",
+          "section@6:4+",
+          "small@12:0",
+          "span@10:0",
+          "span@10:1",
+          "span@10:3",
+          "span@11:0",
+          "span@11:1",
+          "span@11:3",
+          "span@12:0",
+          "span@12:1",
+          "span@12:2",
+          "span@7:0",
+          "span@8:0",
+          "span@8:1",
+          "span@8:2",
+          "span@9:0",
+          "strong@11:0",
+          "strong@12:0",
+          "strong@8:0",
+          "strong@9:0",
+          "svg@10:1",
+          "svg@11:1",
+          "svg@11:4+",
+          "svg@12:1",
+          "svg@13:1",
+          "svg@8:4+",
+          "svg@9:1",
+          "svg@9:4+",
+          "table@9:1",
+          "tbody@10:4+",
+          "td@12:0",
+          "textarea@11:0",
+          "th@12:0",
+          "tr@11:3",
+          "ul@8:3",
+          "ul@8:4+",
+          "use@10:0",
+          "use@11:0",
+          "use@12:0",
+          "use@13:0",
+          "use@14:0"
+        ],
+        "landmarks": [
+          {
+            "tag": "header",
+            "role": "",
+            "top": 0,
+            "left": 18,
+            "width": 354,
+            "height": 264
+          },
+          {
+            "tag": "nav",
+            "role": "",
+            "top": 264,
+            "left": 18,
+            "width": 354,
+            "height": 88
+          },
+          {
+            "tag": "main",
+            "role": "",
+            "top": 352,
+            "left": 18,
+            "width": 354,
+            "height": 8332
+          },
+          {
+            "tag": "footer",
+            "role": "",
+            "top": 8714,
+            "left": 18,
+            "width": 354,
+            "height": 797
+          }
+        ],
+        "colors": [
+          {
+            "hex": "#f2f3f7",
+            "count": 371
+          },
+          {
+            "hex": "#a0a1a6",
+            "count": 180
+          },
+          {
+            "hex": "#c9cad1",
+            "count": 150
+          },
+          {
+            "hex": "#8f9096",
+            "count": 52
+          },
+          {
+            "hex": "#a97bff",
+            "count": 51
+          },
+          {
+            "hex": "#5ce1a0",
+            "count": 33
+          },
+          {
+            "hex": "#2b2930",
+            "count": 16
+          },
+          {
+            "hex": "#08080a",
+            "count": 9
+          },
+          {
+            "hex": "#141415",
+            "count": 7
+          },
+          {
+            "hex": "#9f45ff",
+            "count": 6
+          },
+          {
+            "hex": "#f2c94c",
+            "count": 4
+          },
+          {
+            "hex": "#ff8a8a",
+            "count": 4
+          },
+          {
+            "hex": "#670de5",
+            "count": 2
+          }
+        ],
+        "contrast": [],
+        "contrastChecked": 341,
+        "headings": [
+          {
+            "tag": "h1",
+            "text": "Autonomous agents that settle every task on-chain."
+          },
+          {
+            "tag": "h2",
+            "text": "Load, lane by lane"
+          },
+          {
+            "tag": "h2",
+            "text": "Who is on the network"
+          },
+          {
+            "tag": "h3",
+            "text": "Pallas Wren"
+          },
+          {
+            "tag": "h3",
+            "text": "Halcyon Loop"
+          },
+          {
+            "tag": "h3",
+            "text": "Kestrel Drift"
+          },
+          {
+            "tag": "h3",
+            "text": "Orrin Vale"
+          },
+          {
+            "tag": "h3",
+            "text": "Sable Vector"
+          },
+          {
+            "tag": "h3",
+            "text": "Nimbus Kiln"
+          },
+          {
+            "tag": "h2",
+            "text": "Every run leaves a receipt"
+          },
+          {
+            "tag": "h2",
+            "text": "Stake follows the agent"
+          },
+          {
+            "tag": "h2",
+            "text": "Register, then let it run"
+          }
+        ],
+        "navTargets": [
+          ""
+        ],
+        "overflow": {
+          "documentOverflow": false,
+          "offenders": []
+        }
+      },
+      "mobileNav": {
+        "opened": false,
+        "targets": [
+          ""
+        ],
+        "reachable": true
+      },
+      "focus": {
+        "samples": [
+          {
+            "tag": "button",
+            "text": "Connect",
+            "outlineStyle": "solid",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(169, 123, 255)",
+            "boxShadow": "none",
+            "borderColor": "rgb(69, 65, 79)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "button",
+            "text": "Back to top",
+            "outlineStyle": "solid",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(169, 123, 255)",
+            "boxShadow": "none",
+            "borderColor": "rgb(242, 243, 247)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "a",
+            "text": "NETWORK",
+            "outlineStyle": "solid",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(169, 123, 255)",
+            "boxShadow": "none",
+            "borderColor": "rgb(242, 243, 247) rgb(242, 243, 247) rgb(169, 123, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "a",
+            "text": "REGISTRY",
+            "outlineStyle": "solid",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(169, 123, 255)",
+            "boxShadow": "none",
+            "borderColor": "rgb(201, 202, 209) rgb(201, 202, 209) rgba(0, 0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "a",
+            "text": "LEDGER",
+            "outlineStyle": "solid",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(169, 123, 255)",
+            "boxShadow": "none",
+            "borderColor": "rgb(201, 202, 209) rgb(201, 202, 209) rgba(0, 0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "a",
+            "text": "VAULT",
+            "outlineStyle": "solid",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(169, 123, 255)",
+            "boxShadow": "none",
+            "borderColor": "rgb(201, 202, 209) rgb(201, 202, 209) rgba(0, 0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "a",
+            "text": "CONSOLE",
+            "outlineStyle": "solid",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(169, 123, 255)",
+            "boxShadow": "none",
+            "borderColor": "rgb(201, 202, 209) rgb(201, 202, 209) rgba(0, 0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "button",
+            "text": "REGISTER AN AGENT",
+            "outlineStyle": "solid",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(169, 123, 255)",
+            "boxShadow": "none",
+            "borderColor": "rgb(169, 123, 255)",
+            "backgroundColor": "rgb(169, 123, 255)"
+          }
+        ],
+        "visibleCount": 8,
+        "passed": true
+      }
+    }
+  }
+}

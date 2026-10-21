@@ -1,0 +1,78 @@
+/* ==========================================================================
+   DESIGN TOKENS - "Obsidian Grid": neon-on-void blockchain design language.
+   Replaces the previous flat charcoal / orange workspace theme entirely.
+   ========================================================================== */
+
+@font-face {
+  font-family: 'Plex Sans';
+  src: url('/fonts/IBMPlexSans%5Bwdth,wght%5D.ttf') format('truetype-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Plex Mono';
+  src: url('/fonts/DMMono-400.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Plex Mono';
+  src: url('/fonts/DMMono-500.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  color-scheme: dark;
+
+  /* --- void / surfaces --- */
+  --void: #04070f;
+  --abyss: #070c18;
+  --surface: rgba(14, 23, 41, 0.62);
+  --surface-solid: #0b1220;
+  --surface-2: rgba(22, 34, 58, 0.55);
+  --raise: rgba(30, 45, 74, 0.45);
+
+  /* --- hairlines --- */
+  --line: rgba(120, 180, 255, 0.14);
+  --line-soft: rgba(120, 180, 255, 0.07);
+  --line-hot: rgba(0, 208, 255, 0.42);
+
+  /* --- type --- */
+  --ink: #e6f0ff;
+  --ink-dim: #93a8c8;
+  --ink-faint: #5f7395;
+  --ink-ghost: #3c4c68;
+
+  /* --- neon accents (Stakri: mint -> cyan -> violet) --- */
+  --neon: #22f5c8;
+  --neon-2: #00d0ff;
+  --neon-3: #7c5cff;
+  --neon-4: #c8ff4d;
+  --warn: #ffb454;
+  --danger: #ff5d7a;
+
+  /* --- glows --- */
+  --glow-neon: 0 0 0 1px rgba(34, 245, 200, 0.35), 0 0 22px -6px rgba(34, 245, 200, 0.55);
+  --glow-soft: 0 0 40px -14px rgba(0, 208, 255, 0.5);
+  --glow-violet: 0 0 40px -12px rgba(124, 92, 255, 0.55);
+  --shadow-panel: 0 30px 90px -50px rgba(0, 0, 0, 0.95);
+
+  /* --- geometry --- */
+  --r-sm: 6px;
+  --r: 12px;
+  --r-lg: 20px;
+  --shell: 1320px;
+  --gutter: clamp(16px, 3.2vw, 40px);
+
+  /* --- motion --- */
+  --ease: cubic-bezier(0.22, 0.68, 0.24, 1);
+  --fast: 140ms var(--ease);
+  --slow: 520ms var(--ease);
+
+  --sans: 'Plex Sans', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --mono: 'Plex Mono', ui-monospace, 'Cascadia Mono', Consolas, monospace;
+}

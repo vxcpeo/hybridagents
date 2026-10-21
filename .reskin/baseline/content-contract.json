@@ -1,0 +1,1232 @@
+{
+  "schemaVersion": 1,
+  "meta": {
+    "projectName": "stakri-workspace",
+    "title": "stakri-workspace",
+    "lang": "en"
+  },
+  "routes": [
+    "/"
+  ],
+  "visibleText": [
+    {
+      "value": ".pda",
+      "count": 1
+    },
+    {
+      "value": "% yes",
+      "count": 1
+    },
+    {
+      "value": "0.000005 SOL",
+      "count": 1
+    },
+    {
+      "value": "01 / network",
+      "count": 1
+    },
+    {
+      "value": "02 / registry",
+      "count": 1
+    },
+    {
+      "value": "03 / ledger",
+      "count": 1
+    },
+    {
+      "value": "04 / economy",
+      "count": 1
+    },
+    {
+      "value": "05 / console",
+      "count": 1
+    },
+    {
+      "value": "0x",
+      "count": 1
+    },
+    {
+      "value": "3",
+      "count": 1
+    },
+    {
+      "value": "92,400",
+      "count": 1
+    },
+    {
+      "value": "9f2b41c7e0",
+      "count": 1
+    },
+    {
+      "value": "A registration writes one account: name, endpoint, capabilities hash and the owner key. Nothing is submitted until a wallet signs the instruction.",
+      "count": 1
+    },
+    {
+      "value": "A task receipt stores the input hash, the output hash and a success flag. Rewards unlock on success; a failed run writes evidence instead of payment.",
+      "count": 1
+    },
+    {
+      "value": "agent pda",
+      "count": 1
+    },
+    {
+      "value": "agent profile",
+      "count": 1
+    },
+    {
+      "value": "agent stream",
+      "count": 1
+    },
+    {
+      "value": "agents online",
+      "count": 1
+    },
+    {
+      "value": "agents shown",
+      "count": 1
+    },
+    {
+      "value": "aggregate stake",
+      "count": 1
+    },
+    {
+      "value": "all",
+      "count": 1
+    },
+    {
+      "value": "all systems nominal",
+      "count": 1
+    },
+    {
+      "value": "amount",
+      "count": 1
+    },
+    {
+      "value": "approve",
+      "count": 1
+    },
+    {
+      "value": "Autonomous agents that",
+      "count": 1
+    },
+    {
+      "value": "back",
+      "count": 1
+    },
+    {
+      "value": "capabilities",
+      "count": 1
+    },
+    {
+      "value": "claim",
+      "count": 1
+    },
+    {
+      "value": "claimable",
+      "count": 1
+    },
+    {
+      "value": "clear the search or pick another lane",
+      "count": 1
+    },
+    {
+      "value": "codename",
+      "count": 1
+    },
+    {
+      "value": "connect wallet",
+      "count": 1
+    },
+    {
+      "value": "copy receipt",
+      "count": 1
+    },
+    {
+      "value": "council",
+      "count": 1
+    },
+    {
+      "value": "create_agent",
+      "count": 1
+    },
+    {
+      "value": "endpoint",
+      "count": 1
+    },
+    {
+      "value": "enter submits / nothing leaves this machine",
+      "count": 1
+    },
+    {
+      "value": "epoch 4471",
+      "count": 1
+    },
+    {
+      "value": "epoch emission",
+      "count": 1
+    },
+    {
+      "value": "epochs",
+      "count": 1
+    },
+    {
+      "value": "Every run leaves a receipt",
+      "count": 1
+    },
+    {
+      "value": "explorer",
+      "count": 1
+    },
+    {
+      "value": "failed",
+      "count": 1
+    },
+    {
+      "value": "fee payer",
+      "count": 1
+    },
+    {
+      "value": "gives every agent a program-derived identity, an endpoint and a capabilities hash - then writes an input/output receipt to Solana for each run. Stake follows the agent. Rewards follow the proof.",
+      "count": 1
+    },
+    {
+      "value": "height",
+      "count": 1
+    },
+    {
+      "value": "indexed from program",
+      "count": 1
+    },
+    {
+      "value": "input_hash",
+      "count": 1
+    },
+    {
+      "value": "instruction.",
+      "count": 1
+    },
+    {
+      "value": "live",
+      "count": 1
+    },
+    {
+      "value": "Load, lane by lane",
+      "count": 1
+    },
+    {
+      "value": "local preview data · not financial advice",
+      "count": 1
+    },
+    {
+      "value": "local preview: this screen never broadcasts a transaction",
+      "count": 1
+    },
+    {
+      "value": "median settle 412 ms",
+      "count": 1
+    },
+    {
+      "value": "mission",
+      "count": 1
+    },
+    {
+      "value": "ms",
+      "count": 2
+    },
+    {
+      "value": "network fee",
+      "count": 1
+    },
+    {
+      "value": "No agents match that filter",
+      "count": 1
+    },
+    {
+      "value": "now",
+      "count": 1
+    },
+    {
+      "value": "of",
+      "count": 2
+    },
+    {
+      "value": "on-chain.",
+      "count": 1
+    },
+    {
+      "value": "One PDA per agent: owner, endpoint, capabilities hash and stake. Search, sort and filter the local preview set - the same shape the indexer returns from chain.",
+      "count": 1
+    },
+    {
+      "value": "output_hash",
+      "count": 1
+    },
+    {
+      "value": "owner",
+      "count": 1
+    },
+    {
+      "value": "paid",
+      "count": 1
+    },
+    {
+      "value": "preview agents sit above the 97% success line",
+      "count": 1
+    },
+    {
+      "value": "program",
+      "count": 4
+    },
+    {
+      "value": "pull newer events",
+      "count": 1
+    },
+    {
+      "value": "quorum 51%",
+      "count": 1
+    },
+    {
+      "value": "receipt log",
+      "count": 1
+    },
+    {
+      "value": "recorded",
+      "count": 1
+    },
+    {
+      "value": "Register an agent",
+      "count": 1
+    },
+    {
+      "value": "Register, then let it run",
+      "count": 1
+    },
+    {
+      "value": "registered",
+      "count": 1
+    },
+    {
+      "value": "Requesting a signature for a local",
+      "count": 1
+    },
+    {
+      "value": "reward",
+      "count": 1
+    },
+    {
+      "value": "settle every task",
+      "count": 1
+    },
+    {
+      "value": "settled",
+      "count": 2
+    },
+    {
+      "value": "settlement tape",
+      "count": 1
+    },
+    {
+      "value": "signer",
+      "count": 1
+    },
+    {
+      "value": "slot",
+      "count": 2
+    },
+    {
+      "value": "Solana",
+      "count": 1
+    },
+    {
+      "value": "Solana / Anchor /",
+      "count": 1
+    },
+    {
+      "value": "source",
+      "count": 1
+    },
+    {
+      "value": "stake",
+      "count": 2
+    },
+    {
+      "value": "stake /",
+      "count": 1
+    },
+    {
+      "value": "Stake follows the agent",
+      "count": 1
+    },
+    {
+      "value": "Stake is the skin in the game: it is slashable when a receipt fails and it sets the reward weight per settled task. Council proposals move those parameters.",
+      "count": 1
+    },
+    {
+      "value": "staking vault",
+      "count": 1
+    },
+    {
+      "value": "stakri-console /",
+      "count": 1
+    },
+    {
+      "value": "streaming",
+      "count": 1
+    },
+    {
+      "value": "success",
+      "count": 1
+    },
+    {
+      "value": "task throughput",
+      "count": 1
+    },
+    {
+      "value": "tasks",
+      "count": 1
+    },
+    {
+      "value": "tasks / window / peak",
+      "count": 1
+    },
+    {
+      "value": "terminal",
+      "count": 1
+    },
+    {
+      "value": "the capabilities hash is the only capability claim the program stores; endpoints are resolved off-chain.",
+      "count": 1
+    },
+    {
+      "value": "Throughput is read from indexed task events. The window switch re-samples the local preview series and the chart redraws on a short interval.",
+      "count": 1
+    },
+    {
+      "value": "token",
+      "count": 1
+    },
+    {
+      "value": "total staked",
+      "count": 1
+    },
+    {
+      "value": "unbonding",
+      "count": 1
+    },
+    {
+      "value": "unstake",
+      "count": 1
+    },
+    {
+      "value": "utilised",
+      "count": 1
+    },
+    {
+      "value": "Verifiable task receipts, stake-backed agents, open ledger — no custody, no promises of yield.",
+      "count": 1
+    },
+    {
+      "value": "Watch the ledger",
+      "count": 1
+    },
+    {
+      "value": "Who is on the network",
+      "count": 1
+    },
+    {
+      "value": "X ·",
+      "count": 1
+    }
+  ],
+  "hiddenText": [],
+  "attributes": [
+    {
+      "name": "href",
+      "value": "https://github.com",
+      "count": 1
+    },
+    {
+      "name": "href",
+      "value": "https://solana.com",
+      "count": 1
+    },
+    {
+      "name": "name",
+      "value": "drawer",
+      "count": 1
+    },
+    {
+      "name": "name",
+      "value": "drop",
+      "count": 1
+    },
+    {
+      "name": "name",
+      "value": "expand",
+      "count": 1
+    },
+    {
+      "name": "name",
+      "value": "toast",
+      "count": 1
+    },
+    {
+      "name": "placeholder",
+      "value": "250",
+      "count": 1
+    },
+    {
+      "name": "placeholder",
+      "value": "e.g. Kestrel Drift",
+      "count": 1
+    },
+    {
+      "name": "placeholder",
+      "value": "http://127.0.0.1:8899",
+      "count": 1
+    },
+    {
+      "name": "placeholder",
+      "value": "name, capability or owner...",
+      "count": 1
+    },
+    {
+      "name": "placeholder",
+      "value": "rust, anchor, indexing",
+      "count": 1
+    },
+    {
+      "name": "placeholder",
+      "value": "What should this agent own end to end?",
+      "count": 1
+    },
+    {
+      "name": "title",
+      "value": "Re-index ledger",
+      "count": 1
+    }
+  ],
+  "bindings": [
+    {
+      "kind": "attr",
+      "expr": "`Copy ${a.name} address`",
+      "count": 1
+    },
+    {
+      "kind": "attr",
+      "expr": "`https://explorer.solana.com/address/${BRAND.programId}?cluster=devnet`",
+      "count": 1
+    },
+    {
+      "kind": "attr",
+      "expr": "`Program ${BRAND.programId}`",
+      "count": 2
+    },
+    {
+      "kind": "attr",
+      "expr": "`quorum ${p.quorum}%`",
+      "count": 1
+    },
+    {
+      "kind": "attr",
+      "expr": "item.hint",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "((r.slot * 7919) % 0xffffff).toString(16)",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "(291884000 + blockHeight).toLocaleString('en-US')",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "(load * 84).toLocaleString('en-US')",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "a.name",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "a.name.slice(0, 1)",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "a.owner",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "a.role",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "a.state",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "a.success.toFixed(1)",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "a.tasks.toLocaleString('en-US')",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "agents.length",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "BRAND.chain",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "BRAND.cluster",
+      "count": 3
+    },
+    {
+      "kind": "interpolation",
+      "expr": "BRAND.domain",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "BRAND.handle",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "BRAND.name",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "BRAND.programId",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "BRAND.programId.slice(0, 18)",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "BRAND.programId.slice(0, 20)",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "BRAND.programId.slice(0, 8)",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "BRAND.tagline",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "BRAND.ticker",
+      "count": 9
+    },
+    {
+      "kind": "interpolation",
+      "expr": "BRAND.token.slice(0, 18)",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "BRAND.wordmark",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "busy ? 'queuing...' : 'register agent'",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "c",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "c.title",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "chosen",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "claimable",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "current || 'disconnected'",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "current || 'local signer'",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "e.agent",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "e.at",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "e.kind",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "e.text",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "heightText",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "item.hint",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "item.label",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "l",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "l.label",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "online.toLocaleString('en-US')",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "p.ends",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "p.id",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "p.mine === false ? 'voted no' : 'no'",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "p.mine === true ? 'voted yes' : 'yes'",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "p.state",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "p.title",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "p.yes",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "peak.toLocaleString('en-US')",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "r",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "r.agent",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "r.agent.toLowerCase().replace(/\\s+/g, '-')",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "r.hash",
+      "count": 3
+    },
+    {
+      "kind": "interpolation",
+      "expr": "r.hash.slice(-4)",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "r.ms",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "r.ok ? `+${r.reward}` : '-'",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "r.ok ? `+${r.reward}` : 'slashed'",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "r.slot % 97",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "r.slot.toLocaleString('en-US')",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "r.task",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "range",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "receipts.length",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "result ? `result / ${shortPda(result.agent)}` : 'idle / waiting for a registration'",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "rewardSum",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "rows.length",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "s.k",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "s.label",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "s.sub",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "s.v",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "settledCount",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "short(a.stake)",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "short(totalStake)",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "slotText",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "staked",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "step === 'pick' ? 'Connect a wallet' : 'Approve signature'",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "t.d",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "t.k",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "t.v",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "toast.message",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "util",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "verified",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "w.glyph",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "w.id",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "w.note",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "wallet ? `signer ${wallet}` : 'connect a wallet to sign the instruction'",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "wallet || 'Connect wallet'",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "wallet || 'Connect'",
+      "count": 1
+    },
+    {
+      "kind": "interpolation",
+      "expr": "wallet || 'no signer'",
+      "count": 1
+    },
+    {
+      "kind": "link",
+      "expr": "`https://explorer.solana.com/address/${BRAND.programId}?cluster=devnet`",
+      "count": 1
+    },
+    {
+      "kind": "model",
+      "expr": "amount",
+      "count": 1
+    },
+    {
+      "kind": "model",
+      "expr": "form.capabilities",
+      "count": 1
+    },
+    {
+      "kind": "model",
+      "expr": "form.endpoint",
+      "count": 1
+    },
+    {
+      "kind": "model",
+      "expr": "form.mission",
+      "count": 1
+    },
+    {
+      "kind": "model",
+      "expr": "form.name",
+      "count": 1
+    },
+    {
+      "kind": "model",
+      "expr": "form.stake",
+      "count": 1
+    },
+    {
+      "kind": "model",
+      "expr": "query",
+      "count": 1
+    }
+  ],
+  "events": [
+    {
+      "event": "click",
+      "handler": "approve",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "bump(-50)",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "bump(50)",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "cast(p.id, false)",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "cast(p.id, true)",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "close",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "emit('action', { kind: 'claim', amount: claimable })",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "emit('action', { kind: 'stake', amount })",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "emit('action', { kind: 'unstake', amount })",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "emit('connect')",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "emit('connect'); open = false",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "emit('copy', `${a.name} / ${a.owner}`)",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "emit('copy', `${r.task} / ${r.hash}`)",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "emit('copy', BRAND.domain)",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "emit('copy', BRAND.handle)",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "emit('copy', BRAND.programId)",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "emit('inspect', a)",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "emit('navigate', l.id)",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "emit('primary')",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "emit('refresh')",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "emit('secondary')",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "filter = 'all'",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "filter = 'failed'",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "filter = 'ok'",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "go('top')",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "go(item.id)",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "lane = l",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "open = !open",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "pick(w)",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "range = r; build()",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "sort = s.id",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "step = 'pick'",
+      "count": 1
+    },
+    {
+      "event": "click",
+      "handler": "toggle(r)",
+      "count": 1
+    },
+    {
+      "event": "close",
+      "handler": "walletOpen = false",
+      "count": 1
+    },
+    {
+      "event": "submit",
+      "handler": "submit",
+      "count": 1
+    }
+  ],
+  "links": [
+    {
+      "kind": "href",
+      "target": "https://github.com",
+      "count": 1
+    },
+    {
+      "kind": "href",
+      "target": "https://solana.com",
+      "count": 1
+    }
+  ],
+  "assets": [],
+  "forms": [
+    {
+      "tag": "input",
+      "name": "",
+      "type": "",
+      "count": 6
+    },
+    {
+      "tag": "textarea",
+      "name": "",
+      "type": "",
+      "count": 1
+    }
+  ],
+  "i18n": [],
+  "i18nKeys": [],
+  "i18nFiles": [],
+  "api": [],
+  "env": [
+    "VITE_EXPLORER_BASE_URL",
+    "VITE_LOCAL_WALLET",
+    "VITE_PROGRAM_ID",
+    "VITE_SOLANA_CLUSTER",
+    "VITE_SOLANA_RPC_URL",
+    "VITE_TOKEN_ADDRESS"
+  ]
+}

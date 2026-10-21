@@ -1,0 +1,2030 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-20T16:00:06.162Z",
+  "project": {
+    "root": "E:/workspace/chuangye/solana/hybridagents/website",
+    "name": "stakri-workspace",
+    "vueVersion": "^3.5.13",
+    "nuxt": false,
+    "dependencies": [
+      "@solana/web3.js",
+      "@vitejs/plugin-vue",
+      "lucide-vue-next",
+      "vite",
+      "vue"
+    ],
+    "packageManager": "npm",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
+    "frameworks": []
+  },
+  "stats": {
+    "filesScanned": 17,
+    "vueFiles": 12,
+    "routes": 1,
+    "staticTextTokens": 115,
+    "bindingTokens": 123,
+    "eventTokens": 39,
+    "classNames": 217,
+    "colors": 76
+  },
+  "routes": [
+    {
+      "path": "/",
+      "dynamic": false
+    }
+  ],
+  "unresolvedRoutes": [],
+  "archetype": {
+    "id": "orbital",
+    "family": "spatial",
+    "traits": {
+      "sidebar": true,
+      "topbar": false,
+      "cards": true,
+      "hero": true,
+      "table": false,
+      "grid": true,
+      "tabs": false,
+      "modal": true,
+      "charts": true,
+      "sticky": true,
+      "orbital": true,
+      "terminal": true,
+      "bento": true,
+      "ticker": true,
+      "gallery": false
+    }
+  },
+  "palette": [
+    {
+      "hex": "#22f5c8",
+      "count": 17
+    },
+    {
+      "hex": "#04070f",
+      "count": 7
+    },
+    {
+      "hex": "#00d0ff",
+      "count": 6
+    },
+    {
+      "hex": "#7c5cff",
+      "count": 5
+    },
+    {
+      "hex": "#000000",
+      "count": 4
+    },
+    {
+      "hex": "#04121a",
+      "count": 3
+    },
+    {
+      "hex": "#070c18",
+      "count": 3
+    },
+    {
+      "hex": "#ff5d7a",
+      "count": 3
+    },
+    {
+      "hex": "#0e1729",
+      "count": 2
+    },
+    {
+      "hex": "#b6ffe6",
+      "count": 2
+    },
+    {
+      "hex": "#c46bff",
+      "count": 2
+    },
+    {
+      "hex": "#ffb454",
+      "count": 2
+    },
+    {
+      "hex": "#02040a",
+      "count": 1
+    },
+    {
+      "hex": "#05070e",
+      "count": 1
+    },
+    {
+      "hex": "#060b16",
+      "count": 1
+    },
+    {
+      "hex": "#09101e",
+      "count": 1
+    },
+    {
+      "hex": "#0b1220",
+      "count": 1
+    },
+    {
+      "hex": "#16223a",
+      "count": 1
+    },
+    {
+      "hex": "#1e2d4a",
+      "count": 1
+    },
+    {
+      "hex": "#38b6ff",
+      "count": 1
+    },
+    {
+      "hex": "#3c4c68",
+      "count": 1
+    },
+    {
+      "hex": "#5f7395",
+      "count": 1
+    },
+    {
+      "hex": "#8d6bff",
+      "count": 1
+    },
+    {
+      "hex": "#93a8c8",
+      "count": 1
+    },
+    {
+      "hex": "#9fe6ff",
+      "count": 1
+    },
+    {
+      "hex": "#c3a6ff",
+      "count": 1
+    },
+    {
+      "hex": "#c8ff4d",
+      "count": 1
+    },
+    {
+      "hex": "#cbb6ff",
+      "count": 1
+    },
+    {
+      "hex": "#e6f0ff",
+      "count": 1
+    },
+    {
+      "hex": "#ff7a45",
+      "count": 1
+    },
+    {
+      "hex": "#ffb3c2",
+      "count": 1
+    },
+    {
+      "hex": "#ffb98f",
+      "count": 1
+    }
+  ],
+  "fonts": [
+    {
+      "value": "'Plex Mono'",
+      "count": 2
+    },
+    {
+      "value": "'Plex Sans'",
+      "count": 1
+    }
+  ],
+  "classNames": [
+    "!r.ok",
+    "===",
+    "?",
+    "[",
+    "bad:",
+    "bar",
+    "bar__inner",
+    "bar__right",
+    "bars",
+    "bars__row",
+    "beacon",
+    "beacon--hot",
+    "bento",
+    "bento__chart",
+    "bento__tape",
+    "brand",
+    "brand__text",
+    "btn",
+    "btn--ghost",
+    "btn--sm",
+    "btn--violet",
+    "canvas",
+    "canvas__aurora",
+    "canvas__aurora--a",
+    "canvas__aurora--b",
+    "canvas__aurora--c",
+    "canvas__grid",
+    "canvas__orbit",
+    "canvas__scan",
+    "caps",
+    "card",
+    "card__foot",
+    "card__head",
+    "card__id",
+    "chain",
+    "chain__net",
+    "chain__slot",
+    "chart",
+    "chart__axis",
+    "chart__readout",
+    "chart__svg",
+    "chip",
+    "chip--good",
+    "chip--hot",
+    "chip--violet",
+    "console",
+    "controls",
+    "council",
+    "dot",
+    "dot--agent",
+    "dot--core",
+    "dot--reg",
+    "drawer",
+    "drawer__row",
+    "empty",
+    "false",
+    "field",
+    "filter",
+    "foot",
+    "foot__base",
+    "foot__brand",
+    "foot__col",
+    "foot__grid",
+    "foot__link",
+    "foot__mark",
+    "foot__risk",
+    "foot__social",
+    "form",
+    "form__actions",
+    "form__body",
+    "form__enter",
+    "form__hint",
+    "form__row",
+    "gauge",
+    "gauge__mid",
+    "grid",
+    "hamb",
+    "hero",
+    "hero__addr",
+    "hero__addr-label",
+    "hero__addr-value",
+    "hero__copy",
+    "hero__cta",
+    "hero__grid",
+    "hero__lede",
+    "hero__note",
+    "hero__title",
+    "hero__viz",
+    "hl",
+    "icon",
+    "kpi",
+    "kpi__cell",
+    "kv",
+    "l",
+    "l.startsWith(",
+    "lane",
+    "lanes",
+    "ledger",
+    "ledger__tools",
+    "link",
+    "log",
+    "log__agent",
+    "log__detail",
+    "log__hash",
+    "log__icon",
+    "log__main",
+    "log__ms",
+    "log__reward",
+    "log__row",
+    "log__task",
+    "mark",
+    "meta",
+    "mini",
+    "mono",
+    "nav",
+    "nav__item",
+    "ok",
+    "ok:",
+    "on:",
+    "orb",
+    "orb__legend",
+    "orb__packet",
+    "orb__svg",
+    "orb__sweep",
+    "p.mine",
+    "panel",
+    "panel--flat",
+    "panel__label",
+    "panel__top",
+    "prop",
+    "prop__actions",
+    "prop__ends",
+    "prop__head",
+    "prop__id",
+    "prop__quorum",
+    "prop__stamp",
+    "prop__state",
+    "prop__title",
+    "prop__track",
+    "prop__vote",
+    "prop__yes",
+    "props",
+    "r",
+    "range",
+    "s.id",
+    "scrim",
+    "search",
+    "section",
+    "section__head",
+    "section__note",
+    "section__title",
+    "seg",
+    "sheet",
+    "sheet__body",
+    "sheet__head",
+    "sheet__note",
+    "shell",
+    "sigil",
+    "sign",
+    "sign__actions",
+    "sign__ring",
+    "sign__rows",
+    "sort",
+    "sorts",
+    "split",
+    "state",
+    "stats",
+    "stepper",
+    "stream",
+    "stream__at",
+    "stream__body",
+    "stream__item",
+    "stream__kind",
+    "stream__list",
+    "stream__more",
+    "tag",
+    "tape",
+    "tape__hash",
+    "tape__ms",
+    "tape__reward",
+    "tape__row",
+    "tape__slot",
+    "tape__task",
+    "term",
+    "term__bar",
+    "term__body",
+    "term__cargo",
+    "term__cursor",
+    "term__dots",
+    "term__foot",
+    "term__line",
+    "ticker",
+    "ticker__cell",
+    "ticker__inner",
+    "ticker__ok",
+    "tile",
+    "tile__d",
+    "tile__icon",
+    "tile__v",
+    "tnum",
+    "toast",
+    "track",
+    "track--violet",
+    "true",
+    "vault",
+    "vault__actions",
+    "vault__body",
+    "vault__foot",
+    "vault__form",
+    "vault__stats",
+    "vbtn",
+    "vbtn--no",
+    "w.tone",
+    "wallet",
+    "wallet__glyph",
+    "wallet__txt",
+    "}"
+  ],
+  "designSignals": {
+    "frameworks": [],
+    "cssVars": [
+      "--abyss",
+      "--btn-fg",
+      "--danger",
+      "--ease",
+      "--fast",
+      "--ghost",
+      "--glow-neon",
+      "--glow-soft",
+      "--glow-violet",
+      "--gutter",
+      "--hot",
+      "--idle",
+      "--ink",
+      "--ink-dim",
+      "--ink-faint",
+      "--ink-ghost",
+      "--line",
+      "--line-hot",
+      "--line-soft",
+      "--mono",
+      "--neon",
+      "--neon-2",
+      "--neon-3",
+      "--neon-4",
+      "--r",
+      "--r-lg",
+      "--r-sm",
+      "--raise",
+      "--sans",
+      "--shadow-panel",
+      "--shell",
+      "--slow",
+      "--surface",
+      "--surface-2",
+      "--surface-solid",
+      "--void",
+      "--warn"
+    ],
+    "colorVars": [
+      {
+        "name": "--abyss",
+        "value": "#070c18"
+      },
+      {
+        "name": "--btn-fg",
+        "value": "#04121a"
+      },
+      {
+        "name": "--danger",
+        "value": "#ff5d7a"
+      },
+      {
+        "name": "--ink",
+        "value": "#e6f0ff"
+      },
+      {
+        "name": "--ink-dim",
+        "value": "#93a8c8"
+      },
+      {
+        "name": "--ink-faint",
+        "value": "#5f7395"
+      },
+      {
+        "name": "--ink-ghost",
+        "value": "#3c4c68"
+      },
+      {
+        "name": "--line-hot",
+        "value": "#00d0ff"
+      },
+      {
+        "name": "--neon",
+        "value": "#22f5c8"
+      },
+      {
+        "name": "--neon-2",
+        "value": "#00d0ff"
+      },
+      {
+        "name": "--neon-3",
+        "value": "#7c5cff"
+      },
+      {
+        "name": "--neon-4",
+        "value": "#c8ff4d"
+      },
+      {
+        "name": "--raise",
+        "value": "#1e2d4a"
+      },
+      {
+        "name": "--surface",
+        "value": "#0e1729"
+      },
+      {
+        "name": "--surface-2",
+        "value": "#16223a"
+      },
+      {
+        "name": "--surface-solid",
+        "value": "#0b1220"
+      },
+      {
+        "name": "--void",
+        "value": "#04070f"
+      },
+      {
+        "name": "--warn",
+        "value": "#ffb454"
+      }
+    ],
+    "mediaQueries": [
+      "@media (max-width: 1000px)",
+      "@media (max-width: 1080px)",
+      "@media (max-width: 470px)",
+      "@media (max-width: 520px)",
+      "@media (max-width: 560px)",
+      "@media (max-width: 620px)",
+      "@media (max-width: 700px)",
+      "@media (max-width: 720px)",
+      "@media (max-width: 900px)",
+      "@media (prefers-reduced-motion: reduce)"
+    ],
+    "darkMode": false
+  },
+  "structure": {
+    "tagCounts": {
+      "a": 3,
+      "activity": 1,
+      "agentregistry": 1,
+      "arrowleft": 1,
+      "arrowright": 1,
+      "arrowupright": 2,
+      "article": 8,
+      "aside": 2,
+      "brandmark": 3,
+      "button": 37,
+      "check": 3,
+      "checkcircle2": 1,
+      "circle": 16,
+      "code": 1,
+      "component": 1,
+      "consolesection": 1,
+      "copy": 2,
+      "cornerdownleft": 1,
+      "dd": 11,
+      "defs": 4,
+      "div": 107,
+      "dl": 3,
+      "dt": 11,
+      "em": 3,
+      "externallink": 1,
+      "filecheck2": 1,
+      "fingerprint": 2,
+      "footer": 2,
+      "form": 1,
+      "g": 2,
+      "github": 1,
+      "h1": 1,
+      "h2": 5,
+      "h3": 1,
+      "header": 7,
+      "hero": 1,
+      "i": 11,
+      "input": 6,
+      "keyround": 1,
+      "label": 7,
+      "ledgersection": 1,
+      "li": 4,
+      "line": 3,
+      "lineargradient": 4,
+      "lock": 1,
+      "main": 1,
+      "menu": 1,
+      "minus": 1,
+      "nav": 2,
+      "networkbento": 1,
+      "networkorb": 1,
+      "ol": 1,
+      "p": 14,
+      "path": 5,
+      "playcircle": 1,
+      "plus": 1,
+      "pre": 1,
+      "radialgradient": 1,
+      "radio": 2,
+      "rect": 1,
+      "refreshcw": 2,
+      "rocket": 1,
+      "search": 1,
+      "section": 6,
+      "send": 1,
+      "shieldcheck": 3,
+      "sitefooter": 1,
+      "slidershorizontal": 1,
+      "small": 4,
+      "span": 103,
+      "stop": 13,
+      "strong": 15,
+      "svg": 4,
+      "terminal": 2,
+      "textarea": 1,
+      "thumbsdown": 1,
+      "thumbsup": 1,
+      "topnav": 1,
+      "transition": 4,
+      "trendingup": 1,
+      "trianglealert": 1,
+      "ul": 3,
+      "unlock": 1,
+      "vaultcouncil": 1,
+      "vaulticon": 1,
+      "wallet": 2,
+      "walletdrawer": 1,
+      "x": 2,
+      "xcircle": 1
+    },
+    "depthHistogram": {
+      "0": 17,
+      "1": 32,
+      "2": 47,
+      "3": 69,
+      "4": 89,
+      "5": 74,
+      "6": 86,
+      "7": 51,
+      "8": 22,
+      "9": 13
+    },
+    "maxDepth": 9,
+    "topLevelTags": [
+      "div",
+      "topnav",
+      "main",
+      "sitefooter",
+      "walletdrawer",
+      "transition",
+      "section",
+      "svg",
+      "section",
+      "section",
+      "section",
+      "section",
+      "div",
+      "footer",
+      "header",
+      "section",
+      "transition"
+    ],
+    "skeletonSample": [
+      "div",
+      "  div",
+      "  div",
+      "  div",
+      "  div",
+      "  div",
+      "  div",
+      "topnav",
+      "main",
+      "  hero",
+      "  networkbento",
+      "  agentregistry",
+      "  ledgersection",
+      "  vaultcouncil",
+      "  consolesection",
+      "sitefooter",
+      "walletdrawer",
+      "transition",
+      "  div",
+      "    trianglealert",
+      "    check",
+      "    span",
+      "section",
+      "  div",
+      "    header",
+      "      div",
+      "        span",
+      "        h2",
+      "      p",
+      "    div",
+      "      label",
+      "        search",
+      "        input",
+      "      div",
+      "        button",
+      "      div",
+      "        slidershorizontal",
+      "        button",
+      "    div",
+      "      article",
+      "        div",
+      "          span",
+      "          div",
+      "            h3",
+      "            span",
+      "          span",
+      "            i",
+      "        div",
+      "          span",
+      "        div",
+      "          div",
+      "            span",
+      "            div",
+      "              i",
+      "            span",
+      "          div",
+      "            span",
+      "            div",
+      "              i",
+      "            span",
+      "        dl",
+      "          div",
+      "            dt",
+      "            dd",
+      "          div",
+      "            dt",
+      "            dd",
+      "          div",
+      "            dt",
+      "            dd",
+      "        div",
+      "          button",
+      "            arrowupright",
+      "          button",
+      "            copy",
+      "      article",
+      "        shieldcheck",
+      "        strong",
+      "        span",
+      "    footer",
+      "      span",
+      "      span",
+      "      span",
+      "svg",
+      "  defs",
+      "    lineargradient",
+      "      stop",
+      "      stop",
+      "      stop",
+      "  circle",
+      "  circle",
+      "  path",
+      "  circle",
+      "section",
+      "  div",
+      "    header",
+      "      div",
+      "        span",
+      "        h2",
+      "      p",
+      "    div",
+      "      div",
+      "        div",
+      "          span",
+      "            i",
+      "            i",
+      "            i",
+      "          span",
+      "          span",
+      "        pre",
+      "          code",
+      "            span",
+      "            span",
+      "        div",
+      "          terminal",
+      "      form",
+      "        div",
+      "          span",
+      "          span",
+      "            fingerprint"
+    ]
+  },
+  "contentContract": {
+    "schemaVersion": 1,
+    "meta": {
+      "projectName": "stakri-workspace",
+      "title": "stakri-workspace",
+      "lang": "en"
+    },
+    "routes": [
+      "/"
+    ],
+    "visibleText": [
+      {
+        "value": ".pda",
+        "count": 1
+      },
+      {
+        "value": "% yes",
+        "count": 1
+      },
+      {
+        "value": "0.000005 SOL",
+        "count": 1
+      },
+      {
+        "value": "01 / network",
+        "count": 1
+      },
+      {
+        "value": "02 / registry",
+        "count": 1
+      },
+      {
+        "value": "03 / ledger",
+        "count": 1
+      },
+      {
+        "value": "04 / economy",
+        "count": 1
+      },
+      {
+        "value": "05 / console",
+        "count": 1
+      },
+      {
+        "value": "0x",
+        "count": 1
+      },
+      {
+        "value": "3",
+        "count": 1
+      },
+      {
+        "value": "92,400",
+        "count": 1
+      },
+      {
+        "value": "9f2b41c7e0",
+        "count": 1
+      },
+      {
+        "value": "A registration writes one account: name, endpoint, capabilities hash and the owner key. Nothing is submitted until a wallet signs the instruction.",
+        "count": 1
+      },
+      {
+        "value": "A task receipt stores the input hash, the output hash and a success flag. Rewards unlock on success; a failed run writes evidence instead of payment.",
+        "count": 1
+      },
+      {
+        "value": "agent pda",
+        "count": 1
+      },
+      {
+        "value": "agent profile",
+        "count": 1
+      },
+      {
+        "value": "agent stream",
+        "count": 1
+      },
+      {
+        "value": "agents online",
+        "count": 1
+      },
+      {
+        "value": "agents shown",
+        "count": 1
+      },
+      {
+        "value": "aggregate stake",
+        "count": 1
+      },
+      {
+        "value": "all",
+        "count": 1
+      },
+      {
+        "value": "all systems nominal",
+        "count": 1
+      },
+      {
+        "value": "amount",
+        "count": 1
+      },
+      {
+        "value": "approve",
+        "count": 1
+      },
+      {
+        "value": "Autonomous agents that",
+        "count": 1
+      },
+      {
+        "value": "back",
+        "count": 1
+      },
+      {
+        "value": "capabilities",
+        "count": 1
+      },
+      {
+        "value": "claim",
+        "count": 1
+      },
+      {
+        "value": "claimable",
+        "count": 1
+      },
+      {
+        "value": "clear the search or pick another lane",
+        "count": 1
+      },
+      {
+        "value": "codename",
+        "count": 1
+      },
+      {
+        "value": "connect wallet",
+        "count": 1
+      },
+      {
+        "value": "copy receipt",
+        "count": 1
+      },
+      {
+        "value": "council",
+        "count": 1
+      },
+      {
+        "value": "create_agent",
+        "count": 1
+      },
+      {
+        "value": "endpoint",
+        "count": 1
+      },
+      {
+        "value": "enter submits / nothing leaves this machine",
+        "count": 1
+      },
+      {
+        "value": "epoch 4471",
+        "count": 1
+      },
+      {
+        "value": "epoch emission",
+        "count": 1
+      },
+      {
+        "value": "epochs",
+        "count": 1
+      },
+      {
+        "value": "Every run leaves a receipt",
+        "count": 1
+      },
+      {
+        "value": "explorer",
+        "count": 1
+      },
+      {
+        "value": "failed",
+        "count": 1
+      },
+      {
+        "value": "fee payer",
+        "count": 1
+      },
+      {
+        "value": "gives every agent a program-derived identity, an endpoint and a capabilities hash - then writes an input/output receipt to Solana for each run. Stake follows the agent. Rewards follow the proof.",
+        "count": 1
+      },
+      {
+        "value": "height",
+        "count": 1
+      },
+      {
+        "value": "indexed from program",
+        "count": 1
+      },
+      {
+        "value": "input_hash",
+        "count": 1
+      },
+      {
+        "value": "instruction.",
+        "count": 1
+      },
+      {
+        "value": "live",
+        "count": 1
+      },
+      {
+        "value": "Load, lane by lane",
+        "count": 1
+      },
+      {
+        "value": "local preview data · not financial advice",
+        "count": 1
+      },
+      {
+        "value": "local preview: this screen never broadcasts a transaction",
+        "count": 1
+      },
+      {
+        "value": "median settle 412 ms",
+        "count": 1
+      },
+      {
+        "value": "mission",
+        "count": 1
+      },
+      {
+        "value": "ms",
+        "count": 2
+      },
+      {
+        "value": "network fee",
+        "count": 1
+      },
+      {
+        "value": "No agents match that filter",
+        "count": 1
+      },
+      {
+        "value": "now",
+        "count": 1
+      },
+      {
+        "value": "of",
+        "count": 2
+      },
+      {
+        "value": "on-chain.",
+        "count": 1
+      },
+      {
+        "value": "One PDA per agent: owner, endpoint, capabilities hash and stake. Search, sort and filter the local preview set - the same shape the indexer returns from chain.",
+        "count": 1
+      },
+      {
+        "value": "output_hash",
+        "count": 1
+      },
+      {
+        "value": "owner",
+        "count": 1
+      },
+      {
+        "value": "paid",
+        "count": 1
+      },
+      {
+        "value": "preview agents sit above the 97% success line",
+        "count": 1
+      },
+      {
+        "value": "program",
+        "count": 4
+      },
+      {
+        "value": "pull newer events",
+        "count": 1
+      },
+      {
+        "value": "quorum 51%",
+        "count": 1
+      },
+      {
+        "value": "receipt log",
+        "count": 1
+      },
+      {
+        "value": "recorded",
+        "count": 1
+      },
+      {
+        "value": "Register an agent",
+        "count": 1
+      },
+      {
+        "value": "Register, then let it run",
+        "count": 1
+      },
+      {
+        "value": "registered",
+        "count": 1
+      },
+      {
+        "value": "Requesting a signature for a local",
+        "count": 1
+      },
+      {
+        "value": "reward",
+        "count": 1
+      },
+      {
+        "value": "settle every task",
+        "count": 1
+      },
+      {
+        "value": "settled",
+        "count": 2
+      },
+      {
+        "value": "settlement tape",
+        "count": 1
+      },
+      {
+        "value": "signer",
+        "count": 1
+      },
+      {
+        "value": "slot",
+        "count": 2
+      },
+      {
+        "value": "Solana",
+        "count": 1
+      },
+      {
+        "value": "Solana / Anchor /",
+        "count": 1
+      },
+      {
+        "value": "source",
+        "count": 1
+      },
+      {
+        "value": "stake",
+        "count": 2
+      },
+      {
+        "value": "stake /",
+        "count": 1
+      },
+      {
+        "value": "Stake follows the agent",
+        "count": 1
+      },
+      {
+        "value": "Stake is the skin in the game: it is slashable when a receipt fails and it sets the reward weight per settled task. Council proposals move those parameters.",
+        "count": 1
+      },
+      {
+        "value": "staking vault",
+        "count": 1
+      },
+      {
+        "value": "stakri-console /",
+        "count": 1
+      },
+      {
+        "value": "streaming",
+        "count": 1
+      },
+      {
+        "value": "success",
+        "count": 1
+      },
+      {
+        "value": "task throughput",
+        "count": 1
+      },
+      {
+        "value": "tasks",
+        "count": 1
+      },
+      {
+        "value": "tasks / window / peak",
+        "count": 1
+      },
+      {
+        "value": "terminal",
+        "count": 1
+      },
+      {
+        "value": "the capabilities hash is the only capability claim the program stores; endpoints are resolved off-chain.",
+        "count": 1
+      },
+      {
+        "value": "Throughput is read from indexed task events. The window switch re-samples the local preview series and the chart redraws on a short interval.",
+        "count": 1
+      },
+      {
+        "value": "token",
+        "count": 1
+      },
+      {
+        "value": "total staked",
+        "count": 1
+      },
+      {
+        "value": "unbonding",
+        "count": 1
+      },
+      {
+        "value": "unstake",
+        "count": 1
+      },
+      {
+        "value": "utilised",
+        "count": 1
+      },
+      {
+        "value": "Verifiable task receipts, stake-backed agents, open ledger — no custody, no promises of yield.",
+        "count": 1
+      },
+      {
+        "value": "Watch the ledger",
+        "count": 1
+      },
+      {
+        "value": "Who is on the network",
+        "count": 1
+      },
+      {
+        "value": "X ·",
+        "count": 1
+      }
+    ],
+    "hiddenText": [],
+    "attributes": [
+      {
+        "name": "href",
+        "value": "https://github.com",
+        "count": 1
+      },
+      {
+        "name": "href",
+        "value": "https://solana.com",
+        "count": 1
+      },
+      {
+        "name": "name",
+        "value": "drawer",
+        "count": 1
+      },
+      {
+        "name": "name",
+        "value": "drop",
+        "count": 1
+      },
+      {
+        "name": "name",
+        "value": "expand",
+        "count": 1
+      },
+      {
+        "name": "name",
+        "value": "toast",
+        "count": 1
+      },
+      {
+        "name": "placeholder",
+        "value": "250",
+        "count": 1
+      },
+      {
+        "name": "placeholder",
+        "value": "e.g. Kestrel Drift",
+        "count": 1
+      },
+      {
+        "name": "placeholder",
+        "value": "http://127.0.0.1:8899",
+        "count": 1
+      },
+      {
+        "name": "placeholder",
+        "value": "name, capability or owner...",
+        "count": 1
+      },
+      {
+        "name": "placeholder",
+        "value": "rust, anchor, indexing",
+        "count": 1
+      },
+      {
+        "name": "placeholder",
+        "value": "What should this agent own end to end?",
+        "count": 1
+      },
+      {
+        "name": "title",
+        "value": "Re-index ledger",
+        "count": 1
+      }
+    ],
+    "bindings": [
+      {
+        "kind": "attr",
+        "expr": "`Copy ${a.name} address`",
+        "count": 1
+      },
+      {
+        "kind": "attr",
+        "expr": "`https://explorer.solana.com/address/${BRAND.programId}?cluster=devnet`",
+        "count": 1
+      },
+      {
+        "kind": "attr",
+        "expr": "`Program ${BRAND.programId}`",
+        "count": 2
+      },
+      {
+        "kind": "attr",
+        "expr": "`quorum ${p.quorum}%`",
+        "count": 1
+      },
+      {
+        "kind": "attr",
+        "expr": "item.hint",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "((r.slot * 7919) % 0xffffff).toString(16)",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "(291884000 + blockHeight).toLocaleString('en-US')",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "(load * 84).toLocaleString('en-US')",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "a.name",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "a.name.slice(0, 1)",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "a.owner",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "a.role",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "a.state",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "a.success.toFixed(1)",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "a.tasks.toLocaleString('en-US')",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "agents.length",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "BRAND.chain",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "BRAND.cluster",
+        "count": 3
+      },
+      {
+        "kind": "interpolation",
+        "expr": "BRAND.domain",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "BRAND.handle",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "BRAND.name",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "BRAND.programId",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "BRAND.programId.slice(0, 18)",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "BRAND.programId.slice(0, 20)",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "BRAND.programId.slice(0, 8)",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "BRAND.tagline",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "BRAND.ticker",
+        "count": 9
+      },
+      {
+        "kind": "interpolation",
+        "expr": "BRAND.token.slice(0, 18)",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "BRAND.wordmark",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "busy ? 'queuing...' : 'register agent'",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "c",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "c.title",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "chosen",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "claimable",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "current || 'disconnected'",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "current || 'local signer'",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "e.agent",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "e.at",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "e.kind",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "e.text",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "heightText",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "item.hint",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "item.label",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "l",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "l.label",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "online.toLocaleString('en-US')",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "p.ends",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "p.id",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "p.mine === false ? 'voted no' : 'no'",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "p.mine === true ? 'voted yes' : 'yes'",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "p.state",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "p.title",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "p.yes",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "peak.toLocaleString('en-US')",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "r",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "r.agent",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "r.agent.toLowerCase().replace(/\\s+/g, '-')",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "r.hash",
+        "count": 3
+      },
+      {
+        "kind": "interpolation",
+        "expr": "r.hash.slice(-4)",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "r.ms",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "r.ok ? `+${r.reward}` : '-'",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "r.ok ? `+${r.reward}` : 'slashed'",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "r.slot % 97",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "r.slot.toLocaleString('en-US')",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "r.task",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "range",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "receipts.length",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "result ? `result / ${shortPda(result.agent)}` : 'idle / waiting for a registration'",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "rewardSum",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "rows.length",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "s.k",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "s.label",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "s.sub",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "s.v",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "settledCount",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "short(a.stake)",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "short(totalStake)",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "slotText",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "staked",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "step === 'pick' ? 'Connect a wallet' : 'Approve signature'",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "t.d",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "t.k",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "t.v",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "toast.message",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "util",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "verified",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "w.glyph",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "w.id",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "w.note",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "wallet ? `signer ${wallet}` : 'connect a wallet to sign the instruction'",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "wallet || 'Connect wallet'",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "wallet || 'Connect'",
+        "count": 1
+      },
+      {
+        "kind": "interpolation",
+        "expr": "wallet || 'no signer'",
+        "count": 1
+      },
+      {
+        "kind": "link",
+        "expr": "`https://explorer.solana.com/address/${BRAND.programId}?cluster=devnet`",
+        "count": 1
+      },
+      {
+        "kind": "model",
+        "expr": "amount",
+        "count": 1
+      },
+      {
+        "kind": "model",
+        "expr": "form.capabilities",
+        "count": 1
+      },
+      {
+        "kind": "model",
+        "expr": "form.endpoint",
+        "count": 1
+      },
+      {
+        "kind": "model",
+        "expr": "form.mission",
+        "count": 1
+      },
+      {
+        "kind": "model",
+        "expr": "form.name",
+        "count": 1
+      },
+      {
+        "kind": "model",
+        "expr": "form.stake",
+        "count": 1
+      },
+      {
+        "kind": "model",
+        "expr": "query",
+        "count": 1
+      }
+    ],
+    "events": [
+      {
+        "event": "click",
+        "handler": "approve",
+        "count": 1
+      },
+      {
+        "event": "click",
+        "handler": "bump(-50)",
+        "count": 1
+      },
+      {
+        "event": "click",
+        "handler": "bump(50)",
+        "count": 1
+      },
+      {
+        "event": "click",
+        "handler": "cast(p.id, false)",
+        "count": 1
+      },
+      {
+        "event": "click",
+        "handler": "cast(p.id, true)",
+        "count": 1
+      },
+      {
+        "event": "click",
+        "handler": "close",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "emit('action', { kind: 'claim', amount: claimable })",
+        "count": 1
+      },
+      {
+        "event": "click",
+        "handler": "emit('action', { kind: 'stake', amount })",
+        "count": 1
+      },
+      {
+        "event": "click",
+        "handler": "emit('action', { kind: 'unstake', amount })",
+        "count": 1
+      },
+      {
+        "event": "click",
+        "handler": "emit('connect')",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "emit('connect'); open = false",
+        "count": 1
+      },
+      {
+        "event": "click",
+        "handler": "emit('copy', `${a.name} / ${a.owner}`)",
+        "count": 1
+      },
+      {
+        "event": "click",
+        "handler": "emit('copy', `${r.task} / ${r.hash}`)",
+        "count": 1
+      },
+      {
+        "event": "click",
+        "handler": "emit('copy', BRAND.domain)",
+        "count": 1
+      },
+      {
+        "event": "click",
+        "handler": "emit('copy', BRAND.handle)",
+        "count": 1
+      },
+      {
+        "event": "click",
+        "handler": "emit('copy', BRAND.programId)",
+        "count": 1
+      },
+      {
+        "event": "click",
+        "handler": "emit('inspect', a)",
+        "count": 1
+      },
+      {
+        "event": "click",
+        "handler": "emit('navigate', l.id)",
+        "count": 1
+      },
+      {
+        "event": "click",
+        "handler": "emit('primary')",
+        "count": 1
+      },
+      {
+        "event": "click",
+        "handler": "emit('refresh')",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "emit('secondary')",
+        "count": 1
+      },
+      {
+        "event": "click",
+        "handler": "filter = 'all'",
+        "count": 1
+      },
+      {
+        "event": "click",
+        "handler": "filter = 'failed'",
+        "count": 1
+      },
+      {
+        "event": "click",
+        "handler": "filter = 'ok'",
+        "count": 1
+      },
+      {
+        "event": "click",
+        "handler": "go('top')",
+        "count": 1
+      },
+      {
+        "event": "click",
+        "handler": "go(item.id)",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "lane = l",
+        "count": 1
+      },
+      {
+        "event": "click",
+        "handler": "open = !open",
+        "count": 1
+      },
+      {
+        "event": "click",
+        "handler": "pick(w)",
+        "count": 1
+      },
+      {
+        "event": "click",
+        "handler": "range = r; build()",
+        "count": 1
+      },
+      {
+        "event": "click",
+        "handler": "sort = s.id",
+        "count": 1
+      },
+      {
+        "event": "click",
+        "handler": "step = 'pick'",
+        "count": 1
+      },
+      {
+        "event": "click",
+        "handler": "toggle(r)",
+        "count": 1
+      },
+      {
+        "event": "close",
+        "handler": "walletOpen = false",
+        "count": 1
+      },
+      {
+        "event": "submit",
+        "handler": "submit",
+        "count": 1
+      }
+    ],
+    "links": [
+      {
+        "kind": "href",
+        "target": "https://github.com",
+        "count": 1
+      },
+      {
+        "kind": "href",
+        "target": "https://solana.com",
+        "count": 1
+      }
+    ],
+    "assets": [],
+    "forms": [
+      {
+        "tag": "input",
+        "name": "",
+        "type": "",
+        "count": 6
+      },
+      {
+        "tag": "textarea",
+        "name": "",
+        "type": "",
+        "count": 1
+      }
+    ],
+    "i18n": [],
+    "i18nKeys": [],
+    "i18nFiles": [],
+    "api": [],
+    "env": [
+      "VITE_EXPLORER_BASE_URL",
+      "VITE_LOCAL_WALLET",
+      "VITE_PROGRAM_ID",
+      "VITE_SOLANA_CLUSTER",
+      "VITE_SOLANA_RPC_URL",
+      "VITE_TOKEN_ADDRESS"
+    ]
+  },
+  "contentContractHash": "0797fe0639f3899e09e9dfb2782922137bd9989055429394b20934646815f7ea"
+}

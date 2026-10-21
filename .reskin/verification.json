@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-20T16:24:49.507Z",
+  "project": {
+    "root": "E:/workspace/chuangye/solana/hybridagents/website",
+    "name": "stakri-workspace",
+    "baseUrl": "http://127.0.0.1:4899/"
+  },
+  "passed": true,
+  "thresholds": {
+    "maxStructureSimilarity": 0.5,
+    "maxLandmarkSimilarity": 0.68,
+    "maxClassOverlap": 0.1,
+    "minAccentDistance": 30,
+    "maxContrastFailures": 0,
+    "maxAxeSerious": 0
+  },
+  "gates": {
+    "sourceContract": {
+      "passed": true,
+      "issues": [],
+      "warnings": [
+        "bindings: added \"attr:`#${item.id}`\"",
+        "bindings: added \"attr:symbol\"",
+        "bindings: added \"link:`#${item.id}`\"",
+        "bindings: added \"link:symbol\""
+      ],
+      "hash": "ca9c025398592da34e5c1aecc6c60ec3e3ec6c4e2c8ed27596f457398e69c7bc"
+    },
+    "skeleton": {
+      "passed": true,
+      "original": {
+        "id": "orbital",
+        "family": "spatial",
+        "traits": {
+          "sidebar": true,
+          "topbar": false,
+          "cards": true,
+          "hero": true,
+          "table": false,
+          "grid": true,
+          "tabs": false,
+          "modal": true,
+          "charts": true,
+          "sticky": true,
+          "orbital": true,
+          "terminal": true,
+          "bento": true,
+          "ticker": true,
+          "gallery": false
+        }
+      },
+      "current": {
+        "id": "terminal-console",
+        "family": "linear",
+        "traits": {
+          "sidebar": false,
+          "topbar": false,
+          "cards": true,
+          "hero": false,
+          "table": true,
+          "grid": true,
+          "tabs": true,
+          "modal": true,
+          "charts": true,
+          "sticky": true,
+          "orbital": false,
+          "terminal": true,
+          "bento": false,
+          "ticker": true,
+          "gallery": false
+        }
+      },
+      "accent": {
+        "original": "#22f5c8",
+        "current": "#670de5",
+        "deltaE": 170.69,
+        "min": 30
+      }
+    },
+    "pages": [
+      {
+        "route": "/",
+        "passed": true,
+        "skipped": false,
+        "failures": [],
+        "warnings": [
+          "numeric token count changed: 74 -> 80 (dynamic values may differ)",
+          "link target added: #console",
+          "link target added: #ledger",
+          "link target added: #network",
+          "link target added: #registry",
+          "link target added: #vault"
+        ],
+        "structure": {
+          "fingerprintSimilarity": 0.4,
+          "landmarkSimilarity": 0.286,
+          "classOverlap": 0
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 59,
+              "total": 74
+            },
+            "current": {
+              "tokens": 65,
+              "total": 80
+            }
+          }
+        },
+        "usability": {
+          "passed": true,
+          "failures": [],
+          "warnings": [],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/home-desktop.png",
+          "mobile": "current/home-mobile.png"
+        }
+      }
+    ]
+  },
+  "failures": [],
+  "warnings": [
+    "bindings: added \"attr:`#${item.id}`\"",
+    "bindings: added \"attr:symbol\"",
+    "bindings: added \"link:`#${item.id}`\"",
+    "bindings: added \"link:symbol\"",
+    "/: numeric token count changed: 74 -> 80 (dynamic values may differ)",
+    "/: link target added: #console",
+    "/: link target added: #ledger",
+    "/: link target added: #network",
+    "/: link target added: #registry",
+    "/: link target added: #vault"
+  ],
+  "baseline": {
+    "generatedAt": "2026-10-20T16:00:57.382Z",
+    "routes": [
+      "/"
+    ]
+  }
+}
