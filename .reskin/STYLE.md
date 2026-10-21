@@ -1,32 +1,32 @@
-# Reskin art direction — Agora Violet
+# Reskin art direction — Paper Protocol
 
 > Selected automatically. Do not ask the user to confirm or choose another direction.
 
-- **Style DNA:** `polygon-agora` (technical-editorial)
+- **Style DNA:** `ethereum-paper` (crypto-editorial)
 - **Skeleton:** `documentary` (editorial)
-- **Seed:** `380c4457924739cb7c54778023465c05cb8e33c3522cfa6e1c4aed9e63c1f599`
-- **Source DNA:** [https://polygon.technology](https://polygon.technology)
-- **Live sampled:** yes — https://polygon.technology (3141 ms)
-- **Original:** orbital / light / accent #22f5c8
+- **Seed:** `d70df6e440db1dbededc471ff1a5cadf8507021fd398fca6df6bd8c3eecab9d9`
+- **Source DNA:** [https://ethereum.org](https://ethereum.org)
+- **Live sampled:** yes — https://ethereum.org (3078 ms)
+- **Original:** terminal-console / dark / accent #670de5
 
 ## Why this direction
 
-The selector sampled 9/10 blockchain references, scored every direction for perceptual distance from the original accent (#22f5c8) and background (#e6f0ff), added a deterministic seed jitter, and chose Agora Violet because it is 158 ΔE away from the original accent and pairs with Documentary Ledger, a editorial skeleton rather than the original orbital.
+The selector sampled 8/10 blockchain references, scored every direction for perceptual distance from the original accent (#670de5) and background (#000000), added a deterministic seed jitter, and chose Paper Protocol because it is 97 ΔE away from the original accent and pairs with Documentary Ledger, a editorial skeleton rather than the original terminal-console.
 
 ## Live reference sampling
 
 | Style | URL | Result | Accent sampled | Ground sampled |
 |---|---|---|---|---|
-| polygon-agora | https://polygon.technology | ok (3141 ms) | #670de5 | #000000 |
-| solana-spectrum | https://solana.com | ok (3924 ms) | #9945ff | #000000 |
-| base-cobalt | https://www.base.org | ok (4906 ms) | #0000ff | #dde3e9 |
-| ethereum-paper | https://ethereum.org | ok (5228 ms) | #0c5681 | #ffffff |
-| uniswap-bubblegum | https://uniswap.org | ok (3874 ms) | — | #ffffff |
-| aave-abyss | https://aave.com | ok (3716 ms) | #ff0000 | #000000 |
+| ethereum-paper | https://ethereum.org | ok (3078 ms) | #0c5681 | #ffffff |
+| base-cobalt | https://www.base.org | ok (3967 ms) | #0000ff | #dde3e9 |
+| polygon-agora | https://polygon.technology | ok (4259 ms) | #670de5 | #000000 |
+| solana-spectrum | https://solana.com | ok (4540 ms) | #9945ff | #000000 |
 | arbitrum-signal | https://arbitrum.io | failed: HTTP 403 | — | — |
-| cosmos-orbit | https://cosmos.network | ok (5884 ms) | #40b3ff | #000000 |
-| sui-tidal | https://sui.io | ok (6480 ms) | #298dff | #ffffff |
-| optimism-poster | https://www.optimism.io | ok (12839 ms) | #ff0421 | #fafaf9 |
+| aave-abyss | https://aave.com | ok (4188 ms) | #ff0000 | #000000 |
+| optimism-poster | https://www.optimism.io | ok (7980 ms) | #ff0421 | #fafaf9 |
+| cosmos-orbit | https://cosmos.network | ok (4470 ms) | #40b3ff | #000000 |
+| sui-tidal | https://sui.io | failed: timeout | — | — |
+| uniswap-bubblegum | https://uniswap.org | ok (13942 ms) | — | #ffffff |
 
 Live sampling is evidence, not a copy target. Never download or reuse a reference site's logo, imagery, copy, or code. Use only the abstract tokens below.
 
@@ -34,16 +34,16 @@ Live sampling is evidence, not a copy target. Never download or reuse a referenc
 
 | Candidate | Score | Accent ΔE from original | Layout | Live |
 |---|---:|---:|---|---|
-| Agora Violet | 0.9993 | 157.9 | documentary | yes |
-| Spectrum Terminal | 0.9641 | 157.9 | ticker-stage | yes |
-| Signal Navy | 0.9533 | 68.3 | terminal-console | no |
-| Cosmos Orbit | 0.9317 | 76.4 | documentary | yes |
-| Cobalt Blueprint | 0.8803 | 187.6 | command-rail | yes |
-| Paper Protocol | 0.8589 | 83.8 | documentary | yes |
-| Abyss Liquidity | 0.8215 | 153.5 | terminal-console | yes |
-| Poster Optimism | 0.7223 | 146.2 | ticker-stage | yes |
-| Tidal Sui | 0.6416 | 111.7 | gallery-scroll | yes |
-| Bubblegum Exchange | 0.5167 | 134.1 | split-stage | yes |
+| Paper Protocol | 0.9138 | 97.3 | documentary | yes |
+| Signal Navy | 0.9052 | 104.2 | bento-canvas | no |
+| Poster Optimism | 0.9042 | 148 | gallery-scroll | yes |
+| Bubblegum Exchange | 0.8954 | 92.7 | split-stage | yes |
+| Tidal Sui | 0.8537 | 69.1 | gallery-scroll | no |
+| Cosmos Orbit | 0.7719 | 97.3 | documentary | yes |
+| Cobalt Blueprint | 0.7164 | 21.3 | bento-canvas | yes |
+| Abyss Liquidity | 0.7041 | 155.7 | orbital | yes |
+| Spectrum Terminal | 0.5441 | 17.5 | gallery-scroll | yes |
+| Agora Violet | 0.4077 | 18.4 | bento-canvas | yes |
 
 ## Skeleton brief
 
@@ -68,34 +68,34 @@ Risks: serif font alone is not a skeleton change; dense dashboards need tabular 
 
 ```css
 :root {
-  --bg: #000000;
-  --surface: #141415;
-  --surface-alt: #1F1E20;
-  --ink: #F2F3F7;
-  --muted: #A0A1A6;
-  --accent: #670de5;
-  --accent-safe: #9f45ff;
-  --accent-2: #A97BFF;
-  --line: #2B2930;
-  --success: #5CE1A0;
-  --danger: #FF8A8A;
-  --warning: #F2C94C;
+  --bg: #ffffff;
+  --surface: #FFFDF8;
+  --surface-alt: #EDE9DF;
+  --ink: #1B1B1B;
+  --muted: #6B675F;
+  --accent: #0c5681;
+  --accent-safe: #0c5681;
+  --accent-2: #8B9DFF;
+  --line: #D9D3C7;
+  --success: #2F6B4F;
+  --danger: #A83A2A;
+  --warning: #8A5A00;
 
-  --font-display: "Space Grotesk", "Century Gothic", "Segoe UI", sans-serif;
-  --font-body: "Inter", "Segoe UI", system-ui, sans-serif;
-  --font-mono: "PolySans Mono", "Cascadia Mono", ui-monospace, monospace;
-  --display-weight: 520;
-  --display-tracking: -0.045em;
-  --label-tracking: 0.14em;
+  --font-display: "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --font-body: "Charter", "Georgia", "Segoe UI", serif;
+  --font-mono: "Courier New", ui-monospace, monospace;
+  --display-weight: 500;
+  --display-tracking: -0.025em;
+  --label-tracking: 0.12em;
 
-  --radius-sm: 2px;
-  --radius-md: 6px;
-  --radius-lg: 12px;
+  --radius-sm: 0px;
+  --radius-md: 2px;
+  --radius-lg: 4px;
   --border: 1px solid var(--line);
-  --shadow: 0 0 0 1px rgba(169, 123, 255, 0.08), 0 30px 90px rgba(0, 0, 0, 0.55);
+  --shadow: none;
 
-  --motion-duration: 260ms;
-  --motion-ease: cubic-bezier(.16,1,.3,1);
+  --motion-duration: 300ms;
+  --motion-ease: ease-out;
   --space-1: clamp(4px, .35vw, 6px);
   --space-2: clamp(8px, .7vw, 12px);
   --space-3: clamp(14px, 1.2vw, 20px);
@@ -109,18 +109,18 @@ Risks: serif font alone is not a skeleton change; dense dashboards need tabular 
 
 ## Component grammar
 
-- Surface: 1px solid var(--line); radius 6px; shadow 0 0 0 1px rgba(169, 123, 255, 0.08), 0 30px 90px rgba(0, 0, 0, 0.55).
-- Type: display **"Space Grotesk", "Century Gothic", "Segoe UI", sans-serif** at weight 520, tracking -0.045em; body **"Inter", "Segoe UI", system-ui, sans-serif**; numerals and micro-labels **"PolySans Mono", "Cascadia Mono", ui-monospace, monospace**.
-- Texture: violet bloom, index numerals, hairline rules, mono metadata gutters.
-- Motion: measured, 260ms, cubic-bezier(.16,1,.3,1). Always wrap non-essential motion in `@media (prefers-reduced-motion: no-preference)`.
-- Density: compact. Keep body text >= 14px and body contrast >= 4.5:1.
+- Surface: 1px solid var(--line); radius 2px; shadow none.
+- Type: display **"Iowan Old Style", "Palatino Linotype", Georgia, serif** at weight 500, tracking -0.025em; body **"Charter", "Georgia", "Segoe UI", serif**; numerals and micro-labels **"Courier New", ui-monospace, monospace**.
+- Texture: newsprint rules, drop caps, marginalia labels, ether gradient wash.
+- Motion: quiet, 300ms, ease-out. Always wrap non-essential motion in `@media (prefers-reduced-motion: no-preference)`.
+- Density: comfortable. Keep body text >= 14px and body contrast >= 4.5:1.
 - Use `--accent-safe` for text and icons on `--bg`; use `--accent` for fills and large shapes.
 
 ## Originality guard
 
 The replacement must satisfy all of these:
 
-1. The source inventory archetype is `orbital`; the new skeleton is `documentary`. Do not fall back to the old shell during implementation.
+1. The source inventory archetype is `terminal-console`; the new skeleton is `documentary`. Do not fall back to the old shell during implementation.
 2. Do not reuse any original class name, CSS selector, design token name, or original accent family.
 3. Rewrite templates, not only CSS. Every route must visibly use the new skeleton.
 4. Keep every token in `.reskin/content-contract.json`; move it, never rewrite it.
@@ -128,4 +128,4 @@ The replacement must satisfy all of these:
 
 ## Commit statement
 
-Use this sentence in the final report: "The UI was rebuilt around Agora Violet / Documentary Ledger; the original orbital shell and palette were removed while the content contract stayed byte-for-byte intact."
+Use this sentence in the final report: "The UI was rebuilt around Paper Protocol / Documentary Ledger; the original terminal-console shell and palette were removed while the content contract stayed byte-for-byte intact."

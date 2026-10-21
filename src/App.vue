@@ -1,20 +1,20 @@
 <script setup>
 import { onBeforeUnmount, onMounted, ref } from 'vue'
-import Masthead from './journal/Masthead.vue'
-import FrontPage from './journal/FrontPage.vue'
-import LoadDispatch from './journal/LoadDispatch.vue'
-import RegistryLedger from './journal/RegistryLedger.vue'
-import ReceiptLedger from './journal/ReceiptLedger.vue'
-import StakeBureau from './journal/StakeBureau.vue'
-import RegistrationDesk from './journal/RegistrationDesk.vue'
-import Colophon from './journal/Colophon.vue'
-import WalletSheet from './journal/WalletSheet.vue'
-import Glyph from './journal/Glyph.vue'
-import GlyphSprite from './journal/GlyphSprite.vue'
+import FolioCover from './folio/FolioCover.vue'
+import Overture from './folio/Overture.vue'
+import ThroughputChapter from './folio/ThroughputChapter.vue'
+import RegisterChapter from './folio/RegisterChapter.vue'
+import ReceiptsChapter from './folio/ReceiptsChapter.vue'
+import StakeChapter from './folio/StakeChapter.vue'
+import ConsoleChapter from './folio/ConsoleChapter.vue'
+import Imprint from './folio/Imprint.vue'
+import WalletSlip from './folio/WalletSlip.vue'
+import Icon from './folio/Icon.vue'
+import IconSprite from './folio/IconSprite.vue'
 import { AGENTS, BRAND, NAV_STATS, RECEIPTS } from './brand'
 import { clusterLabel, createAgentLocally } from './lib/solana'
 
-/* --- section observer drives the index active state ----------------------- */
+/* --- cover index observer -------------------------------------------------- */
 const active = ref('network')
 let observer = null
 
@@ -93,39 +93,40 @@ const refresh = () => say('Re-indexed local preview ledger')
 </script>
 
 <template>
-  <div class="gazette">
-    <GlyphSprite />
-    <div class="gazette-glow" aria-hidden="true"></div>
+  <div class="folio">
+    <IconSprite />
 
-    <Masthead :active="active" :wallet="wallet" :online="online" :block-height="blockHeight"
-              @navigate="navigate" @connect="walletOpen = true" />
+    <FolioCover :active="active" :wallet="wallet" :online="online" :block-height="blockHeight"
+                @navigate="navigate" @connect="walletOpen = true" />
 
-    <main class="gazette-main">
-      <FrontPage :agents="AGENTS" :block-height="blockHeight" :epoch="NAV_STATS.epoch"
-                 :settled24h="NAV_STATS.settled24h" :staked="NAV_STATS.staked"
-                 @primary="navigate('console')" @secondary="navigate('ledger')"
-                 @copy="(v) => copy(v, 'Program id')" />
+    <div class="foil-column">
+      <main class="foil-main">
+        <Overture :agents="AGENTS" :block-height="blockHeight" :epoch="NAV_STATS.epoch"
+                  :settled24h="NAV_STATS.settled24h" :staked="NAV_STATS.staked"
+                  @primary="navigate('console')" @secondary="navigate('ledger')"
+                  @copy="(v) => copy(v, 'Program id')" />
 
-      <LoadDispatch :block-height="blockHeight" />
-      <RegistryLedger :agents="AGENTS" @copy="(v) => copy(v, 'Address')" @inspect="inspect" />
-      <ReceiptLedger :receipts="RECEIPTS" :block-height="blockHeight"
-                     @copy="(v) => copy(v, 'Receipt')" @refresh="refresh" />
-      <StakeBureau :wallet="wallet" :staked="NAV_STATS.staked"
-                   @action="(a) => copy(`${a.kind} ${a.amount} ${BRAND.ticker}`, 'Queued')"
-                   @vote="(v) => say(`Vote recorded locally · ${v.id}`)" />
-      <RegistrationDesk :wallet="wallet" :busy="busy" :result="result"
+        <ThroughputChapter :block-height="blockHeight" />
+        <RegisterChapter :agents="AGENTS" @copy="(v) => copy(v, 'Address')" @inspect="inspect" />
+        <ReceiptsChapter :receipts="RECEIPTS" :block-height="blockHeight"
+                         @copy="(v) => copy(v, 'Receipt')" @refresh="refresh" />
+        <StakeChapter :wallet="wallet" :staked="NAV_STATS.staked"
+                      @action="(a) => copy(`${a.kind} ${a.amount} ${BRAND.ticker}`, 'Queued')"
+                      @vote="(v) => say(`Vote recorded locally · ${v.id}`)" />
+        <ConsoleChapter :wallet="wallet" :busy="busy" :result="result"
                         @deploy="deploy" @connect="walletOpen = true" />
-    </main>
+      </main>
 
-    <Colophon @navigate="navigate" @copy="(v) => copy(v, 'Copied')" />
+      <Imprint @navigate="navigate" @copy="(v) => copy(v, 'Copied')" />
+    </div>
 
-    <WalletSheet :open="walletOpen" :current="wallet"
-                 @close="walletOpen = false"
-                 @pick="(id) => { wallet = id; walletOpen = false; say(`${id} connected · ${clusterLabel}`) }" />
+    <WalletSlip :open="walletOpen" :current="wallet"
+                @close="walletOpen = false"
+                @pick="(id) => { wallet = id; walletOpen = false; say(`${id} connected · ${clusterLabel}`) }" />
 
     <transition name="toast">
-      <div v-if="toast" class="notice" :class="`is-${toast.tone}`" role="status">
-        <Glyph :kind="toast.tone === 'warn' ? 'alert' : 'check'" />
+      <div v-if="toast" class="folio-toast" :class="`is-${toast.tone}`" role="status">
+        <Icon :kind="toast.tone === 'warn' ? 'alert' : 'check'" />
         <span>{{ toast.message }}</span>
       </div>
     </transition>

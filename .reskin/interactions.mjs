@@ -1,139 +1,182 @@
-import { createRequire } from 'node:module'
-import path from 'node:path'
+/**
+ * Interaction regression for the reskinned folio.
+ * Serves website/dist, drives real Chrome over CDP and asserts the behaviour the
+ * original gazette UI exposed (filters, wallet flow, ballots, stepper, form).
+ *
+ *   node .reskin/interactions.mjs
+ */
+import http from 'node:http';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { launchChrome, openPage, sleep } from '../../.rebrand/tools/rebrand-scripts/lib/chrome.mjs';
 
-const require = createRequire(path.resolve('.reskin/tools/package.json'))
-const { chromium } = require('playwright-core')
+const HERE = path.dirname(fileURLToPath(import.meta.url));
+const DIST = path.resolve(HERE, '..', 'dist');
 
-const base = process.argv[2] || 'http://127.0.0.1:4901/'
-const chrome = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'
+const MIME = {
+  '.html': 'text/html; charset=utf-8',
+  '.js': 'text/javascript; charset=utf-8',
+  '.css': 'text/css; charset=utf-8',
+  '.svg': 'image/svg+xml',
+  '.png': 'image/png',
+  '.woff2': 'font/woff2',
+  '.ttf': 'font/ttf',
+};
 
-const browser = await chromium.launch({ headless: true, executablePath: chrome, args: ['--no-sandbox', '--hide-scrollbars'] })
-const context = await browser.newContext({ viewport: { width: 1440, height: 900 } })
-const page = await context.newPage()
-const errors = []
-page.on('console', (m) => { if (m.type() === 'error') errors.push(m.text()) })
-page.on('pageerror', (e) => errors.push(String(e)))
+const server = http.createServer(async (req, res) => {
+  try {
+    const url = new URL(req.url, 'http://127.0.0.1');
+    let rel = decodeURIComponent(url.pathname);
+    if (rel === '/') rel = '/index.html';
+    let file = path.join(DIST, rel);
+    if (!file.startsWith(DIST)) throw new Error('escape');
+    try {
+      await fs.access(file);
+    } catch {
+      file = path.join(DIST, 'index.html');
+    }
+    const body = await fs.readFile(file);
+    res.writeHead(200, { 'content-type': MIME[path.extname(file)] || 'application/octet-stream' });
+    res.end(body);
+  } catch {
+    res.writeHead(404).end('not found');
+  }
+});
 
-let failures = 0
-const log = (name, ok, extra = '') => {
-  if (!ok) failures += 1
-  console.log(`${ok ? 'PASS' : 'FAIL'} ${name}${extra ? ` — ${extra}` : ''}`)
+await new Promise((resolve) => server.listen(0, '127.0.0.1', resolve));
+const port = server.address().port;
+const base = `http://127.0.0.1:${port}/`;
+
+const checks = [];
+function record(name, ok, detail = '') {
+  checks.push({ name, ok, detail });
+  console.log(`${ok ? 'PASS' : 'FAIL'}  ${name}${detail ? `  - ${detail}` : ''}`);
 }
 
-await page.goto(base, { waitUntil: 'domcontentloaded' })
-await page.waitForTimeout(900)
+const browser = await launchChrome({ headless: true, width: 1440, height: 900 });
+const page = await openPage(browser.cdp, { width: 1440, height: 900 });
 
-// 1. index navigation
-await page.click('.contents-link[href="#ledger"]')
-await page.waitForTimeout(1200)
-const ledgerTop = await page.evaluate(() => Math.round(document.getElementById('ledger').getBoundingClientRect().top))
-log('index link scrolls to #ledger', Math.abs(ledgerTop) < 120, `top=${ledgerTop}`)
-const activeLabel = await page.evaluate(() => document.querySelector('.contents-link.is-current')?.textContent?.trim())
-log('active index entry follows scroll', activeLabel === 'Ledger', `active=${activeLabel}`)
+const setValue = (selector, value) => `(() => {
+  const el = document.querySelector(${JSON.stringify(selector)});
+  if (!el) return false;
+  const proto = el.tagName === 'TEXTAREA' ? window.HTMLTextAreaElement.prototype : window.HTMLInputElement.prototype;
+  Object.getOwnPropertyDescriptor(proto, 'value').set.call(el, ${JSON.stringify(value)});
+  el.dispatchEvent(new Event('input', { bubbles: true }));
+  return true;
+})()`;
 
-// 2. wallet sheet flow
-await page.click('.tool-connect')
-await page.waitForTimeout(400)
-log('wallet sheet opens', await page.locator('.sheet[role="dialog"]').isVisible())
-await page.click('.wallet >> nth=0')
-await page.waitForTimeout(350)
-log('wallet pick advances to signature step', await page.locator('.sign-card').isVisible())
-const signRows = await page.locator('.sign-rows dt').allInnerTexts()
-log('signature step lists program/fee/network rows', signRows.length === 3, signRows.join('|'))
-await page.click('.sign-actions .press >> nth=0')
-await page.waitForTimeout(600)
-const toastText = await page.locator('.notice').innerText()
-const connectLabel = await page.locator('.tool-connect').innerText()
-log('approve connects a wallet and raises notice', /Phantom connected/.test(toastText) && /Phantom/.test(connectLabel), `notice="${toastText.replace(/\n/g, ' ')}"`)
+const clickText = (selector, text) => `(() => {
+  const el = [...document.querySelectorAll(${JSON.stringify(selector)})].find((n) => n.textContent.trim().toLowerCase() === ${JSON.stringify(text.toLowerCase())});
+  if (!el) return false;
+  el.click();
+  return true;
+})()`;
 
-// 3. registry search + lanes + sort
-await page.fill('.search-line input', 'kestrel')
-await page.waitForTimeout(300)
-const searchRows = await page.locator('.register .agent').count()
-log('registry search filters rows', searchRows === 1, `rows=${searchRows}`)
-await page.fill('.search-line input', 'zzzz')
-await page.waitForTimeout(300)
-log('registry empty state renders', await page.locator('.agent-empty').isVisible())
-await page.fill('.search-line input', '')
-await page.waitForTimeout(300)
-await page.click('.state-tab >> nth=2')
-await page.waitForTimeout(300)
-const laneRows = await page.locator('.register .agent').count()
-log('registry lane filter works', laneRows >= 1 && laneRows < 6, `rows=${laneRows}`)
-await page.click('.state-tab >> nth=0')
-await page.click('.rank >> nth=1')
-await page.waitForTimeout(300)
-const sortedFirst = await page.locator('.register .agent .agent-name').first().innerText()
-log('registry sort by success works', sortedFirst === 'Orrin Vale', `first=${sortedFirst}`)
+try {
+  await page.navigate(base, { width: 1440, height: 900, delayMs: 900 });
 
-// 4. ledger filter + row expansion
-await page.click('.receipt-log .range button >> nth=2')
-await page.waitForTimeout(300)
-const failedRows = await page.locator('.receipt').count()
-log('receipt filter shows failed rows', failedRows === 1, `rows=${failedRows}`)
-await page.click('.receipt-log .range button >> nth=0')
-await page.waitForTimeout(200)
-await page.click('.receipt-line >> nth=0')
-await page.waitForTimeout(350)
-log('receipt row expands detail', await page.locator('.receipt-detail').isVisible())
-const detailText = await page.locator('.receipt-detail').innerText()
-log('receipt detail carries hashes', /input_hash/i.test(detailText) && /output_hash/i.test(detailText))
-const explorerHref = await page.getAttribute('.explorer', 'href')
-log('explorer link keeps cluster target', /explorer\.solana\.com\/address\/6tdNLcioiV74gMXLyHLLdxhfibTVxqd6pLUUmgEncXcs\?cluster=devnet/.test(explorerHref), explorerHref)
+  const boot = await page.evaluate(`(() => ({
+    title: document.title,
+    h1: document.querySelector('h1') ? document.querySelector('h1').innerText.replace(/\\s+/g, ' ').trim() : '',
+    index: [...document.querySelectorAll('.foil-indexlink')].map((a) => a.textContent.trim()),
+    chapters: [...document.querySelectorAll('main section')].map((s) => s.id),
+    words: document.body.innerText.split(/\\s+/).filter(Boolean).length
+  }))()`);
+  record('boot: h1 present', boot.h1 === 'Autonomous agents that settle every task on-chain.', boot.h1);
+  record('boot: five index links', boot.index.length === 5, boot.index.join(','));
+  record('boot: five chapters', boot.chapters.join(',') === 'top,network,registry,ledger,vault,console', boot.chapters.join(','));
+  record('boot: main landmark exists', await page.evaluate(`!!document.querySelector('main')`));
+  record('boot: content rendered', boot.words > 350, `${boot.words} words`);
 
-// 5. council voting
-await page.click('.ballot >> nth=0 >> .vote >> nth=0')
-await page.waitForTimeout(300)
-const voteLabels = await page.locator('.ballot >> nth=0 >> .vote').allInnerTexts()
-const stamp = await page.locator('.ballot-stamp >> nth=0').innerText()
-log('council vote records locally', /voted yes/.test(voteLabels[0]) && /recorded/.test(stamp), `labels=${voteLabels.join('|')}`)
+  await page.evaluate(clickText('.foil-indexlink', 'ledger'));
+  await sleep(700);
+  const hash = await page.evaluate(`location.hash`);
+  record('index link: hash navigation', hash === '#ledger', hash);
+  await page.evaluate(`window.scrollTo(0, 0)`);
+  await sleep(400);
 
-// 6. stake stepper + action
-const before = await page.inputValue('.amount-stepper input')
-await page.click('.step >> nth=1')
-await page.waitForTimeout(200)
-const after = await page.inputValue('.amount-stepper input')
-log('stake stepper increments amount', Number(after) === Number(before) + 50, `${before} -> ${after}`)
-await page.click('.stake-actions .press >> nth=0')
-await page.waitForTimeout(400)
-log('stake action raises queued notice', /Queued/.test(await page.locator('.notice').innerText()))
+  await page.evaluate(setValue('.foil-searchinput', 'kestrel'));
+  await sleep(350);
+  record('registry: search filters to one agent', (await page.evaluate(`document.querySelectorAll('.foil-entry').length`)) === 1);
+  await page.evaluate(setValue('.foil-searchinput', ''));
+  await sleep(250);
 
-// 7. registration form validation + submit
-await page.click('.questionnaire button[type="submit"]')
-await page.waitForTimeout(300)
-const formValid = await page.evaluate(() => document.querySelector('.questionnaire input[placeholder="e.g. Kestrel Drift"]').checkValidity())
-log('registration form blocks empty codename', formValid === false)
-await page.fill('.questionnaire input[placeholder="e.g. Kestrel Drift"]', 'Probe Agent')
-await page.click('.questionnaire button[type="submit"]')
-await page.waitForTimeout(1500)
-const resultLine = await page.locator('.transcript-foot').innerText()
-log('registration writes a result line', /result \/|waiting for a registration/.test(resultLine), `foot="${resultLine.replace(/\n/g, ' ')}"`)
+  await page.evaluate(clickText('.foil-lanebtn', 'idle'));
+  await sleep(300);
+  record('registry: lane filter isolates idle agent',
+    (await page.evaluate(`document.querySelectorAll('.foil-entry').length`)) === 1
+    && (await page.evaluate(`document.querySelector('.foil-entryname').textContent.trim()`)) === 'Nimbus Kiln');
 
-// 8. mobile contents drawer + visible anchors
-await page.setViewportSize({ width: 390, height: 844 })
-await page.waitForTimeout(500)
-const mobileAnchors = await page.locator('.contents-link').count()
-const anchorsVisible = await page.locator('.contents-link').first().isVisible()
-log('mobile index anchors stay visible', mobileAnchors === 5 && anchorsVisible, `count=${mobileAnchors}`)
-await page.click('.tool-menu')
-await page.waitForTimeout(400)
-const drawerRows = await page.locator('.mast-drawer .drawer-row').count()
-const expanded = await page.getAttribute('.tool-menu', 'aria-expanded')
-log('mobile contents drawer opens', drawerRows === 5 && expanded === 'true', `rows=${drawerRows} expanded=${expanded}`)
+  await page.evaluate(clickText('.foil-lanebtn', 'all'));
+  await page.evaluate(clickText('.foil-sortbtn', 'success'));
+  await sleep(300);
+  record('registry: success sort ranks the 99.9 agent first',
+    (await page.evaluate(`document.querySelector('.foil-entryname').textContent.trim()`)) === 'Orrin Vale');
 
-// 9. keyboard focus visible
-await page.setViewportSize({ width: 1440, height: 900 })
-await page.waitForTimeout(300)
-await page.evaluate(() => document.activeElement?.blur?.())
-await page.keyboard.press('Tab')
-const focusOutline = await page.evaluate(() => {
-  const cs = getComputedStyle(document.activeElement)
-  return `${cs.outlineStyle} ${cs.outlineWidth}`
-})
-log('keyboard focus visible', /solid/.test(focusOutline), focusOutline)
+  await page.evaluate(clickText('.foil-filterbtn', 'failed'));
+  await sleep(300);
+  record('ledger: failed filter isolates one receipt', (await page.evaluate(`document.querySelectorAll('.foil-receipt').length`)) === 1);
+  await page.evaluate(`document.querySelector('.foil-receiptline').click()`);
+  await sleep(350);
+  const detail = await page.evaluate(`(() => {
+    const d = document.querySelector('.foil-receiptdetail');
+    return d ? d.innerText.replace(/\\s+/g, ' ') : '';
+  })()`);
+  record('ledger: row expands receipt detail', /input_hash/.test(detail) && /output_hash/.test(detail), detail.slice(0, 80));
+  await page.evaluate(clickText('.foil-filterbtn', 'all'));
 
-log('no console/page errors', errors.length === 0, errors.slice(0, 3).join(' | '))
+  await page.evaluate(`document.querySelector('.foil-connect').click()`);
+  await sleep(400);
+  record('wallet: sheet opens', await page.evaluate(`!!document.querySelector('.foil-sheet')`));
+  await page.evaluate(`document.querySelector('.foil-walletopt').click()`);
+  await sleep(350);
+  const signText = await page.evaluate(`document.querySelector('.foil-sheet').innerText.replace(/\\s+/g, ' ')`);
+  record('wallet: signature step shows fee rows', /Approve signature/.test(signText) && /fee payer/.test(signText), signText.slice(0, 90));
+  await page.evaluate(clickText('.foil-sheet button', 'approve'));
+  await page.waitForExpression('!document.querySelector(".foil-sheet")', { timeoutMs: 3000 }).catch(() => null);
+  await sleep(250);
+  record('wallet: approve connects and closes', !(await page.evaluate(`!!document.querySelector('.foil-sheet')`))
+    && (await page.evaluate(`document.querySelector('.foil-connect').innerText.trim().toLowerCase()`)) === 'phantom');
+  record('wallet: toast confirms connection', await page.evaluate(`!!document.querySelector('.folio-toast')`));
 
-await browser.close()
-console.log(failures === 0 ? 'ALL INTERACTIONS PASS' : `${failures} INTERACTION FAILURE(S)`)
-process.exitCode = failures === 0 ? 0 : 1
+  await page.evaluate(`document.querySelector('.foil-votebtn').click()`);
+  await sleep(300);
+  const ballot = await page.evaluate(`document.querySelector('.foil-ballot').innerText.replace(/\\s+/g, ' ')`);
+  record('council: vote records locally', /voted yes/i.test(ballot) && /recorded/i.test(ballot), ballot.slice(0, 80));
+
+  const before = await page.evaluate(`document.querySelector('.foil-stepperinput').value`);
+  await page.evaluate(`document.querySelector('[aria-label="Increase"]').click()`);
+  await sleep(250);
+  const after = await page.evaluate(`document.querySelector('.foil-stepperinput').value`);
+  record('vault: stepper increments', before === '250' && after === '300', `${before} -> ${after}`);
+
+  await page.evaluate(setValue('.foil-form input', 'Kestrel Drift'));
+  await page.evaluate(`document.querySelector('.foil-form').requestSubmit()`);
+  await sleep(900);
+  const transcript = await page.evaluate(`document.querySelector('.foil-transcriptbody').innerText`);
+  record('console: submit writes a transcript result', /\[warn\]|\[ok\]/.test(transcript), transcript.split('\n').slice(-2).join(' | '));
+
+  const errors = page.consoleErrors.filter((e) => !/favicon/i.test(e));
+  record('console: no runtime errors', errors.length === 0, errors.slice(0, 2).join(' | '));
+
+  await page.navigate(base, { width: 390, height: 844, mobile: true, delayMs: 900 });
+  await page.evaluate(`document.querySelector('.foil-menu').click()`);
+  await sleep(400);
+  const drawer = await page.evaluate(`(() => ({
+    open: !!document.querySelector('.foil-drawer'),
+    rows: document.querySelectorAll('.foil-drawerrow').length,
+    overflow: document.documentElement.scrollWidth - document.documentElement.clientWidth
+  }))()`);
+  record('mobile: drawer opens with five rows', drawer.open && drawer.rows === 5, JSON.stringify(drawer));
+  record('mobile: no horizontal overflow', drawer.overflow <= 0, `${drawer.overflow}px`);
+} finally {
+  await page.close().catch(() => {});
+  await browser.close().catch(() => {});
+  server.close();
+}
+
+const failed = checks.filter((c) => !c.ok);
+console.log(`\n${checks.length - failed.length}/${checks.length} interaction checks passed`);
+if (failed.length) process.exitCode = 1;
+

@@ -60,7 +60,7 @@ export async function createAgentLocally({ owner, agentId = Date.now(), name = '
   }
   try {
     const address = deriveAgentAddress(normalizedOwner, agentId).toBase58()
-    const instruction = buildCreateAgentInstruction({ owner: normalizedOwner, agentId, name, description: 'Local Stakri agent' })
+    const instruction = buildCreateAgentInstruction({ owner: normalizedOwner, agentId, name, description: 'Local Quittra agent' })
     const blockhash = await localConnection().getLatestBlockhash().catch(() => null)
     return {
       mode: blockhash ? 'localnet' : 'mock',

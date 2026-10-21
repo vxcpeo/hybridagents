@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "meta": {
-    "projectName": "stakri-workspace",
-    "title": "stakri-workspace",
+    "projectName": "quittra-workspace",
+    "title": "quittra-workspace",
     "lang": "en"
   },
   "routes": [
@@ -282,6 +282,10 @@
       "count": 1
     },
     {
+      "value": "quittra-console /",
+      "count": 1
+    },
+    {
       "value": "quorum 51%",
       "count": 1
     },
@@ -363,10 +367,6 @@
     },
     {
       "value": "staking vault",
-      "count": 1
-    },
-    {
-      "value": "stakri-console /",
       "count": 1
     },
     {
@@ -509,6 +509,11 @@
   "bindings": [
     {
       "kind": "attr",
+      "expr": "`#${item.id}`",
+      "count": 1
+    },
+    {
+      "kind": "attr",
       "expr": "`Copy ${a.name} address`",
       "count": 1
     },
@@ -530,6 +535,11 @@
     {
       "kind": "attr",
       "expr": "item.hint",
+      "count": 1
+    },
+    {
+      "kind": "attr",
+      "expr": "symbol",
       "count": 1
     },
     {
@@ -974,7 +984,17 @@
     },
     {
       "kind": "link",
+      "expr": "`#${item.id}`",
+      "count": 1
+    },
+    {
+      "kind": "link",
       "expr": "`https://explorer.solana.com/address/${BRAND.programId}?cluster=devnet`",
+      "count": 1
+    },
+    {
+      "kind": "link",
+      "expr": "symbol",
       "count": 1
     },
     {

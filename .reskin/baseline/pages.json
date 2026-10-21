@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "label": "baseline",
-  "generatedAt": "2026-10-20T16:00:57.382Z",
-  "baseUrl": "http://127.0.0.1:4317/",
+  "generatedAt": "2026-10-21T16:54:56.419Z",
+  "baseUrl": "http://127.0.0.1:4419/",
   "browser": {
     "executablePath": "C:\\Users\\Administrator\\AppData\\Local\\ms-playwright\\chromium-1247\\chrome-win64\\chrome.exe",
     "playwrightSource": "reskin-tools",
@@ -11,25 +11,25 @@
   "pages": {
     "/": {
       "route": "/",
-      "url": "http://127.0.0.1:4317/",
+      "url": "http://127.0.0.1:4419/",
       "status": 200,
       "desktop": {
         "meta": {
-          "title": "Stakri / settlement layer for autonomous agents",
+          "title": "Quittra / settlement layer for autonomous agents",
           "lang": "en",
           "h1Count": 1,
-          "bodyTextLength": 5288,
+          "bodyTextLength": 5385,
           "scrollWidth": 1440,
           "clientWidth": 1440,
           "focusableCount": 77
         },
         "words": [
           {
-            "word": "#292,175,886",
+            "word": "#292,175,884",
             "count": 1
           },
           {
-            "word": "$STAKRI",
+            "word": "$QUITTRA",
             "count": 16
           },
           {
@@ -157,11 +157,35 @@
             "count": 3
           },
           {
-            "word": "291,886",
+            "word": "291,884",
             "count": 3
           },
           {
-            "word": "292,175,886",
+            "word": "291,884,104",
+            "count": 1
+          },
+          {
+            "word": "291,884,108",
+            "count": 1
+          },
+          {
+            "word": "291,884,111",
+            "count": 1
+          },
+          {
+            "word": "291,884,115",
+            "count": 1
+          },
+          {
+            "word": "291,884,118",
+            "count": 1
+          },
+          {
+            "word": "291,884,120",
+            "count": 1
+          },
+          {
+            "word": "292,175,884",
             "count": 1
           },
           {
@@ -1177,6 +1201,30 @@
             "count": 1
           },
           {
+            "word": "quittra",
+            "count": 2
+          },
+          {
+            "word": "Quittra",
+            "count": 1
+          },
+          {
+            "word": "QUITTRA",
+            "count": 2
+          },
+          {
+            "word": "quittra-console",
+            "count": 1
+          },
+          {
+            "word": "quittra.xyz",
+            "count": 2
+          },
+          {
+            "word": "quittra@local",
+            "count": 1
+          },
+          {
             "word": "quorum",
             "count": 1
           },
@@ -1514,30 +1562,6 @@
           },
           {
             "word": "Staking",
-            "count": 1
-          },
-          {
-            "word": "stakri",
-            "count": 2
-          },
-          {
-            "word": "Stakri",
-            "count": 1
-          },
-          {
-            "word": "STAKRI",
-            "count": 2
-          },
-          {
-            "word": "stakri-console",
-            "count": 1
-          },
-          {
-            "word": "stakri.xyz",
-            "count": 2
-          },
-          {
-            "word": "stakri@local",
             "count": 1
           },
           {
@@ -1897,6 +1921,26 @@
         ],
         "links": [
           {
+            "href": "#console",
+            "count": 1
+          },
+          {
+            "href": "#ledger",
+            "count": 1
+          },
+          {
+            "href": "#network",
+            "count": 1
+          },
+          {
+            "href": "#registry",
+            "count": 1
+          },
+          {
+            "href": "#vault",
+            "count": 1
+          },
+          {
             "href": "https://github.com",
             "count": 1
           },
@@ -1919,300 +1963,244 @@
         "imageIssues": [],
         "interactiveIssues": [],
         "classTokens": [
-          "bad",
-          "bar",
-          "bar__inner",
-          "bar__right",
-          "bars",
-          "bars__row",
-          "beacon",
-          "beacon--hot",
-          "beacon--idle",
-          "bento",
-          "bento__chart",
-          "bento__tape",
-          "brand",
-          "brand__text",
-          "btn",
-          "btn--ghost",
-          "btn--sm",
-          "btn--violet",
-          "canvas",
-          "canvas__aurora",
-          "canvas__aurora--a",
-          "canvas__aurora--b",
-          "canvas__aurora--c",
-          "canvas__grid",
-          "canvas__orbit",
-          "canvas__scan",
-          "caps",
-          "card",
-          "card__foot",
-          "card__head",
-          "card__id",
-          "chain",
-          "chain__net",
-          "chain__slot",
-          "chart",
-          "chart__axis",
-          "chart__readout",
-          "chart__svg",
-          "chip",
-          "chip--good",
-          "chip--hot",
-          "chip--violet",
-          "console",
-          "controls",
-          "council",
-          "dim",
-          "dot",
-          "dot--agent",
-          "dot--core",
-          "dot--reg",
-          "field",
-          "foot",
-          "foot__base",
-          "foot__brand",
-          "foot__col",
-          "foot__grid",
-          "foot__link",
-          "foot__mark",
-          "foot__risk",
-          "foot__social",
-          "form",
-          "form__actions",
-          "form__body",
-          "form__enter",
-          "form__hint",
-          "form__row",
-          "gauge",
-          "gauge__mid",
-          "grid",
-          "hero",
-          "hero__addr",
-          "hero__addr-label",
-          "hero__addr-value",
-          "hero__copy",
-          "hero__cta",
-          "hero__grid",
-          "hero__lede",
-          "hero__note",
-          "hero__title",
-          "hero__viz",
-          "hl",
-          "is-bad",
-          "is-on",
-          "kpi",
-          "kpi__cell",
-          "lane",
-          "lanes",
-          "ledger",
-          "ledger__tools",
-          "log",
-          "log__agent",
-          "log__hash",
-          "log__icon",
-          "log__main",
-          "log__ms",
-          "log__reward",
-          "log__row",
-          "log__task",
-          "lucide",
-          "lucide-activity-icon",
-          "lucide-arrow-right-icon",
-          "lucide-arrow-up-right-icon",
-          "lucide-circle-check-icon",
-          "lucide-circle-play-icon",
-          "lucide-circle-xicon",
-          "lucide-copy-icon",
-          "lucide-corner-down-left-icon",
-          "lucide-cpu-icon",
-          "lucide-file-check2-icon",
-          "lucide-fingerprint-icon",
-          "lucide-gauge-icon",
-          "lucide-github-icon",
-          "lucide-layers-icon",
-          "lucide-lock-icon",
-          "lucide-lock-open-icon",
-          "lucide-minus-icon",
-          "lucide-plus-icon",
-          "lucide-radio-icon",
-          "lucide-refresh-cw-icon",
-          "lucide-rocket-icon",
-          "lucide-search-icon",
-          "lucide-send-icon",
-          "lucide-shield-check-icon",
-          "lucide-sliders-horizontal-icon",
-          "lucide-terminal-icon",
-          "lucide-thumbs-down-icon",
-          "lucide-thumbs-up-icon",
-          "lucide-trending-up-icon",
-          "lucide-vault-icon",
-          "lucide-wallet-icon",
-          "mark",
-          "mark--spin",
-          "meta",
-          "mini",
-          "mono",
-          "nav",
-          "nav__item",
-          "ok",
-          "on",
-          "orb",
-          "orb__legend",
-          "orb__packet",
-          "orb__svg",
-          "orb__sweep",
-          "panel",
-          "panel--flat",
-          "panel__label",
-          "panel__top",
-          "prop",
-          "prop__actions",
-          "prop__ends",
-          "prop__head",
-          "prop__id",
-          "prop__quorum",
-          "prop__state",
-          "prop__state--open",
-          "prop__state--passed",
-          "prop__title",
-          "prop__track",
-          "prop__vote",
-          "prop__yes",
-          "props",
-          "search",
-          "section",
-          "section__head",
-          "section__note",
-          "section__title",
-          "seg",
-          "shell",
-          "sigil",
-          "sort",
-          "sorts",
-          "split",
-          "state",
-          "state--idle",
-          "state--running",
-          "state--settling",
-          "stats",
-          "stepper",
-          "stream",
-          "stream__at",
-          "stream__body",
-          "stream__item",
-          "stream__kind",
-          "stream__list",
-          "stream__more",
-          "tag",
-          "tape",
-          "tape__ms",
-          "tape__reward",
-          "tape__row",
-          "tape__task",
-          "term",
-          "term__bar",
-          "term__body",
-          "term__cargo",
-          "term__cursor",
-          "term__dots",
-          "term__foot",
-          "term__line",
-          "ticker",
-          "ticker__cell",
-          "ticker__inner",
-          "ticker__ok",
-          "tile",
-          "tile--a",
-          "tile--b",
-          "tile--c",
-          "tile--d",
-          "tile__d",
-          "tile__icon",
-          "tile__v",
-          "tnum",
-          "track",
-          "track--violet",
-          "vault",
-          "vault__actions",
-          "vault__body",
-          "vault__foot",
-          "vault__form",
-          "vault__stats",
-          "vbtn",
-          "vbtn--no"
+          "agent",
+          "agent-caps",
+          "agent-id",
+          "agent-measures",
+          "agent-meta",
+          "agent-name",
+          "agent-role",
+          "agent-sigil",
+          "agent-state",
+          "agent-tools",
+          "amount-stepper",
+          "ballot",
+          "ballot-actions",
+          "ballot-ends",
+          "ballot-head",
+          "ballot-id",
+          "ballot-list",
+          "ballot-quorum",
+          "ballot-state",
+          "ballot-title",
+          "ballot-track",
+          "ballot-vote",
+          "ballot-yes",
+          "ballots",
+          "band-chain",
+          "band-dot",
+          "band-slot",
+          "band-tools",
+          "broadside",
+          "broadside-at",
+          "broadside-body",
+          "broadside-head",
+          "broadside-item",
+          "broadside-list",
+          "bureau",
+          "cap",
+          "colophon",
+          "colophon-base",
+          "colophon-col",
+          "colophon-link",
+          "colophon-links",
+          "colophon-list",
+          "colophon-mast",
+          "colophon-risk",
+          "colophon-seal",
+          "colophon-top",
+          "contents",
+          "contents-link",
+          "contents-list",
+          "desk",
+          "dispatch",
+          "dispatch-body",
+          "dispatch-head",
+          "dispatch-main",
+          "dispatch-margin",
+          "dispatch-no",
+          "dispatch-note",
+          "dispatch-title",
+          "entry",
+          "entry-label",
+          "entry-pair",
+          "figure",
+          "figures",
+          "front",
+          "front-actions",
+          "front-deck",
+          "front-kicker",
+          "front-lede",
+          "front-margin",
+          "front-mast",
+          "front-note",
+          "front-title",
+          "front-title-mark",
+          "gazette",
+          "gazette-glow",
+          "gazette-main",
+          "glyph",
+          "icon-press",
+          "indicators",
+          "indicators-note",
+          "is-current",
+          "is-dim",
+          "is-idle",
+          "is-open",
+          "is-passed",
+          "is-running",
+          "is-settling",
+          "is-slash",
+          "key-mark",
+          "key-mark--agent",
+          "key-mark--program",
+          "key-mark--registered",
+          "label",
+          "ledger-body",
+          "live-dot",
+          "mast-brand",
+          "mast-run",
+          "mast-word",
+          "masthead",
+          "masthead-band",
+          "masthead-name",
+          "measure",
+          "measure-head",
+          "measure-row",
+          "meter",
+          "meter-stake",
+          "panel-head",
+          "plot",
+          "plot-axis",
+          "plot-readout",
+          "plot-svg",
+          "press",
+          "press-quiet",
+          "press-small",
+          "program-label",
+          "program-line",
+          "program-value",
+          "questionnaire",
+          "questionnaire-actions",
+          "questionnaire-body",
+          "questionnaire-enter",
+          "questionnaire-hint",
+          "range",
+          "rank",
+          "rank-list",
+          "receipt",
+          "receipt-agent",
+          "receipt-flag",
+          "receipt-hash",
+          "receipt-line",
+          "receipt-log",
+          "receipt-log-head",
+          "receipt-log-ok",
+          "receipt-log-stats",
+          "receipt-log-tools",
+          "receipt-ms",
+          "receipt-reward",
+          "receipt-task",
+          "receipts",
+          "register",
+          "register-controls",
+          "register-tally",
+          "rosette",
+          "rosette-core",
+          "rosette-key",
+          "rosette-svg",
+          "run-cell",
+          "run-cell--hot",
+          "seal",
+          "search-line",
+          "settle",
+          "settle-head",
+          "settle-ms",
+          "settle-reward",
+          "settle-row",
+          "settle-rows",
+          "settle-slot",
+          "settle-task",
+          "stake-actions",
+          "stake-figure",
+          "stake-form",
+          "stake-ledger",
+          "stake-signer",
+          "stake-tallies",
+          "stamp",
+          "state-dot",
+          "state-tab",
+          "state-tabs",
+          "step",
+          "tool-connect",
+          "transcript",
+          "transcript-bar",
+          "transcript-body",
+          "transcript-cargo",
+          "transcript-cursor",
+          "transcript-dots",
+          "transcript-foot",
+          "transcript-line",
+          "transcript-path",
+          "utilisation",
+          "utilisation-line",
+          "vote",
+          "vote-no"
         ],
         "fingerprint": [
-          "a@8:1",
-          "article@8:2",
-          "article@8:3",
-          "article@8:4+",
-          "aside@8:3",
+          "a@8:0",
+          "a@9:1",
           "button@10:1",
-          "button@11:0",
           "button@11:1",
           "button@11:4+",
           "button@12:0",
           "button@12:1",
-          "button@6:2",
-          "button@7:0",
-          "button@7:1",
           "button@7:2",
-          "button@8:0",
+          "button@8:2",
           "button@8:3",
           "button@9:0",
           "button@9:1",
           "circle@10:0",
           "circle@11:0",
-          "circle@12:0",
-          "circle@14:0",
-          "circle@8:0",
-          "circle@9:0",
           "code@10:4+",
-          "dd@10:0",
           "dd@11:0",
+          "dd@11:1",
+          "dd@9:0",
           "div@10:2",
           "div@10:3",
-          "div@10:4+",
-          "div@11:1",
           "div@11:2",
           "div@11:3",
-          "div@12:2",
-          "div@3:4+",
+          "div@3:1",
           "div@4:4+",
           "div@5:0",
-          "div@5:1",
-          "div@5:3",
-          "div@5:4+",
           "div@6:2",
-          "div@6:3",
           "div@6:4+",
           "div@7:1",
           "div@7:2",
           "div@7:3",
           "div@7:4+",
+          "div@8:1",
           "div@8:2",
           "div@8:3",
           "div@8:4+",
-          "div@9:1",
           "div@9:2",
           "div@9:3",
           "div@9:4+",
-          "dl@8:4+",
+          "dl@7:4+",
           "dl@9:3",
-          "dt@10:0",
+          "dl@9:4+",
           "dt@11:0",
-          "em@8:0",
-          "footer@4:2",
-          "footer@7:3",
+          "dt@9:0",
+          "em@9:0",
+          "figure@8:2",
+          "footer@5:2",
           "form@8:2",
           "g@10:2",
+          "g@10:3",
           "h1@8:1",
           "h2@9:0",
-          "h3@11:0",
-          "header@4:2",
-          "header@7:2",
+          "h3@10:0",
+          "header@5:2",
           "i@11:0",
           "i@12:0",
           "i@13:0",
@@ -2225,1830 +2213,170 @@
           "li@10:1",
           "li@10:2",
           "li@10:4+",
+          "li@11:4+",
+          "li@7:1",
+          "li@8:4+",
+          "li@9:1",
           "line@10:0",
-          "main@4:4+",
-          "nav@6:4+",
+          "main@5:4+",
+          "nav@5:1",
+          "ol@10:4+",
+          "ol@6:4+",
+          "ol@7:4+",
+          "ol@9:3",
           "ol@9:4+",
           "p@10:1",
+          "p@10:2",
           "p@11:0",
           "p@12:0",
-          "p@7:0",
+          "p@6:3",
+          "p@7:1",
+          "p@7:3",
+          "p@7:4+",
           "p@8:0",
-          "p@8:1",
           "p@9:1",
+          "p@9:3",
           "path@10:0",
           "path@11:0",
           "path@12:0",
-          "path@13:0",
-          "path@14:0",
-          "path@8:0",
           "path@9:0",
-          "polygon@11:0",
-          "polyline@11:0",
-          "polyline@12:0",
-          "polyline@13:0",
           "pre@9:1",
           "rect@10:0",
           "rect@11:0",
-          "rect@12:0",
-          "rect@13:0",
-          "section@5:1",
-          "small@13:0",
+          "rect@9:0",
+          "section@6:2",
+          "section@6:4+",
+          "small@12:0",
           "span@10:0",
           "span@10:1",
           "span@10:3",
           "span@11:0",
+          "span@11:1",
+          "span@11:3",
           "span@12:0",
           "span@12:1",
-          "span@6:0",
+          "span@12:2",
           "span@7:0",
-          "span@7:1",
-          "span@7:2",
           "span@8:0",
+          "span@8:1",
+          "span@8:2",
           "span@9:0",
           "strong@11:0",
           "strong@12:0",
-          "strong@12:1",
-          "strong@7:0",
           "strong@8:0",
           "strong@9:0",
-          "svg@10:2",
-          "svg@10:4+",
-          "svg@11:2",
-          "svg@11:3",
+          "svg@10:1",
+          "svg@11:1",
           "svg@11:4+",
-          "svg@12:2",
-          "svg@12:4+",
+          "svg@12:1",
           "svg@13:1",
-          "svg@13:2",
-          "svg@13:3",
-          "svg@7:4+",
-          "svg@8:1",
-          "svg@8:2",
           "svg@8:4+",
           "svg@9:1",
-          "svg@9:2",
-          "svg@9:3",
           "svg@9:4+",
+          "table@9:1",
+          "tbody@10:4+",
+          "td@12:0",
           "textarea@11:0",
-          "ul@9:3",
-          "ul@9:4+"
+          "th@12:0",
+          "tr@11:3",
+          "ul@8:3",
+          "ul@8:4+",
+          "use@10:0",
+          "use@11:0",
+          "use@12:0",
+          "use@13:0",
+          "use@14:0"
         ],
         "landmarks": [
           {
             "tag": "header",
             "role": "",
-            "top": 0,
-            "left": 0,
-            "width": 1440,
-            "height": 92
+            "top": -69,
+            "left": 58,
+            "width": 1325,
+            "height": 256
           },
           {
             "tag": "nav",
             "role": "",
-            "top": 15,
-            "left": 583,
-            "width": 391,
-            "height": 32
+            "top": 187,
+            "left": 58,
+            "width": 1325,
+            "height": 56
           },
           {
             "tag": "main",
             "role": "",
-            "top": -600,
-            "left": 0,
-            "width": 1440,
-            "height": 5547
-          },
-          {
-            "tag": "header",
-            "role": "",
-            "top": 231,
-            "left": 100,
-            "width": 1240,
-            "height": 93
-          },
-          {
-            "tag": "header",
-            "role": "",
-            "top": 1344,
-            "left": 100,
-            "width": 1240,
-            "height": 93
+            "top": 244,
+            "left": 58,
+            "width": 1325,
+            "height": 5432
           },
           {
             "tag": "footer",
             "role": "",
-            "top": 2106,
-            "left": 100,
-            "width": 1240,
-            "height": 16
-          },
-          {
-            "tag": "header",
-            "role": "",
-            "top": 2345,
-            "left": 100,
-            "width": 1240,
-            "height": 93
-          },
-          {
-            "tag": "aside",
-            "role": "",
-            "top": 2466,
-            "left": 859,
-            "width": 481,
-            "height": 651
-          },
-          {
-            "tag": "header",
-            "role": "",
-            "top": 3341,
-            "left": 100,
-            "width": 1240,
-            "height": 93
-          },
-          {
-            "tag": "header",
-            "role": "",
-            "top": 4167,
-            "left": 100,
-            "width": 1240,
-            "height": 93
-          },
-          {
-            "tag": "footer",
-            "role": "",
-            "top": 5017,
-            "left": 0,
-            "width": 1440,
-            "height": 399
-          },
-          {
-            "tag": "nav",
-            "role": "",
-            "top": 5080,
-            "left": 610,
-            "width": 225,
-            "height": 226
-          },
-          {
-            "tag": "nav",
-            "role": "",
-            "top": 5080,
-            "left": 862,
-            "width": 225,
-            "height": 226
-          },
-          {
-            "tag": "nav",
-            "role": "",
-            "top": 5080,
-            "left": 1115,
-            "width": 225,
-            "height": 226
+            "top": 5740,
+            "left": 58,
+            "width": 1325,
+            "height": 323
           }
         ],
         "colors": [
           {
-            "hex": "#e6f0ff",
-            "count": 389
+            "hex": "#f2f3f7",
+            "count": 368
           },
           {
-            "hex": "#93a8c8",
-            "count": 172
+            "hex": "#a0a1a6",
+            "count": 180
           },
           {
-            "hex": "#3c4c68",
-            "count": 130
+            "hex": "#c9cad1",
+            "count": 150
           },
           {
-            "hex": "#5f7395",
-            "count": 116
+            "hex": "#8f9096",
+            "count": 70
           },
           {
-            "hex": "#22f5c8",
-            "count": 79
+            "hex": "#a97bff",
+            "count": 52
           },
           {
-            "hex": "#04121a",
-            "count": 23
+            "hex": "#5ce1a0",
+            "count": 33
           },
           {
-            "hex": "#78b4ff",
+            "hex": "#2b2930",
             "count": 16
           },
           {
-            "hex": "#00d0ff",
-            "count": 13
+            "hex": "#08080a",
+            "count": 9
           },
           {
-            "hex": "#0e1729",
-            "count": 13
-          },
-          {
-            "hex": "#c8ff4d",
-            "count": 11
-          },
-          {
-            "hex": "#04070f",
-            "count": 8
-          },
-          {
-            "hex": "#ff5d7a",
+            "hex": "#141415",
             "count": 7
           },
           {
-            "hex": "#ffb454",
+            "hex": "#9f45ff",
             "count": 6
           },
           {
-            "hex": "#16223a",
-            "count": 5
-          },
-          {
-            "hex": "#060b16",
+            "hex": "#f2c94c",
             "count": 4
           },
           {
-            "hex": "#7c5cff",
+            "hex": "#ff8a8a",
+            "count": 4
+          },
+          {
+            "hex": "#670de5",
             "count": 2
-          },
-          {
-            "hex": "#b6ffe6",
-            "count": 2
-          },
-          {
-            "hex": "#cbb6ff",
-            "count": 1
-          },
-          {
-            "hex": "#ffffff",
-            "count": 1
           }
         ],
-        "contrast": [
-          {
-            "selector": "button.brand > span.brand__text > em.mono",
-            "text": "stakri.xyz",
-            "ratio": 4.19,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "div.bar__right > div.chain.mono > span.chain__slot",
-            "text": "#292,175,886",
-            "ratio": 4.19,
-            "required": 4.5,
-            "fontSize": 10.5,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "div.ticker > div.ticker__inner.shell > span.ticker__cell.mono",
-            "text": "height 291,886",
-            "ratio": 4.19,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "div.ticker > div.ticker__inner.shell > span.ticker__cell.mono",
-            "text": "1,283 agents online",
-            "ratio": 4.19,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "div.ticker > div.ticker__inner.shell > span.ticker__cell.mono",
-            "text": "epoch 4471",
-            "ratio": 4.19,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "div.ticker > div.ticker__inner.shell > span.ticker__cell.mono",
-            "text": "median settle 412 ms",
-            "ratio": 4.19,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "div.hero__copy > h1.hero__title > span.hl",
-            "text": "settle every task",
-            "ratio": 1,
-            "required": 3,
-            "fontSize": 62,
-            "weight": 600,
-            "color": "rgba(0, 0, 0, 0)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "div.hero__copy > div.hero__cta > button.btn",
-            "text": "Register an agent",
-            "ratio": 1.06,
-            "required": 4.5,
-            "fontSize": 12,
-            "weight": 500,
-            "color": "rgb(4, 18, 26)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "div.hero__copy > button.hero__addr.mono > span.hero__addr-value",
-            "text": "6tdNLcioiV74gMXLyHLLdxhfibTVxqd6pLUUmgEncXcs",
-            "ratio": 4.19,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "dl.kpi > div.kpi__cell > dt.mono",
-            "text": "agents registered",
-            "ratio": 4.05,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#080d18"
-          },
-          {
-            "selector": "dl.kpi > div.kpi__cell > span.mono",
-            "text": "unique PDAs",
-            "ratio": 2.24,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#080d18"
-          },
-          {
-            "selector": "dl.kpi > div.kpi__cell > dt.mono",
-            "text": "settled / 24h",
-            "ratio": 4.05,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#080d18"
-          },
-          {
-            "selector": "dl.kpi > div.kpi__cell > span.mono",
-            "text": "task receipts",
-            "ratio": 2.24,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#080d18"
-          },
-          {
-            "selector": "dl.kpi > div.kpi__cell > dt.mono",
-            "text": "staked $STAKRI",
-            "ratio": 4.05,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#080d18"
-          },
-          {
-            "selector": "dl.kpi > div.kpi__cell > span.mono",
-            "text": "at risk if wrong",
-            "ratio": 2.24,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#080d18"
-          },
-          {
-            "selector": "dl.kpi > div.kpi__cell > dt.mono",
-            "text": "slot height",
-            "ratio": 4.05,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#080d18"
-          },
-          {
-            "selector": "dl.kpi > div.kpi__cell > span.mono",
-            "text": "epoch 4471",
-            "ratio": 2.24,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#080d18"
-          },
-          {
-            "selector": "div.hero__grid.shell > div.hero__copy > p.hero__note.mono",
-            "text": "4 of 6 preview agents sit above the 97% success line",
-            "ratio": 4.19,
-            "required": 4.5,
-            "fontSize": 10.5,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "div.orb > div.orb__legend > span.mono",
-            "text": "program",
-            "ratio": 4.19,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "div.orb > div.orb__legend > span.mono",
-            "text": "agent pda",
-            "ratio": 4.19,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "div.orb > div.orb__legend > span.mono",
-            "text": "registered",
-            "ratio": 4.19,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "article.panel.bento__chart > div.panel__top > span.panel__label",
-            "text": "task throughput",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.panel__top > div.seg.mono > button",
-            "text": "6h",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.panel__top > div.seg.mono > button",
-            "text": "24h",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.chart > div.chart__readout > span.mono",
-            "text": "tasks / window / peak 7,209",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.chart > div.chart__axis.mono > span",
-            "text": "-1h",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.chart > div.chart__axis.mono > span",
-            "text": "now",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.bento > article.panel.panel--flat > span.panel__label",
-            "text": "settled / 24h",
-            "ratio": 3.77,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0e1627"
-          },
-          {
-            "selector": "div.bento > article.panel.panel--flat > span.tile__d.mono",
-            "text": "+6.4% vs prior epoch",
-            "ratio": 2.09,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0e1627"
-          },
-          {
-            "selector": "div.bento > article.panel.panel--flat > span.panel__label",
-            "text": "median settle",
-            "ratio": 3.77,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0e1627"
-          },
-          {
-            "selector": "div.bento > article.panel.panel--flat > span.tile__d.mono",
-            "text": "p95 1,870 ms",
-            "ratio": 2.09,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0e1627"
-          },
-          {
-            "selector": "div.bento > article.panel.panel--flat > span.panel__label",
-            "text": "success rate",
-            "ratio": 3.77,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0e1627"
-          },
-          {
-            "selector": "div.bento > article.panel.panel--flat > span.tile__d.mono",
-            "text": "rewards only on success",
-            "ratio": 2.09,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0e1627"
-          },
-          {
-            "selector": "div.bento > article.panel.panel--flat > span.panel__label",
-            "text": "slots indexed",
-            "ratio": 3.77,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0e1627"
-          },
-          {
-            "selector": "div.bento > article.panel.panel--flat > span.tile__d.mono",
-            "text": "reorg-safe depth 32",
-            "ratio": 2.09,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0e1627"
-          },
-          {
-            "selector": "article.panel.bento__tape > div.panel__top > span.panel__label",
-            "text": "settlement tape",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "ul.tape > li.tape__row > span.tape__ms.mono",
-            "text": "412ms",
-            "ratio": 3.78,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0f1624"
-          },
-          {
-            "selector": "ul.tape > li.tape__row > span.tape__ms.mono",
-            "text": "96ms",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "ul.tape > li.tape__row > span.tape__ms.mono",
-            "text": "1870ms",
-            "ratio": 3.78,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0f1624"
-          },
-          {
-            "selector": "ul.tape > li.tape__row > span.tape__ms.mono",
-            "text": "640ms",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "ul.tape > li.tape__row > span.tape__ms.mono",
-            "text": "58ms",
-            "ratio": 3.78,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0f1624"
-          },
-          {
-            "selector": "ul.tape > li.tape__row > span.tape__ms.mono",
-            "text": "5420ms",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.controls.panel > div.lanes > button.lane",
-            "text": "settling",
-            "ratio": 3.77,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0e1627"
-          },
-          {
-            "selector": "div.controls.panel > div.lanes > button.lane",
-            "text": "running",
-            "ratio": 3.77,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0e1627"
-          },
-          {
-            "selector": "div.controls.panel > div.lanes > button.lane",
-            "text": "idle",
-            "ratio": 3.77,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0e1627"
-          },
-          {
-            "selector": "div.controls.panel > div.sorts.mono > button.sort",
-            "text": "success",
-            "ratio": 3.77,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0e1627"
-          },
-          {
-            "selector": "div.controls.panel > div.sorts.mono > button.sort",
-            "text": "stake",
-            "ratio": 3.77,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0e1627"
-          },
-          {
-            "selector": "article.card.panel > div.card__head > span.sigil.mono",
-            "text": "P",
-            "ratio": 1.01,
-            "required": 4.5,
-            "fontSize": 15,
-            "weight": 400,
-            "color": "rgb(4, 18, 26)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.card__head > div.card__id > span.mono",
-            "text": "Market maker",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.bars > div.bars__row > span.mono",
-            "text": "success",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.bars > div.bars__row > span.mono",
-            "text": "stake",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "tasks",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "owner",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "reward",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "article.card.panel > div.card__head > span.sigil.mono",
-            "text": "H",
-            "ratio": 1.01,
-            "required": 4.5,
-            "fontSize": 15,
-            "weight": 400,
-            "color": "rgb(4, 18, 26)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.card__head > div.card__id > span.mono",
-            "text": "Data reconciler",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.bars > div.bars__row > span.mono",
-            "text": "success",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.bars > div.bars__row > span.mono",
-            "text": "stake",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "tasks",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "owner",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "reward",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "article.card.panel > div.card__head > span.sigil.mono",
-            "text": "K",
-            "ratio": 1.01,
-            "required": 4.5,
-            "fontSize": 15,
-            "weight": 400,
-            "color": "rgb(4, 18, 26)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.card__head > div.card__id > span.mono",
-            "text": "Runtime architect",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.bars > div.bars__row > span.mono",
-            "text": "success",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.bars > div.bars__row > span.mono",
-            "text": "stake",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "tasks",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "owner",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "reward",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "article.card.panel > div.card__head > span.sigil.mono",
-            "text": "O",
-            "ratio": 1.01,
-            "required": 4.5,
-            "fontSize": 15,
-            "weight": 400,
-            "color": "rgb(4, 18, 26)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.card__head > div.card__id > span.mono",
-            "text": "Ops warden",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.bars > div.bars__row > span.mono",
-            "text": "success",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.bars > div.bars__row > span.mono",
-            "text": "stake",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "tasks",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "owner",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "reward",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "article.card.panel > div.card__head > span.sigil.mono",
-            "text": "S",
-            "ratio": 1.01,
-            "required": 4.5,
-            "fontSize": 15,
-            "weight": 400,
-            "color": "rgb(4, 18, 26)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.card__head > div.card__id > span.mono",
-            "text": "Inference broker",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.bars > div.bars__row > span.mono",
-            "text": "success",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.bars > div.bars__row > span.mono",
-            "text": "stake",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "tasks",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "owner",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "reward",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "article.card.panel > div.card__head > span.sigil.mono",
-            "text": "N",
-            "ratio": 1.01,
-            "required": 4.5,
-            "fontSize": 15,
-            "weight": 400,
-            "color": "rgb(4, 18, 26)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.card__head > div.card__id > span.mono",
-            "text": "Contract auditor",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.bars > div.bars__row > span.mono",
-            "text": "success",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.bars > div.bars__row > span.mono",
-            "text": "stake",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "tasks",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "owner",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "reward",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.shell > footer.foot.mono > span",
-            "text": "6 of 6 agents shown",
-            "ratio": 2.33,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "div.shell > footer.foot.mono > span",
-            "text": "aggregate stake 4.1M $STAKRI",
-            "ratio": 2.33,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "div.shell > footer.foot.mono > span",
-            "text": "indexed from program 6tdNLcio...",
-            "ratio": 2.33,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "article.panel.ledger > div.panel__top > span.panel__label",
-            "text": "receipt log",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.ledger__tools > div.seg.mono > button",
-            "text": "settled",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.ledger__tools > div.seg.mono > button",
-            "text": "failed",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "article.panel.ledger > div.stats.mono > span",
-            "text": "162.40 $STAKRI paid",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "article.panel.ledger > div.stats.mono > span",
-            "text": "slot 292,175,886",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "li.log__row > button.log__main > span.log__agent.mono",
-            "text": "Halcyon Loop",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "li.log__row > button.log__main > span.log__hash.mono",
-            "text": "a91f..7c02",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "li.log__row > button.log__main > span.log__ms.mono",
-            "text": "412ms",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "li.log__row > button.log__main > span.log__agent.mono",
-            "text": "Pallas Wren",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "li.log__row > button.log__main > span.log__hash.mono",
-            "text": "3de0..b18a",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "li.log__row > button.log__main > span.log__ms.mono",
-            "text": "96ms",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "li.log__row > button.log__main > span.log__agent.mono",
-            "text": "Kestrel Drift",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "li.log__row > button.log__main > span.log__hash.mono",
-            "text": "c47b..2f9d",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "li.log__row > button.log__main > span.log__ms.mono",
-            "text": "1870ms",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "li.log__row.is-bad > button.log__main > span.log__agent.mono",
-            "text": "Sable Vector",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "li.log__row.is-bad > button.log__main > span.log__hash.mono",
-            "text": "77aa..e341",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "li.log__row.is-bad > button.log__main > span.log__ms.mono",
-            "text": "640ms",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "li.log__row > button.log__main > span.log__agent.mono",
-            "text": "Orrin Vale",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "li.log__row > button.log__main > span.log__hash.mono",
-            "text": "f210..9c77",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "li.log__row > button.log__main > span.log__ms.mono",
-            "text": "58ms",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "li.log__row > button.log__main > span.log__agent.mono",
-            "text": "Nimbus Kiln",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "li.log__row > button.log__main > span.log__hash.mono",
-            "text": "5b8c..04de",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "li.log__row > button.log__main > span.log__ms.mono",
-            "text": "5420ms",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "aside.panel.stream > div.panel__top > span.panel__label",
-            "text": "agent stream",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "ol.stream__list > li.stream__item > span.stream__at.mono",
-            "text": "00:02",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "ol.stream__list > li.stream__item > span.stream__at.mono",
-            "text": "00:05",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "ol.stream__list > li.stream__item > span.stream__at.mono",
-            "text": "00:09",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "ol.stream__list > li.stream__item > span.stream__at.mono",
-            "text": "00:12",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "ol.stream__list > li.stream__item > span.stream__at.mono",
-            "text": "00:18",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "ol.stream__list > li.stream__item > span.stream__at.mono",
-            "text": "00:21",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "article.panel.vault > div.panel__top > span.panel__label",
-            "text": "staking vault",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.gauge > div.gauge__mid > span.mono",
-            "text": "utilised",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.vault__stats > div > span.panel__label",
-            "text": "total staked",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div > strong.tnum > small",
-            "text": "$STAKRI",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.vault__stats > div > span.panel__label",
-            "text": "claimable",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div > strong.tnum > small",
-            "text": "$STAKRI",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.vault__stats > div > span.panel__label",
-            "text": "epoch emission",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div > strong.tnum > small",
-            "text": "$STAKRI",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.vault__stats > div > span.panel__label",
-            "text": "unbonding",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div > strong.tnum > small",
-            "text": "epochs",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.vault__form > label.field > span.mono",
-            "text": "amount",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.vault__form > div.vault__actions > button.btn.btn--sm",
-            "text": "stake",
-            "ratio": 1.01,
-            "required": 4.5,
-            "fontSize": 10.5,
-            "weight": 500,
-            "color": "rgb(4, 18, 26)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.vault__form > div.vault__actions > button.btn.btn--sm",
-            "text": "claim",
-            "ratio": 1.01,
-            "required": 4.5,
-            "fontSize": 10.5,
-            "weight": 500,
-            "color": "rgb(4, 18, 26)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.split > article.panel.vault > p.vault__foot.mono",
-            "text": "connect a wallet to sign the instruction",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "article.panel.council > div.panel__top > span.panel__label",
-            "text": "council",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "li.prop > div.prop__head > span.prop__ends.mono",
-            "text": "6h 12m",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "li.prop > div.prop__head > span.prop__ends.mono",
-            "text": "sealed",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "li.prop > div.prop__head > span.prop__ends.mono",
-            "text": "2d 04h",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.term > div.term__bar > span.mono",
-            "text": "stakri-console / localnet",
-            "ratio": 4.19,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "div.console > div.term > div.term__foot.mono",
-            "text": "idle / waiting for a registration",
-            "ratio": 2.33,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "form.panel.form > div.panel__top > span.panel__label",
-            "text": "agent profile",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.form__body > label.field > span.mono",
-            "text": "codename",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.form__body > label.field > span.mono",
-            "text": "mission",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.form__row > label.field > span.mono",
-            "text": "capabilities",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.form__row > label.field > span.mono",
-            "text": "stake / $STAKRI",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.form__body > label.field > span.mono",
-            "text": "endpoint",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "form.panel.form > div.form__body > p.form__hint.mono",
-            "text": "the capabilities hash is the only capability claim the program stores; endpoints are resolved off-ch",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.form__body > div.form__actions > button.btn",
-            "text": "register agent",
-            "ratio": 1.01,
-            "required": 4.5,
-            "fontSize": 12,
-            "weight": 500,
-            "color": "rgb(4, 18, 26)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "form.panel.form > div.form__body > span.form__enter.mono",
-            "text": "enter submits / nothing leaves this machine",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.shell.foot__grid > nav.foot__col > span.panel__label",
-            "text": "Network",
-            "ratio": 4.19,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "div.shell.foot__grid > nav.foot__col > span.panel__label",
-            "text": "Economy",
-            "ratio": 4.19,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "div.shell.foot__grid > nav.foot__col > span.panel__label",
-            "text": "Build",
-            "ratio": 4.19,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "footer.foot > div.shell.foot__base > span",
-            "text": "program 6tdNLcioiV74gMXLyH…",
-            "ratio": 2.33,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "footer.foot > div.shell.foot__base > span",
-            "text": "token 9wk8xngMCkvraqg3nr…",
-            "ratio": 2.33,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#04070f"
-          }
-        ],
-        "contrastChecked": 353,
+        "contrast": [],
+        "contrastChecked": 359,
         "headings": [
           {
             "tag": "h1",
@@ -4099,21 +2427,12 @@
             "text": "Register, then let it run"
           }
         ],
-        "navTargets": [],
+        "navTargets": [
+          ""
+        ],
         "overflow": {
           "documentOverflow": false,
-          "offenders": [
-            {
-              "selector": "div#app > div.canvas > div.canvas__grid",
-              "right": 2884,
-              "width": 4329
-            },
-            {
-              "selector": "div#app > div.canvas > div.canvas__aurora.canvas__aurora--b",
-              "right": 1608,
-              "width": 637
-            }
-          ]
+          "offenders": []
         }
       },
       "axe": {
@@ -4130,17 +2449,21 @@
       },
       "mobile": {
         "meta": {
-          "title": "Stakri / settlement layer for autonomous agents",
+          "title": "Quittra / settlement layer for autonomous agents",
           "lang": "en",
           "h1Count": 1,
-          "bodyTextLength": 5035,
-          "scrollWidth": 403,
+          "bodyTextLength": 5172,
+          "scrollWidth": 390,
           "clientWidth": 390,
-          "focusableCount": 73
+          "focusableCount": 78
         },
         "words": [
           {
-            "word": "$STAKRI",
+            "word": "#292,175,887",
+            "count": 1
+          },
+          {
+            "word": "$QUITTRA",
             "count": 16
           },
           {
@@ -4268,11 +2591,11 @@
             "count": 3
           },
           {
-            "word": "291,890",
+            "word": "291,887",
             "count": 3
           },
           {
-            "word": "292,175,890",
+            "word": "292,175,887",
             "count": 1
           },
           {
@@ -4325,7 +2648,7 @@
           },
           {
             "word": "412",
-            "count": 1
+            "count": 2
           },
           {
             "word": "412K",
@@ -4345,7 +2668,7 @@
           },
           {
             "word": "4471",
-            "count": 2
+            "count": 3
           },
           {
             "word": "4bps",
@@ -4705,7 +3028,7 @@
           },
           {
             "word": "Console",
-            "count": 1
+            "count": 2
           },
           {
             "word": "Contract",
@@ -4785,7 +3108,7 @@
           },
           {
             "word": "epoch",
-            "count": 3
+            "count": 4
           },
           {
             "word": "Epoch",
@@ -4993,7 +3316,7 @@
           },
           {
             "word": "Ledger",
-            "count": 1
+            "count": 2
           },
           {
             "word": "let",
@@ -5021,7 +3344,7 @@
           },
           {
             "word": "localnet",
-            "count": 2
+            "count": 3
           },
           {
             "word": "log",
@@ -5049,7 +3372,7 @@
           },
           {
             "word": "median",
-            "count": 1
+            "count": 2
           },
           {
             "word": "mission",
@@ -5065,7 +3388,7 @@
           },
           {
             "word": "ms",
-            "count": 2
+            "count": 3
           },
           {
             "word": "N",
@@ -5081,7 +3404,7 @@
           },
           {
             "word": "Network",
-            "count": 1
+            "count": 2
           },
           {
             "word": "newer",
@@ -5264,6 +3587,30 @@
             "count": 1
           },
           {
+            "word": "quittra",
+            "count": 2
+          },
+          {
+            "word": "Quittra",
+            "count": 1
+          },
+          {
+            "word": "QUITTRA",
+            "count": 2
+          },
+          {
+            "word": "quittra-console",
+            "count": 1
+          },
+          {
+            "word": "quittra.xyz",
+            "count": 2
+          },
+          {
+            "word": "quittra@local",
+            "count": 1
+          },
+          {
             "word": "quorum",
             "count": 1
           },
@@ -5341,7 +3688,7 @@
           },
           {
             "word": "Registry",
-            "count": 1
+            "count": 2
           },
           {
             "word": "reorg-safe",
@@ -5469,7 +3816,7 @@
           },
           {
             "word": "settle",
-            "count": 3
+            "count": 4
           },
           {
             "word": "settled",
@@ -5553,7 +3900,7 @@
           },
           {
             "word": "Solana",
-            "count": 3
+            "count": 4
           },
           {
             "word": "sort",
@@ -5601,30 +3948,6 @@
           },
           {
             "word": "Staking",
-            "count": 1
-          },
-          {
-            "word": "stakri",
-            "count": 2
-          },
-          {
-            "word": "Stakri",
-            "count": 1
-          },
-          {
-            "word": "STAKRI",
-            "count": 2
-          },
-          {
-            "word": "stakri-console",
-            "count": 1
-          },
-          {
-            "word": "stakri.xyz",
-            "count": 1
-          },
-          {
-            "word": "stakri@local",
             "count": 1
           },
           {
@@ -5772,6 +4095,10 @@
             "count": 2
           },
           {
+            "word": "Vault",
+            "count": 1
+          },
+          {
             "word": "vault-v3",
             "count": 1
           },
@@ -5882,6 +4209,10 @@
             "count": 1
           },
           {
+            "key": "aria-label=Sections",
+            "count": 1
+          },
+          {
             "key": "aria-label=Stake amount",
             "count": 1
           },
@@ -5938,8 +4269,12 @@
             "count": 1
           },
           {
-            "key": "title=Program 6tdNLcioiV74gMXLyHLLdxhfibTVxqd6pLUUmgEncXcs",
+            "key": "title=Every agent and its owner",
             "count": 1
+          },
+          {
+            "key": "title=Program 6tdNLcioiV74gMXLyHLLdxhfibTVxqd6pLUUmgEncXcs",
+            "count": 2
           },
           {
             "key": "title=quorum 51%",
@@ -5956,9 +4291,45 @@
           {
             "key": "title=Re-index ledger",
             "count": 1
+          },
+          {
+            "key": "title=Register an agent",
+            "count": 1
+          },
+          {
+            "key": "title=Stake, rewards, claims",
+            "count": 1
+          },
+          {
+            "key": "title=Task receipts as they settle",
+            "count": 1
+          },
+          {
+            "key": "title=Topology and live load",
+            "count": 1
           }
         ],
         "links": [
+          {
+            "href": "#console",
+            "count": 1
+          },
+          {
+            "href": "#ledger",
+            "count": 1
+          },
+          {
+            "href": "#network",
+            "count": 1
+          },
+          {
+            "href": "#registry",
+            "count": 1
+          },
+          {
+            "href": "#vault",
+            "count": 1
+          },
           {
             "href": "https://github.com",
             "count": 1
@@ -5982,291 +4353,242 @@
         "imageIssues": [],
         "interactiveIssues": [],
         "classTokens": [
-          "bad",
-          "bar",
-          "bar__inner",
-          "bar__right",
-          "bars",
-          "bars__row",
-          "beacon",
-          "beacon--hot",
-          "beacon--idle",
-          "bento",
-          "bento__chart",
-          "bento__tape",
-          "brand",
-          "brand__text",
-          "btn",
-          "btn--ghost",
-          "btn--sm",
-          "btn--violet",
-          "canvas",
-          "canvas__aurora",
-          "canvas__aurora--a",
-          "canvas__aurora--b",
-          "canvas__aurora--c",
-          "canvas__grid",
-          "canvas__orbit",
-          "canvas__scan",
-          "caps",
-          "card",
-          "card__foot",
-          "card__head",
-          "card__id",
-          "chart",
-          "chart__axis",
-          "chart__readout",
-          "chart__svg",
-          "chip",
-          "chip--good",
-          "chip--hot",
-          "chip--violet",
-          "console",
-          "controls",
-          "council",
-          "dim",
-          "dot",
-          "dot--agent",
-          "dot--core",
-          "dot--reg",
-          "field",
-          "foot",
-          "foot__base",
-          "foot__brand",
-          "foot__col",
-          "foot__grid",
-          "foot__link",
-          "foot__mark",
-          "foot__risk",
-          "foot__social",
-          "form",
-          "form__actions",
-          "form__body",
-          "form__enter",
-          "form__hint",
-          "form__row",
-          "gauge",
-          "gauge__mid",
-          "grid",
-          "hamb",
-          "hero",
-          "hero__addr",
-          "hero__addr-label",
-          "hero__addr-value",
-          "hero__copy",
-          "hero__cta",
-          "hero__grid",
-          "hero__lede",
-          "hero__note",
-          "hero__title",
-          "hero__viz",
-          "hl",
-          "is-bad",
-          "kpi",
-          "kpi__cell",
-          "lane",
-          "lanes",
-          "ledger",
-          "ledger__tools",
-          "log",
-          "log__icon",
-          "log__main",
-          "log__ms",
-          "log__reward",
-          "log__row",
-          "log__task",
-          "lucide",
-          "lucide-activity-icon",
-          "lucide-arrow-right-icon",
-          "lucide-arrow-up-right-icon",
-          "lucide-circle-check-icon",
-          "lucide-circle-play-icon",
-          "lucide-circle-xicon",
-          "lucide-copy-icon",
-          "lucide-corner-down-left-icon",
-          "lucide-cpu-icon",
-          "lucide-file-check2-icon",
-          "lucide-fingerprint-icon",
-          "lucide-gauge-icon",
-          "lucide-github-icon",
-          "lucide-layers-icon",
-          "lucide-lock-icon",
-          "lucide-lock-open-icon",
-          "lucide-menu-icon",
-          "lucide-minus-icon",
-          "lucide-plus-icon",
-          "lucide-refresh-cw-icon",
-          "lucide-rocket-icon",
-          "lucide-search-icon",
-          "lucide-send-icon",
-          "lucide-shield-check-icon",
-          "lucide-sliders-horizontal-icon",
-          "lucide-terminal-icon",
-          "lucide-thumbs-down-icon",
-          "lucide-thumbs-up-icon",
-          "lucide-trending-up-icon",
-          "lucide-vault-icon",
-          "lucide-wallet-icon",
-          "mark",
-          "mark--spin",
-          "meta",
-          "mini",
-          "mono",
-          "ok",
-          "on",
-          "orb",
-          "orb__legend",
-          "orb__packet",
-          "orb__svg",
-          "orb__sweep",
-          "panel",
-          "panel--flat",
-          "panel__label",
-          "panel__top",
-          "prop",
-          "prop__actions",
-          "prop__ends",
-          "prop__head",
-          "prop__id",
-          "prop__quorum",
-          "prop__state",
-          "prop__state--open",
-          "prop__state--passed",
-          "prop__title",
-          "prop__track",
-          "prop__vote",
-          "prop__yes",
-          "props",
-          "search",
-          "section",
-          "section__head",
-          "section__note",
-          "section__title",
-          "seg",
-          "shell",
-          "sigil",
-          "sort",
-          "sorts",
-          "split",
-          "state",
-          "state--idle",
-          "state--running",
-          "state--settling",
-          "stats",
-          "stepper",
-          "stream",
-          "stream__at",
-          "stream__body",
-          "stream__item",
-          "stream__kind",
-          "stream__list",
-          "stream__more",
-          "tag",
-          "tape",
-          "tape__ms",
-          "tape__reward",
-          "tape__row",
-          "tape__task",
-          "term",
-          "term__bar",
-          "term__body",
-          "term__cargo",
-          "term__cursor",
-          "term__dots",
-          "term__foot",
-          "term__line",
-          "ticker",
-          "ticker__cell",
-          "ticker__inner",
-          "ticker__ok",
-          "tile",
-          "tile--a",
-          "tile--b",
-          "tile--c",
-          "tile--d",
-          "tile__d",
-          "tile__icon",
-          "tile__v",
-          "tnum",
-          "track",
-          "track--violet",
-          "vault",
-          "vault__actions",
-          "vault__body",
-          "vault__foot",
-          "vault__form",
-          "vault__stats",
-          "vbtn",
-          "vbtn--no"
+          "agent",
+          "agent-caps",
+          "agent-id",
+          "agent-measures",
+          "agent-meta",
+          "agent-name",
+          "agent-role",
+          "agent-sigil",
+          "agent-state",
+          "agent-tools",
+          "amount-stepper",
+          "ballot",
+          "ballot-actions",
+          "ballot-ends",
+          "ballot-head",
+          "ballot-id",
+          "ballot-list",
+          "ballot-quorum",
+          "ballot-state",
+          "ballot-title",
+          "ballot-track",
+          "ballot-vote",
+          "ballot-yes",
+          "ballots",
+          "band-chain",
+          "band-dot",
+          "band-slot",
+          "band-tools",
+          "broadside",
+          "broadside-at",
+          "broadside-body",
+          "broadside-head",
+          "broadside-item",
+          "broadside-list",
+          "bureau",
+          "cap",
+          "colophon",
+          "colophon-base",
+          "colophon-col",
+          "colophon-link",
+          "colophon-links",
+          "colophon-list",
+          "colophon-mast",
+          "colophon-risk",
+          "colophon-seal",
+          "colophon-top",
+          "contents",
+          "contents-link",
+          "contents-list",
+          "desk",
+          "dispatch",
+          "dispatch-body",
+          "dispatch-head",
+          "dispatch-main",
+          "dispatch-margin",
+          "dispatch-no",
+          "dispatch-note",
+          "dispatch-title",
+          "entry",
+          "entry-label",
+          "entry-pair",
+          "figure",
+          "figures",
+          "front",
+          "front-actions",
+          "front-deck",
+          "front-kicker",
+          "front-lede",
+          "front-margin",
+          "front-mast",
+          "front-note",
+          "front-title",
+          "front-title-mark",
+          "gazette",
+          "gazette-glow",
+          "gazette-main",
+          "glyph",
+          "icon-press",
+          "indicators",
+          "indicators-note",
+          "is-current",
+          "is-dim",
+          "is-idle",
+          "is-open",
+          "is-passed",
+          "is-running",
+          "is-settling",
+          "is-slash",
+          "key-mark",
+          "key-mark--agent",
+          "key-mark--program",
+          "key-mark--registered",
+          "label",
+          "ledger-body",
+          "live-dot",
+          "mast-brand",
+          "mast-run",
+          "mast-word",
+          "masthead",
+          "masthead-band",
+          "masthead-name",
+          "measure",
+          "measure-head",
+          "measure-row",
+          "meter",
+          "meter-stake",
+          "panel-head",
+          "plot",
+          "plot-axis",
+          "plot-readout",
+          "plot-svg",
+          "press",
+          "press-quiet",
+          "press-small",
+          "program-label",
+          "program-line",
+          "program-value",
+          "questionnaire",
+          "questionnaire-actions",
+          "questionnaire-body",
+          "questionnaire-enter",
+          "questionnaire-hint",
+          "range",
+          "rank",
+          "rank-list",
+          "receipt",
+          "receipt-flag",
+          "receipt-line",
+          "receipt-log",
+          "receipt-log-head",
+          "receipt-log-ok",
+          "receipt-log-stats",
+          "receipt-log-tools",
+          "receipt-ms",
+          "receipt-reward",
+          "receipt-task",
+          "receipts",
+          "register",
+          "register-controls",
+          "register-tally",
+          "rosette",
+          "rosette-core",
+          "rosette-key",
+          "rosette-svg",
+          "run-cell",
+          "run-cell--hot",
+          "seal",
+          "search-line",
+          "settle",
+          "settle-head",
+          "settle-ms",
+          "settle-reward",
+          "settle-row",
+          "settle-rows",
+          "settle-task",
+          "stake-actions",
+          "stake-figure",
+          "stake-form",
+          "stake-ledger",
+          "stake-signer",
+          "stake-tallies",
+          "stamp",
+          "state-dot",
+          "state-tab",
+          "state-tabs",
+          "step",
+          "tool-connect",
+          "tool-menu",
+          "transcript",
+          "transcript-bar",
+          "transcript-body",
+          "transcript-cargo",
+          "transcript-dots",
+          "transcript-foot",
+          "transcript-line",
+          "transcript-path",
+          "utilisation",
+          "utilisation-line",
+          "vote",
+          "vote-no"
         ],
         "fingerprint": [
-          "a@8:1",
-          "article@8:2",
-          "article@8:3",
-          "article@8:4+",
-          "aside@8:3",
+          "a@8:0",
+          "a@9:1",
           "button@10:1",
-          "button@11:0",
           "button@11:1",
           "button@11:4+",
           "button@12:0",
           "button@12:1",
-          "button@6:2",
-          "button@7:1",
           "button@7:2",
-          "button@8:0",
+          "button@8:1",
+          "button@8:2",
           "button@8:3",
           "button@9:0",
           "button@9:1",
           "circle@10:0",
           "circle@11:0",
-          "circle@12:0",
-          "circle@14:0",
-          "circle@8:0",
-          "circle@9:0",
           "code@10:4+",
-          "dd@10:0",
           "dd@11:0",
+          "dd@11:1",
+          "dd@9:0",
           "div@10:2",
           "div@10:3",
-          "div@10:4+",
-          "div@11:1",
           "div@11:2",
           "div@11:3",
-          "div@12:2",
-          "div@3:4+",
+          "div@3:1",
           "div@4:4+",
           "div@5:0",
-          "div@5:1",
-          "div@5:3",
-          "div@5:4+",
           "div@6:2",
-          "div@6:3",
           "div@6:4+",
           "div@7:1",
           "div@7:2",
           "div@7:3",
           "div@7:4+",
+          "div@8:1",
           "div@8:2",
           "div@8:3",
           "div@8:4+",
-          "div@9:1",
           "div@9:2",
           "div@9:3",
           "div@9:4+",
-          "dl@8:4+",
+          "dl@7:4+",
           "dl@9:3",
-          "dt@10:0",
+          "dl@9:4+",
           "dt@11:0",
-          "footer@4:2",
-          "footer@7:3",
+          "dt@9:0",
+          "em@9:0",
+          "figure@8:2",
+          "footer@5:2",
           "form@8:2",
           "g@10:2",
+          "g@10:3",
           "h1@8:1",
           "h2@9:0",
-          "h3@11:0",
-          "header@4:2",
-          "header@7:2",
+          "h3@10:0",
+          "header@5:2",
           "i@11:0",
           "i@12:0",
           "i@13:0",
@@ -6279,1662 +4601,170 @@
           "li@10:1",
           "li@10:2",
           "li@10:4+",
+          "li@11:4+",
+          "li@7:1",
+          "li@8:4+",
+          "li@9:1",
           "line@10:0",
-          "main@4:4+",
-          "nav@6:4+",
+          "main@5:4+",
+          "nav@5:1",
+          "ol@10:4+",
+          "ol@6:4+",
+          "ol@7:4+",
+          "ol@9:3",
           "ol@9:4+",
           "p@10:1",
+          "p@10:2",
           "p@11:0",
           "p@12:0",
-          "p@7:0",
+          "p@6:3",
+          "p@7:1",
+          "p@7:3",
+          "p@7:4+",
           "p@8:0",
-          "p@8:1",
           "p@9:1",
+          "p@9:3",
           "path@10:0",
           "path@11:0",
           "path@12:0",
-          "path@13:0",
-          "path@14:0",
-          "path@8:0",
           "path@9:0",
-          "polygon@11:0",
-          "polyline@11:0",
-          "polyline@12:0",
-          "polyline@13:0",
           "pre@9:1",
           "rect@10:0",
           "rect@11:0",
-          "rect@12:0",
-          "rect@13:0",
-          "section@5:1",
-          "small@13:0",
+          "rect@9:0",
+          "section@6:2",
+          "section@6:4+",
+          "small@12:0",
           "span@10:0",
           "span@10:1",
           "span@10:3",
           "span@11:0",
+          "span@11:1",
+          "span@11:3",
           "span@12:0",
           "span@12:1",
-          "span@6:0",
+          "span@12:2",
           "span@7:0",
-          "span@7:1",
-          "span@7:2",
           "span@8:0",
+          "span@8:1",
+          "span@8:2",
           "span@9:0",
           "strong@11:0",
           "strong@12:0",
-          "strong@12:1",
-          "strong@7:0",
           "strong@8:0",
           "strong@9:0",
-          "svg@10:2",
-          "svg@10:4+",
-          "svg@11:2",
-          "svg@11:3",
+          "svg@10:1",
+          "svg@11:1",
           "svg@11:4+",
-          "svg@12:2",
-          "svg@12:4+",
+          "svg@12:1",
           "svg@13:1",
-          "svg@13:2",
-          "svg@13:3",
-          "svg@7:4+",
-          "svg@8:2",
-          "svg@8:3",
           "svg@8:4+",
           "svg@9:1",
-          "svg@9:2",
-          "svg@9:3",
           "svg@9:4+",
+          "table@9:1",
+          "tbody@10:4+",
+          "td@12:0",
           "textarea@11:0",
-          "ul@9:3",
-          "ul@9:4+"
+          "th@12:0",
+          "tr@11:3",
+          "ul@8:3",
+          "ul@8:4+",
+          "use@10:0",
+          "use@11:0",
+          "use@12:0",
+          "use@13:0",
+          "use@14:0"
         ],
         "landmarks": [
           {
             "tag": "header",
             "role": "",
             "top": 0,
-            "left": 0,
-            "width": 390,
-            "height": 92
+            "left": 18,
+            "width": 354,
+            "height": 264
+          },
+          {
+            "tag": "nav",
+            "role": "",
+            "top": 264,
+            "left": 18,
+            "width": 354,
+            "height": 88
           },
           {
             "tag": "main",
             "role": "",
-            "top": 92,
-            "left": 0,
-            "width": 390,
-            "height": 8613
-          },
-          {
-            "tag": "header",
-            "role": "",
-            "top": 1195,
-            "left": 16,
-            "width": 358,
-            "height": 158
-          },
-          {
-            "tag": "header",
-            "role": "",
-            "top": 2603,
-            "left": 16,
-            "width": 358,
-            "height": 158
+            "top": 352,
+            "left": 18,
+            "width": 354,
+            "height": 8332
           },
           {
             "tag": "footer",
             "role": "",
-            "top": 4636,
-            "left": 16,
-            "width": 358,
-            "height": 51
-          },
-          {
-            "tag": "header",
-            "role": "",
-            "top": 4799,
-            "left": 16,
-            "width": 358,
-            "height": 158
-          },
-          {
-            "tag": "aside",
-            "role": "",
-            "top": 5363,
-            "left": 16,
-            "width": 358,
-            "height": 668
-          },
-          {
-            "tag": "header",
-            "role": "",
-            "top": 6143,
-            "left": 16,
-            "width": 358,
-            "height": 158
-          },
-          {
-            "tag": "header",
-            "role": "",
-            "top": 7449,
-            "left": 16,
-            "width": 358,
-            "height": 158
-          },
-          {
-            "tag": "footer",
-            "role": "",
-            "top": 8735,
-            "left": 0,
-            "width": 390,
-            "height": 817
-          },
-          {
-            "tag": "nav",
-            "role": "",
-            "top": 9024,
-            "left": 16,
-            "width": 358,
-            "height": 140
-          },
-          {
-            "tag": "nav",
-            "role": "",
-            "top": 9191,
-            "left": 16,
-            "width": 358,
-            "height": 107
-          },
-          {
-            "tag": "nav",
-            "role": "",
-            "top": 9326,
-            "left": 16,
-            "width": 358,
-            "height": 107
+            "top": 8714,
+            "left": 18,
+            "width": 354,
+            "height": 797
           }
         ],
         "colors": [
           {
-            "hex": "#e6f0ff",
-            "count": 388
+            "hex": "#f2f3f7",
+            "count": 371
           },
           {
-            "hex": "#93a8c8",
-            "count": 167
+            "hex": "#a0a1a6",
+            "count": 180
           },
           {
-            "hex": "#3c4c68",
-            "count": 130
+            "hex": "#c9cad1",
+            "count": 150
           },
           {
-            "hex": "#5f7395",
-            "count": 98
+            "hex": "#8f9096",
+            "count": 52
           },
           {
-            "hex": "#22f5c8",
-            "count": 77
+            "hex": "#a97bff",
+            "count": 51
           },
           {
-            "hex": "#04121a",
-            "count": 23
+            "hex": "#5ce1a0",
+            "count": 33
           },
           {
-            "hex": "#78b4ff",
+            "hex": "#2b2930",
             "count": 16
           },
           {
-            "hex": "#0e1729",
-            "count": 13
+            "hex": "#08080a",
+            "count": 9
           },
           {
-            "hex": "#00d0ff",
-            "count": 12
-          },
-          {
-            "hex": "#c8ff4d",
-            "count": 11
-          },
-          {
-            "hex": "#04070f",
-            "count": 8
-          },
-          {
-            "hex": "#ff5d7a",
+            "hex": "#141415",
             "count": 7
           },
           {
-            "hex": "#ffb454",
+            "hex": "#9f45ff",
             "count": 6
           },
           {
-            "hex": "#16223a",
-            "count": 5
-          },
-          {
-            "hex": "#060b16",
+            "hex": "#f2c94c",
             "count": 4
           },
           {
-            "hex": "#7c5cff",
+            "hex": "#ff8a8a",
+            "count": 4
+          },
+          {
+            "hex": "#670de5",
             "count": 2
-          },
-          {
-            "hex": "#b6ffe6",
-            "count": 2
-          },
-          {
-            "hex": "#cbb6ff",
-            "count": 1
-          },
-          {
-            "hex": "#ffffff",
-            "count": 1
           }
         ],
-        "contrast": [
-          {
-            "selector": "div.ticker > div.ticker__inner.shell > span.ticker__cell.mono",
-            "text": "height 291,890",
-            "ratio": 4.19,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "div.ticker > div.ticker__inner.shell > span.ticker__cell.mono",
-            "text": "1,283 agents online",
-            "ratio": 4.19,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "div.hero__copy > h1.hero__title > span.hl",
-            "text": "settle every task",
-            "ratio": 1,
-            "required": 3,
-            "fontSize": 30,
-            "weight": 600,
-            "color": "rgba(0, 0, 0, 0)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "div.hero__copy > div.hero__cta > button.btn",
-            "text": "Register an agent",
-            "ratio": 1.06,
-            "required": 4.5,
-            "fontSize": 12,
-            "weight": 500,
-            "color": "rgb(4, 18, 26)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "div.hero__copy > button.hero__addr.mono > span.hero__addr-value",
-            "text": "6tdNLcioiV74gMXLyHLLdxhfibTVxqd6pLUUmgEncXcs",
-            "ratio": 4.19,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "dl.kpi > div.kpi__cell > dt.mono",
-            "text": "agents registered",
-            "ratio": 4.05,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#080d18"
-          },
-          {
-            "selector": "dl.kpi > div.kpi__cell > span.mono",
-            "text": "unique PDAs",
-            "ratio": 2.24,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#080d18"
-          },
-          {
-            "selector": "dl.kpi > div.kpi__cell > dt.mono",
-            "text": "settled / 24h",
-            "ratio": 4.05,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#080d18"
-          },
-          {
-            "selector": "dl.kpi > div.kpi__cell > span.mono",
-            "text": "task receipts",
-            "ratio": 2.24,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#080d18"
-          },
-          {
-            "selector": "dl.kpi > div.kpi__cell > dt.mono",
-            "text": "staked $STAKRI",
-            "ratio": 4.05,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#080d18"
-          },
-          {
-            "selector": "dl.kpi > div.kpi__cell > span.mono",
-            "text": "at risk if wrong",
-            "ratio": 2.24,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#080d18"
-          },
-          {
-            "selector": "dl.kpi > div.kpi__cell > dt.mono",
-            "text": "slot height",
-            "ratio": 4.05,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#080d18"
-          },
-          {
-            "selector": "dl.kpi > div.kpi__cell > span.mono",
-            "text": "epoch 4471",
-            "ratio": 2.24,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#080d18"
-          },
-          {
-            "selector": "div.hero__grid.shell > div.hero__copy > p.hero__note.mono",
-            "text": "4 of 6 preview agents sit above the 97% success line",
-            "ratio": 4.19,
-            "required": 4.5,
-            "fontSize": 10.5,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "div.orb > div.orb__legend > span.mono",
-            "text": "program",
-            "ratio": 4.19,
-            "required": 4.5,
-            "fontSize": 8.5,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "div.orb > div.orb__legend > span.mono",
-            "text": "agent pda",
-            "ratio": 4.19,
-            "required": 4.5,
-            "fontSize": 8.5,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "div.orb > div.orb__legend > span.mono",
-            "text": "registered",
-            "ratio": 4.19,
-            "required": 4.5,
-            "fontSize": 8.5,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "article.panel.bento__chart > div.panel__top > span.panel__label",
-            "text": "task throughput",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.panel__top > div.seg.mono > button",
-            "text": "6h",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.panel__top > div.seg.mono > button",
-            "text": "24h",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.chart > div.chart__readout > span.mono",
-            "text": "tasks / window / peak 7,209",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.chart > div.chart__axis.mono > span",
-            "text": "-1h",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.chart > div.chart__axis.mono > span",
-            "text": "now",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.bento > article.panel.panel--flat > span.panel__label",
-            "text": "settled / 24h",
-            "ratio": 3.77,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0e1627"
-          },
-          {
-            "selector": "div.bento > article.panel.panel--flat > span.tile__d.mono",
-            "text": "+6.4% vs prior epoch",
-            "ratio": 2.09,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0e1627"
-          },
-          {
-            "selector": "div.bento > article.panel.panel--flat > span.panel__label",
-            "text": "median settle",
-            "ratio": 3.77,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0e1627"
-          },
-          {
-            "selector": "div.bento > article.panel.panel--flat > span.tile__d.mono",
-            "text": "p95 1,870 ms",
-            "ratio": 2.09,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0e1627"
-          },
-          {
-            "selector": "div.bento > article.panel.panel--flat > span.panel__label",
-            "text": "success rate",
-            "ratio": 3.77,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0e1627"
-          },
-          {
-            "selector": "div.bento > article.panel.panel--flat > span.tile__d.mono",
-            "text": "rewards only on success",
-            "ratio": 2.09,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0e1627"
-          },
-          {
-            "selector": "div.bento > article.panel.panel--flat > span.panel__label",
-            "text": "slots indexed",
-            "ratio": 3.77,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0e1627"
-          },
-          {
-            "selector": "div.bento > article.panel.panel--flat > span.tile__d.mono",
-            "text": "reorg-safe depth 32",
-            "ratio": 2.09,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0e1627"
-          },
-          {
-            "selector": "article.panel.bento__tape > div.panel__top > span.panel__label",
-            "text": "settlement tape",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "ul.tape > li.tape__row > span.tape__ms.mono",
-            "text": "412ms",
-            "ratio": 3.78,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0f1624"
-          },
-          {
-            "selector": "ul.tape > li.tape__row > span.tape__ms.mono",
-            "text": "96ms",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "ul.tape > li.tape__row > span.tape__ms.mono",
-            "text": "1870ms",
-            "ratio": 3.78,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0f1624"
-          },
-          {
-            "selector": "ul.tape > li.tape__row > span.tape__ms.mono",
-            "text": "640ms",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "ul.tape > li.tape__row > span.tape__ms.mono",
-            "text": "58ms",
-            "ratio": 3.78,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0f1624"
-          },
-          {
-            "selector": "ul.tape > li.tape__row > span.tape__ms.mono",
-            "text": "5420ms",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.controls.panel > div.lanes > button.lane",
-            "text": "settling",
-            "ratio": 3.77,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0e1627"
-          },
-          {
-            "selector": "div.controls.panel > div.lanes > button.lane",
-            "text": "running",
-            "ratio": 3.77,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0e1627"
-          },
-          {
-            "selector": "div.controls.panel > div.lanes > button.lane",
-            "text": "idle",
-            "ratio": 3.77,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0e1627"
-          },
-          {
-            "selector": "div.controls.panel > div.sorts.mono > button.sort",
-            "text": "success",
-            "ratio": 3.77,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0e1627"
-          },
-          {
-            "selector": "div.controls.panel > div.sorts.mono > button.sort",
-            "text": "stake",
-            "ratio": 3.77,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0e1627"
-          },
-          {
-            "selector": "article.card.panel > div.card__head > span.sigil.mono",
-            "text": "P",
-            "ratio": 1.01,
-            "required": 4.5,
-            "fontSize": 15,
-            "weight": 400,
-            "color": "rgb(4, 18, 26)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.card__head > div.card__id > span.mono",
-            "text": "Market maker",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.bars > div.bars__row > span.mono",
-            "text": "success",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.bars > div.bars__row > span.mono",
-            "text": "stake",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "tasks",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "owner",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "reward",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "article.card.panel > div.card__head > span.sigil.mono",
-            "text": "H",
-            "ratio": 1.01,
-            "required": 4.5,
-            "fontSize": 15,
-            "weight": 400,
-            "color": "rgb(4, 18, 26)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.card__head > div.card__id > span.mono",
-            "text": "Data reconciler",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.bars > div.bars__row > span.mono",
-            "text": "success",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.bars > div.bars__row > span.mono",
-            "text": "stake",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "tasks",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "owner",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "reward",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "article.card.panel > div.card__head > span.sigil.mono",
-            "text": "K",
-            "ratio": 1.01,
-            "required": 4.5,
-            "fontSize": 15,
-            "weight": 400,
-            "color": "rgb(4, 18, 26)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.card__head > div.card__id > span.mono",
-            "text": "Runtime architect",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.bars > div.bars__row > span.mono",
-            "text": "success",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.bars > div.bars__row > span.mono",
-            "text": "stake",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "tasks",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "owner",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "reward",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "article.card.panel > div.card__head > span.sigil.mono",
-            "text": "O",
-            "ratio": 1.01,
-            "required": 4.5,
-            "fontSize": 15,
-            "weight": 400,
-            "color": "rgb(4, 18, 26)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.card__head > div.card__id > span.mono",
-            "text": "Ops warden",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.bars > div.bars__row > span.mono",
-            "text": "success",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.bars > div.bars__row > span.mono",
-            "text": "stake",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "tasks",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "owner",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "reward",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "article.card.panel > div.card__head > span.sigil.mono",
-            "text": "S",
-            "ratio": 1.01,
-            "required": 4.5,
-            "fontSize": 15,
-            "weight": 400,
-            "color": "rgb(4, 18, 26)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.card__head > div.card__id > span.mono",
-            "text": "Inference broker",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.bars > div.bars__row > span.mono",
-            "text": "success",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.bars > div.bars__row > span.mono",
-            "text": "stake",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "tasks",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "owner",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "reward",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "article.card.panel > div.card__head > span.sigil.mono",
-            "text": "N",
-            "ratio": 1.01,
-            "required": 4.5,
-            "fontSize": 15,
-            "weight": 400,
-            "color": "rgb(4, 18, 26)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.card__head > div.card__id > span.mono",
-            "text": "Contract auditor",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.bars > div.bars__row > span.mono",
-            "text": "success",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.bars > div.bars__row > span.mono",
-            "text": "stake",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "tasks",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "owner",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "dl.meta.mono > div > dt",
-            "text": "reward",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.shell > footer.foot.mono > span",
-            "text": "6 of 6 agents shown",
-            "ratio": 2.33,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "div.shell > footer.foot.mono > span",
-            "text": "aggregate stake 4.1M $STAKRI",
-            "ratio": 2.33,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "div.shell > footer.foot.mono > span",
-            "text": "indexed from program 6tdNLcio...",
-            "ratio": 2.33,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "article.panel.ledger > div.panel__top > span.panel__label",
-            "text": "receipt log",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.ledger__tools > div.seg.mono > button",
-            "text": "settled",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.ledger__tools > div.seg.mono > button",
-            "text": "failed",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "article.panel.ledger > div.stats.mono > span",
-            "text": "162.40 $STAKRI paid",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "article.panel.ledger > div.stats.mono > span",
-            "text": "slot 292,175,890",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "li.log__row > button.log__main > span.log__ms.mono",
-            "text": "412ms",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "li.log__row > button.log__main > span.log__ms.mono",
-            "text": "96ms",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "li.log__row > button.log__main > span.log__ms.mono",
-            "text": "1870ms",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "li.log__row.is-bad > button.log__main > span.log__ms.mono",
-            "text": "640ms",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "li.log__row > button.log__main > span.log__ms.mono",
-            "text": "58ms",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "li.log__row > button.log__main > span.log__ms.mono",
-            "text": "5420ms",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "aside.panel.stream > div.panel__top > span.panel__label",
-            "text": "agent stream",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "ol.stream__list > li.stream__item > span.stream__at.mono",
-            "text": "00:02",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "ol.stream__list > li.stream__item > span.stream__at.mono",
-            "text": "00:05",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "ol.stream__list > li.stream__item > span.stream__at.mono",
-            "text": "00:09",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "ol.stream__list > li.stream__item > span.stream__at.mono",
-            "text": "00:12",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "ol.stream__list > li.stream__item > span.stream__at.mono",
-            "text": "00:18",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "ol.stream__list > li.stream__item > span.stream__at.mono",
-            "text": "00:21",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "article.panel.vault > div.panel__top > span.panel__label",
-            "text": "staking vault",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.gauge > div.gauge__mid > span.mono",
-            "text": "utilised",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.vault__stats > div > span.panel__label",
-            "text": "total staked",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div > strong.tnum > small",
-            "text": "$STAKRI",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.vault__stats > div > span.panel__label",
-            "text": "claimable",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div > strong.tnum > small",
-            "text": "$STAKRI",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.vault__stats > div > span.panel__label",
-            "text": "epoch emission",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div > strong.tnum > small",
-            "text": "$STAKRI",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.vault__stats > div > span.panel__label",
-            "text": "unbonding",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div > strong.tnum > small",
-            "text": "epochs",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.vault__form > label.field > span.mono",
-            "text": "amount",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.vault__form > div.vault__actions > button.btn.btn--sm",
-            "text": "stake",
-            "ratio": 1.01,
-            "required": 4.5,
-            "fontSize": 10.5,
-            "weight": 500,
-            "color": "rgb(4, 18, 26)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.vault__form > div.vault__actions > button.btn.btn--sm",
-            "text": "claim",
-            "ratio": 1.01,
-            "required": 4.5,
-            "fontSize": 10.5,
-            "weight": 500,
-            "color": "rgb(4, 18, 26)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.split > article.panel.vault > p.vault__foot.mono",
-            "text": "connect a wallet to sign the instruction",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "article.panel.council > div.panel__top > span.panel__label",
-            "text": "council",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "li.prop > div.prop__head > span.prop__ends.mono",
-            "text": "6h 12m",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "li.prop > div.prop__head > span.prop__ends.mono",
-            "text": "sealed",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "li.prop > div.prop__head > span.prop__ends.mono",
-            "text": "2d 04h",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.term > div.term__bar > span.mono",
-            "text": "stakri-console / localnet",
-            "ratio": 4.19,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(95, 115, 149)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "div.console > div.term > div.term__foot.mono",
-            "text": "idle / waiting for a registration",
-            "ratio": 2.33,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "form.panel.form > div.panel__top > span.panel__label",
-            "text": "agent profile",
-            "ratio": 3.93,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.form__body > label.field > span.mono",
-            "text": "codename",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.form__body > label.field > span.mono",
-            "text": "mission",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.form__row > label.field > span.mono",
-            "text": "capabilities",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.form__row > label.field > span.mono",
-            "text": "stake / $STAKRI",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.form__body > label.field > span.mono",
-            "text": "endpoint",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "form.panel.form > div.form__body > p.form__hint.mono",
-            "text": "the capabilities hash is the only capability claim the program stores; endpoints are resolved off-ch",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.form__body > div.form__actions > button.btn",
-            "text": "register agent",
-            "ratio": 1.01,
-            "required": 4.5,
-            "fontSize": 12,
-            "weight": 500,
-            "color": "rgb(4, 18, 26)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "form.panel.form > div.form__body > span.form__enter.mono",
-            "text": "enter submits / nothing leaves this machine",
-            "ratio": 2.18,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#0a111f"
-          },
-          {
-            "selector": "div.shell.foot__grid > nav.foot__col > span.panel__label",
-            "text": "Network",
-            "ratio": 4.19,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "div.shell.foot__grid > nav.foot__col > span.panel__label",
-            "text": "Economy",
-            "ratio": 4.19,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "div.shell.foot__grid > nav.foot__col > span.panel__label",
-            "text": "Build",
-            "ratio": 4.19,
-            "required": 4.5,
-            "fontSize": 10,
-            "weight": 500,
-            "color": "rgb(95, 115, 149)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "footer.foot > div.shell.foot__base > span",
-            "text": "program 6tdNLcioiV74gMXLyH…",
-            "ratio": 2.33,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#04070f"
-          },
-          {
-            "selector": "footer.foot > div.shell.foot__base > span",
-            "text": "token 9wk8xngMCkvraqg3nr…",
-            "ratio": 2.33,
-            "required": 4.5,
-            "fontSize": 9.5,
-            "weight": 400,
-            "color": "rgb(60, 76, 104)",
-            "background": "#04070f"
-          }
-        ],
-        "contrastChecked": 331,
+        "contrast": [],
+        "contrastChecked": 341,
         "headings": [
           {
             "tag": "h1",
@@ -7985,98 +4815,91 @@
             "text": "Register, then let it run"
           }
         ],
-        "navTargets": [],
+        "navTargets": [
+          ""
+        ],
         "overflow": {
-          "documentOverflow": true,
-          "offenders": [
-            {
-              "selector": "div#app > div.canvas > div.canvas__grid",
-              "right": 742,
-              "width": 1094
-            },
-            {
-              "selector": "div#app > div.canvas > div.canvas__aurora.canvas__aurora--b",
-              "right": 437,
-              "width": 174
-            },
-            {
-              "selector": "div#app > div.canvas > div.canvas__orbit",
-              "right": 449,
-              "width": 507
-            },
-            {
-              "selector": "div.orb > svg.orb__svg > circle.orb__packet",
-              "right": 495,
-              "width": 7
-            }
-          ]
+          "documentOverflow": false,
+          "offenders": []
         }
       },
       "mobileNav": {
-        "opened": true,
-        "targets": [],
-        "reachable": false
+        "opened": false,
+        "targets": [
+          ""
+        ],
+        "reachable": true
       },
       "focus": {
         "samples": [
           {
             "tag": "button",
-            "text": "Network Topology and live load",
+            "text": "Connect",
             "outlineStyle": "solid",
             "outlineWidth": "2px",
-            "outlineColor": "rgb(34, 245, 200)",
+            "outlineColor": "rgb(169, 123, 255)",
             "boxShadow": "none",
-            "borderColor": "rgb(230, 240, 255) rgb(230, 240, 255) rgba(120, 180, 255, 0.07)",
+            "borderColor": "rgb(69, 65, 79)",
             "backgroundColor": "rgba(0, 0, 0, 0)"
           },
           {
             "tag": "button",
-            "text": "Registry Every agent and its owner",
+            "text": "Back to top",
             "outlineStyle": "solid",
             "outlineWidth": "2px",
-            "outlineColor": "rgb(34, 245, 200)",
+            "outlineColor": "rgb(169, 123, 255)",
             "boxShadow": "none",
-            "borderColor": "rgb(230, 240, 255) rgb(230, 240, 255) rgba(120, 180, 255, 0.07)",
+            "borderColor": "rgb(242, 243, 247)",
             "backgroundColor": "rgba(0, 0, 0, 0)"
           },
           {
-            "tag": "button",
-            "text": "Ledger Task receipts as they settle",
+            "tag": "a",
+            "text": "NETWORK",
             "outlineStyle": "solid",
             "outlineWidth": "2px",
-            "outlineColor": "rgb(34, 245, 200)",
+            "outlineColor": "rgb(169, 123, 255)",
             "boxShadow": "none",
-            "borderColor": "rgb(230, 240, 255) rgb(230, 240, 255) rgba(120, 180, 255, 0.07)",
+            "borderColor": "rgb(242, 243, 247) rgb(242, 243, 247) rgb(169, 123, 255)",
             "backgroundColor": "rgba(0, 0, 0, 0)"
           },
           {
-            "tag": "button",
-            "text": "Vault Stake, rewards, claims",
+            "tag": "a",
+            "text": "REGISTRY",
             "outlineStyle": "solid",
             "outlineWidth": "2px",
-            "outlineColor": "rgb(34, 245, 200)",
+            "outlineColor": "rgb(169, 123, 255)",
             "boxShadow": "none",
-            "borderColor": "rgb(230, 240, 255) rgb(230, 240, 255) rgba(120, 180, 255, 0.07)",
+            "borderColor": "rgb(201, 202, 209) rgb(201, 202, 209) rgba(0, 0, 0, 0)",
             "backgroundColor": "rgba(0, 0, 0, 0)"
           },
           {
-            "tag": "button",
-            "text": "Console Register an agent",
+            "tag": "a",
+            "text": "LEDGER",
             "outlineStyle": "solid",
             "outlineWidth": "2px",
-            "outlineColor": "rgb(34, 245, 200)",
+            "outlineColor": "rgb(169, 123, 255)",
             "boxShadow": "none",
-            "borderColor": "rgb(230, 240, 255) rgb(230, 240, 255) rgba(120, 180, 255, 0.07)",
+            "borderColor": "rgb(201, 202, 209) rgb(201, 202, 209) rgba(0, 0, 0, 0)",
             "backgroundColor": "rgba(0, 0, 0, 0)"
           },
           {
-            "tag": "button",
-            "text": "CONNECT WALLET",
+            "tag": "a",
+            "text": "VAULT",
             "outlineStyle": "solid",
             "outlineWidth": "2px",
-            "outlineColor": "rgb(34, 245, 200)",
-            "boxShadow": "rgba(0, 208, 255, 0.5) 0px 0px 40px -14px",
-            "borderColor": "rgb(4, 18, 26)",
+            "outlineColor": "rgb(169, 123, 255)",
+            "boxShadow": "none",
+            "borderColor": "rgb(201, 202, 209) rgb(201, 202, 209) rgba(0, 0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "a",
+            "text": "CONSOLE",
+            "outlineStyle": "solid",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(169, 123, 255)",
+            "boxShadow": "none",
+            "borderColor": "rgb(201, 202, 209) rgb(201, 202, 209) rgba(0, 0, 0, 0)",
             "backgroundColor": "rgba(0, 0, 0, 0)"
           },
           {
@@ -8084,20 +4907,10 @@
             "text": "REGISTER AN AGENT",
             "outlineStyle": "solid",
             "outlineWidth": "2px",
-            "outlineColor": "rgb(34, 245, 200)",
-            "boxShadow": "rgba(0, 208, 255, 0.5) 0px 0px 40px -14px",
-            "borderColor": "rgb(4, 18, 26)",
-            "backgroundColor": "rgba(0, 0, 0, 0)"
-          },
-          {
-            "tag": "button",
-            "text": "WATCH THE LEDGER",
-            "outlineStyle": "solid",
-            "outlineWidth": "2px",
-            "outlineColor": "rgb(34, 245, 200)",
+            "outlineColor": "rgb(169, 123, 255)",
             "boxShadow": "none",
-            "borderColor": "rgba(120, 180, 255, 0.14)",
-            "backgroundColor": "rgba(255, 255, 255, 0.03)"
+            "borderColor": "rgb(169, 123, 255)",
+            "backgroundColor": "rgb(169, 123, 255)"
           }
         ],
         "visibleCount": 8,
@@ -8105,5 +4918,5 @@
       }
     }
   },
-  "inventoryHash": "0797fe0639f3899e09e9dfb2782922137bd9989055429394b20934646815f7ea"
+  "inventoryHash": "c3e0f24e23cb742313191d8cdfec27d7659f615309dec094132507e2f8b08b4d"
 }

@@ -1,17 +1,17 @@
 # Reskin verification — PASS
 
-Generated: 2026-10-20T16:24:49.507Z
+Generated: 2026-10-21T17:26:36.808Z
 
-- Project: **stakri-workspace**
-- URL: http://127.0.0.1:4899/
-- Original skeleton: `orbital` (spatial)
-- New skeleton: `terminal-console` (linear)
-- Accent: #22f5c8 -> #670de5 (170.69 ΔE; min 30)
-- Source contract: intact (`ca9c02539859`)
+- Project: **quittra-workspace**
+- URL: http://127.0.0.1:4419/
+- Original skeleton: `terminal-console` (linear)
+- New skeleton: `sidebar-workspace` (shell)
+- Accent: #670de5 -> #083f60 (100.61 ΔE; min 30)
+- Source contract: intact (`c3e0f24e23cb`)
 
 | Route | Result | DOM similarity | Landmark similarity | Axe serious | Screenshot |
 |---|---|---:|---:|---:|---|
-| `/` | PASS | 0.4 | 0.286 | 0 | [desktop](current/home-desktop.png) |
+| `/` | PASS | 0.261 | 0.5 | 0 | [desktop](current/home-desktop.png) |
 
 ## Blocking issues
 
@@ -19,16 +19,7 @@ Generated: 2026-10-20T16:24:49.507Z
 
 ## Warnings
 
-- bindings: added "attr:`#${item.id}`"
-- bindings: added "attr:symbol"
-- bindings: added "link:`#${item.id}`"
-- bindings: added "link:symbol"
-- /: numeric token count changed: 74 -> 80 (dynamic values may differ)
-- /: link target added: #console
-- /: link target added: #ledger
-- /: link target added: #network
-- /: link target added: #registry
-- /: link target added: #vault
+- None.
 
 ## Thresholds
 

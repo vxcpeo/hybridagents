@@ -1,6 +1,6 @@
-# Reskin inventory — stakri-workspace
+# Reskin inventory — quittra-workspace
 
-Generated: 2026-10-20T16:00:06.162Z
+Generated: 2026-10-21T16:51:16.685Z
 
 ## Project
 
@@ -11,16 +11,16 @@ Generated: 2026-10-20T16:00:06.162Z
 | Package manager | npm |
 | Nuxt | no |
 | CSS frameworks | none detected |
-| Files scanned | 17 (12 SFCs) |
+| Files scanned | 18 (14 SFCs) |
 
 ## Original skeleton
 
-- Archetype: **orbital** (spatial)
-- Traits: sidebar, cards, hero, grid, modal, charts, sticky, orbital, terminal, bento, ticker
+- Archetype: **terminal-console** (linear)
+- Traits: cards, table, grid, tabs, modal, charts, sticky, terminal, ticker
 - Max template depth: 9
-- Top-level tags: div, topnav, main, sitefooter, walletdrawer, transition, section, svg, section, section, section, section, div, footer, header, section, transition
+- Top-level tags: div, footer, section, svg, svg, section, svg, header, nav, transition, section, section, section, section, figure, transition
 
-The replacement skeleton must not be `orbital` and must not be in the same family (`spatial`).
+The replacement skeleton must not be `terminal-console` and must not be in the same family (`linear`).
 
 ## Routes
 
@@ -28,14 +28,14 @@ The replacement skeleton must not be `orbital` and must not be in the same famil
 
 ## Palette (most used first)
 
-`#22f5c8` (17) · `#04070f` (7) · `#00d0ff` (6) · `#7c5cff` (5) · `#000000` (4) · `#04121a` (3) · `#070c18` (3) · `#ff5d7a` (3) · `#0e1729` (2) · `#b6ffe6` (2)
+`#000000` (2) · `#08080a` (2) · `#0a0a0c` (2) · `#5ce1a0` (2) · `#670de5` (2) · `#a97bff` (2) · `#c6a6ff` (2) · `#ff8a8a` (2) · `#04020a` (1) · `#141415` (1)
 
 ## Content lock
 
 - Static visible text tokens: **115**
-- Binding expressions: **123**
+- Binding expressions: **127**
 - Event handlers: **39**
-- Contract hash: `0797fe0639f3899e09e9dfb2782922137bd9989055429394b20934646815f7ea`
+- Contract hash: `c3e0f24e23cb742313191d8cdfec27d7659f615309dec094132507e2f8b08b4d`
 
 Everything in `.reskin/content-contract.json` is immutable: visible copy, placeholders, labels, routes, link targets, asset sources, bindings, handlers, API endpoints and i18n values. A reskin may move these tokens to new markup but may not rewrite, remove or hide them.
 
