@@ -2,6 +2,7 @@
 /** Imprint of the folio: the mast stamp, the three link columns and the base rule. */
 import SealMark from './SealMark.vue'
 import Icon from './Icon.vue'
+import XMark from './XMark.vue'
 import { BRAND } from '../brand'
 
 const COLS = [
@@ -44,8 +45,11 @@ const emit = defineEmits(['navigate', 'copy'])
           {{ BRAND.tagline }} Verifiable task receipts, stake-backed agents, open ledger — no custody, no promises of yield.
         </p>
         <div class="foil-imprintstamps">
-          <button class="foil-imprintstamp" @click="emit('copy', BRAND.handle)">X · {{ BRAND.handle }}</button>
-          <button class="foil-imprintstamp" @click="emit('copy', BRAND.domain)">{{ BRAND.domain }}</button>
+          <a class="foil-imprintstamp is-x" :href="BRAND.x" target="_blank" rel="noreferrer noopener"
+             :title="`${BRAND.handle} on X`" :aria-label="`Quittra on X (${BRAND.handle})`">
+            <XMark :size="11" /> {{ BRAND.handle }}
+          </a>
+          <button class="foil-imprintstamp" :title="`Copy ${BRAND.domain}`" @click="emit('copy', BRAND.domain)">{{ BRAND.domain }}</button>
           <a class="foil-imprintstamp" href="https://github.com" target="_blank" rel="noreferrer"><Icon kind="github" /> source</a>
           <a class="foil-imprintstamp" href="https://solana.com" target="_blank" rel="noreferrer"><Icon kind="send" /> Solana</a>
         </div>

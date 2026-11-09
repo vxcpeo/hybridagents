@@ -6,6 +6,7 @@
 import { computed, ref } from 'vue'
 import SealMark from './SealMark.vue'
 import Icon from './Icon.vue'
+import XMark from './XMark.vue'
 import { BRAND, NAV } from '../brand'
 
 const props = defineProps({
@@ -28,13 +29,21 @@ function go(id) {
 
 <template>
   <aside class="foil-cover">
-    <button class="foil-brand" aria-label="Back to top" @click="go('top')">
-      <span class="foil-brandmark"><SealMark :size="28" /></span>
-      <span>
-        <strong class="foil-wordmark">{{ BRAND.wordmark }}</strong>
-        <em class="foil-domain">{{ BRAND.domain }}</em>
-      </span>
-    </button>
+    <div class="foil-mast">
+      <button class="foil-brand" aria-label="Back to top" @click="go('top')">
+        <span class="foil-brandmark"><SealMark :size="28" /></span>
+        <span>
+          <strong class="foil-wordmark">{{ BRAND.wordmark }}</strong>
+          <em class="foil-domain">{{ BRAND.domain }}</em>
+        </span>
+      </button>
+      <a class="foil-follow" :href="BRAND.x" target="_blank" rel="noreferrer noopener"
+         :title="`${BRAND.handle} on X`" :aria-label="`Quittra on X (${BRAND.handle})`">
+        <XMark :size="11" />
+        <span>{{ BRAND.handle }}</span>
+        <Icon kind="external" />
+      </a>
+    </div>
 
     <p class="foil-status" :title="`Program ${BRAND.programId}`">
       <span class="foil-statusdot" aria-hidden="true"></span>

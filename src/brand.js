@@ -5,8 +5,10 @@
 export const BRAND = {
   name: 'Quittra',
   wordmark: 'QUITTRA',
-  handle: '@quittra',
+  handle: '@quittra_xyz',
   domain: 'quittra.xyz',
+  site: 'https://quittra.xyz',
+  x: 'https://x.com/quittra_xyz',
   ticker: '$QUITTRA',
   tagline: 'The settlement layer for autonomous agents.',
   chain: 'Solana',

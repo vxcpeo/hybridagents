@@ -1,9 +1,11 @@
 <!--
   Quittra mark — the quittance seal: the seal ring, a settled check inside it and
-  the receipt tail that closes the Q. Pure geometry so it survives a 16px favicon.
+  the receipt tail that closes the Q. Folio palette: paper ink on navy stock, so
+  the mark stays legible on any surface.
 -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Quittra mark">
-  <circle cx="31" cy="31" r="21.5" fill="none" stroke="#f2eefb" stroke-width="5"/>
-  <path d="M38.5 38.5 L53 53" fill="none" stroke="#a97bff" stroke-width="6" stroke-linecap="round"/>
-  <path d="M22.5 32.5 L29 39 L41.5 25" fill="none" stroke="#a97bff" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect width="64" height="64" rx="14" fill="#0c5681"/>
+  <circle cx="31" cy="31" r="21" fill="none" stroke="#f6f2e8" stroke-width="4.8"/>
+  <path d="M38 38 L51.7 51.7" fill="none" stroke="#f6f2e8" stroke-width="5.6" stroke-linecap="round"/>
+  <path d="M22.8 32.2 L29 38.4 L41.2 25.6" fill="none" stroke="#f6f2e8" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
