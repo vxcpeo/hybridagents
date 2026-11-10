@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-21T17:26:36.808Z",
+  "generatedAt": "2026-11-09T17:18:57.524Z",
   "project": {
     "root": "E:/workspace/chuangye/solana/hybridagents/website",
-    "name": "quittra-workspace",
-    "baseUrl": "http://127.0.0.1:4419/"
+    "name": "coventa-workspace",
+    "baseUrl": "http://127.0.0.1:4418/"
   },
   "passed": true,
   "thresholds": {
@@ -20,32 +20,11 @@
       "passed": true,
       "issues": [],
       "warnings": [],
-      "hash": "c3e0f24e23cb742313191d8cdfec27d7659f615309dec094132507e2f8b08b4d"
+      "hash": "58a527b92d70bbcde0f5926ac78d328ad41ddb4c66243598a9990d03b727b1d6"
     },
     "skeleton": {
       "passed": true,
       "original": {
-        "id": "terminal-console",
-        "family": "linear",
-        "traits": {
-          "sidebar": false,
-          "topbar": false,
-          "cards": true,
-          "hero": false,
-          "table": true,
-          "grid": true,
-          "tabs": true,
-          "modal": true,
-          "charts": true,
-          "sticky": true,
-          "orbital": false,
-          "terminal": true,
-          "bento": false,
-          "ticker": true,
-          "gallery": false
-        }
-      },
-      "current": {
         "id": "sidebar-workspace",
         "family": "shell",
         "traits": {
@@ -66,10 +45,31 @@
           "gallery": false
         }
       },
+      "current": {
+        "id": "orbital",
+        "family": "spatial",
+        "traits": {
+          "sidebar": false,
+          "topbar": false,
+          "cards": true,
+          "hero": false,
+          "table": false,
+          "grid": true,
+          "tabs": false,
+          "modal": true,
+          "charts": true,
+          "sticky": true,
+          "orbital": true,
+          "terminal": true,
+          "bento": false,
+          "ticker": true,
+          "gallery": false
+        }
+      },
       "accent": {
-        "original": "#670de5",
-        "current": "#083f60",
-        "deltaE": 100.61,
+        "original": "#083f60",
+        "current": "#ff2f2f",
+        "deltaE": 113.24,
         "min": 30
       }
     },
@@ -79,11 +79,13 @@
         "passed": true,
         "skipped": false,
         "failures": [],
-        "warnings": [],
+        "warnings": [
+          "aria attribute changed/removed: aria-label=Live agent topology around the settlement program"
+        ],
         "structure": {
-          "fingerprintSimilarity": 0.261,
-          "landmarkSimilarity": 0.5,
-          "classOverlap": 0.016
+          "fingerprintSimilarity": 0.268,
+          "landmarkSimilarity": 0.222,
+          "classOverlap": 0
         },
         "content": {
           "missing": [],
@@ -116,9 +118,11 @@
     ]
   },
   "failures": [],
-  "warnings": [],
+  "warnings": [
+    "/: aria attribute changed/removed: aria-label=Live agent topology around the settlement program"
+  ],
   "baseline": {
-    "generatedAt": "2026-10-21T16:54:56.419Z",
+    "generatedAt": "2026-11-09T16:48:09.305Z",
     "routes": [
       "/"
     ]

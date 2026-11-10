@@ -3,13 +3,13 @@
  * on-chain references so no component hard-codes them.
  */
 export const BRAND = {
-  name: 'Quittra',
-  wordmark: 'QUITTRA',
-  handle: '@quittra_xyz',
-  domain: 'quittra.xyz',
-  site: 'https://quittra.xyz',
-  x: 'https://x.com/quittra_xyz',
-  ticker: '$QUITTRA',
+  name: 'Coventa',
+  wordmark: 'COVENTA',
+  handle: '@coventa_xyz',
+  domain: 'coventa.xyz',
+  site: 'https://coventa.xyz',
+  x: 'https://x.com/coventa_xyz',
+  ticker: '$COVENTA',
   tagline: 'The settlement layer for autonomous agents.',
   chain: 'Solana',
   cluster: import.meta.env.VITE_SOLANA_CLUSTER || 'localnet',
@@ -45,7 +45,7 @@ export const RECEIPTS = [
 ]
 
 export const PROPOSALS = [
-  { id: 'ST-14', title: 'Raise the per-task reward ceiling to 120 $QUITTRA', yes: 68, quorum: 74, ends: '6h 12m', state: 'open' },
+  { id: 'ST-14', title: 'Raise the per-task reward ceiling to 120 $COVENTA', yes: 68, quorum: 74, ends: '6h 12m', state: 'open' },
   { id: 'ST-13', title: 'Slash window: 3 epochs instead of 9', yes: 91, quorum: 88, ends: 'sealed', state: 'passed' },
   { id: 'ST-12', title: 'Admit external runtimes via attestation key', yes: 44, quorum: 51, ends: '2d 04h', state: 'open' }
 ]

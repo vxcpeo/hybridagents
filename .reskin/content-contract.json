@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "meta": {
-    "projectName": "quittra-workspace",
-    "title": "quittra-workspace",
+    "projectName": "coventa-workspace",
+    "title": "coventa-workspace",
     "lang": "en"
   },
   "routes": [
@@ -146,6 +146,10 @@
       "count": 1
     },
     {
+      "value": "coventa-console /",
+      "count": 1
+    },
+    {
       "value": "create_agent",
       "count": 1
     },
@@ -279,10 +283,6 @@
     },
     {
       "value": "pull newer events",
-      "count": 1
-    },
-    {
-      "value": "quittra-console /",
       "count": 1
     },
     {
@@ -432,10 +432,6 @@
     {
       "value": "Who is on the network",
       "count": 1
-    },
-    {
-      "value": "X ·",
-      "count": 1
     }
   ],
   "hiddenText": [],
@@ -514,7 +510,17 @@
     },
     {
       "kind": "attr",
+      "expr": "`${BRAND.handle} on X`",
+      "count": 2
+    },
+    {
+      "kind": "attr",
       "expr": "`Copy ${a.name} address`",
+      "count": 1
+    },
+    {
+      "kind": "attr",
+      "expr": "`Copy ${BRAND.domain}`",
       "count": 1
     },
     {
@@ -531,6 +537,11 @@
       "kind": "attr",
       "expr": "`quorum ${p.quorum}%`",
       "count": 1
+    },
+    {
+      "kind": "attr",
+      "expr": "BRAND.x",
+      "count": 2
     },
     {
       "kind": "attr",
@@ -615,7 +626,7 @@
     {
       "kind": "interpolation",
       "expr": "BRAND.handle",
-      "count": 1
+      "count": 2
     },
     {
       "kind": "interpolation",
@@ -994,6 +1005,11 @@
     },
     {
       "kind": "link",
+      "expr": "BRAND.x",
+      "count": 2
+    },
+    {
+      "kind": "link",
       "expr": "symbol",
       "count": 1
     },
@@ -1102,11 +1118,6 @@
     {
       "event": "click",
       "handler": "emit('copy', BRAND.domain)",
-      "count": 1
-    },
-    {
-      "event": "click",
-      "handler": "emit('copy', BRAND.handle)",
       "count": 1
     },
     {

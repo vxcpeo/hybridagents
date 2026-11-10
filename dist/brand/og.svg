@@ -1,22 +1,78 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Quittra - the settlement layer for autonomous agents">
-  <title>Quittra - the settlement layer for autonomous agents</title>
-  <rect width="1200" height="630" fill="#f6f2e8"/>
-  <rect x="24" y="24" width="1152" height="582" fill="none" stroke="#a79e89"/>
-  <rect x="32" y="32" width="1136" height="566" fill="none" stroke="#cfc6b3"/>
-  <g transform="translate(84 74) scale(0.8750)">
-    <rect width="64" height="64" rx="14" fill="#0c5681"/>
-  <circle cx="31" cy="31" r="21" fill="none" stroke="#f6f2e8" stroke-width="4.8"/>
-  <path d="M38 38 L51.7 51.7" fill="none" stroke="#f6f2e8" stroke-width="5.6" stroke-linecap="round"/>
-  <path d="M22.8 32.2 L29 38.4 L41.2 25.6" fill="none" stroke="#f6f2e8" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Coventa - the settlement layer for autonomous agents">
+  <title>Coventa - the settlement layer for autonomous agents</title>
+  <defs>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0%" stop-color="#ff2f2f" stop-opacity="0.34"/><stop offset="55%" stop-color="#ff2f2f" stop-opacity="0.10"/><stop offset="100%" stop-color="#ff2f2f" stop-opacity="0"/></radialGradient>
+    <radialGradient id="haze" cx="0.5" cy="0.5" r="0.5"><stop offset="0%" stop-color="#ff00ff" stop-opacity="0.18"/><stop offset="100%" stop-color="#ff00ff" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse"><path d="M46 0H0V46" fill="none" stroke="#2b3c4b" stroke-width="1" opacity="0.5"/></pattern>
+    <linearGradient id="arc" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ff2f2f"/><stop offset="100%" stop-color="#ff00ff"/></linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#04060a"/>
+  <rect width="1200" height="630" fill="url(#grid)" opacity="0.55"/>
+  <ellipse cx="1010" cy="40" rx="430" ry="330" fill="url(#glow)"/>
+  <ellipse cx="120" cy="560" rx="380" ry="300" fill="url(#haze)"/>
+  <g fill="none" stroke="#1e2a36" stroke-width="1.2">
+    <circle cx="980" cy="300" r="150"/>
+    <circle cx="980" cy="300" r="214"/>
+    <circle cx="980" cy="300" r="276"/>
+    <circle cx="980" cy="300" r="214" stroke-dasharray="2 10"/>
   </g>
-  <text x="156" y="104" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="700" letter-spacing="9" fill="#15161a" text-anchor="start">QUITTRA</text>
-  <text x="158" y="130" font-family="'Courier New', monospace" font-size="12.5" font-weight="400" letter-spacing="3" fill="#5d5c55" text-anchor="start">QUITTRA.XYZ / SOLANA</text>
-  <text x="1116" y="104" font-family="'Courier New', monospace" font-size="12.5" font-weight="400" letter-spacing="2.4" fill="#5d5c55" text-anchor="end">SETTLEMENT FOLIO</text>
-  <line x1="84" y1="176" x2="1116" y2="176" stroke="#15161a" stroke-width="1.6"/>
-  <text x="84" y="306" font-family="Georgia, 'Times New Roman', serif" font-size="68" font-weight="700" letter-spacing="-1.4" fill="#15161a" text-anchor="start">The settlement layer</text>
-  <text x="84" y="380" font-family="Georgia, 'Times New Roman', serif" font-size="68" font-weight="400" letter-spacing="-1.4" fill="#083f60" text-anchor="start">for autonomous agents.</text>
-  <text x="84" y="442" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="400" letter-spacing="0" fill="#3d3f46" text-anchor="start">Every agent gets a Solana PDA identity. Every run writes a receipt: input hash, output hash, success flag.</text>
-  <line x1="84" y1="520" x2="1116" y2="520" stroke="#a79e89" stroke-width="1"/>
-  <text x="84" y="558" font-family="'Courier New', monospace" font-size="12.5" font-weight="400" letter-spacing="2.6" fill="#5d5c55" text-anchor="start">EVERY TASK LEAVES A RECEIPT</text>
-  <text x="1116" y="558" font-family="'Courier New', monospace" font-size="13" font-weight="400" letter-spacing="2.6" fill="#083f60" text-anchor="end">@QUITTRA_XYZ</text>
+  <path d="M 704 300 A 276 276 0 0 1 980 24" fill="none" stroke="url(#arc)" stroke-width="2.4" stroke-linecap="round" opacity="0.9"/>
+  <g stroke="#2b3c4b" stroke-width="1" opacity="0.9">
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(0 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(10 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(20 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(30 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(40 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(50 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(60 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(70 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(80 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(90 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(100 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(110 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(120 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(130 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(140 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(150 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(160 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(170 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(180 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(190 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(200 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(210 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(220 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(230 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(240 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(250 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(260 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(270 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(280 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(290 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(300 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(310 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(320 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(330 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(340 980 300)"/>
+    <line x1="980" y1="12" x2="980" y2="24" transform="rotate(350 980 300)"/>
+  </g>
+  <g transform="translate(944 264) scale(1.1250)"><path d="M51 32 A19 19 0 1 1 35.3 13.29" fill="none" stroke="#ff2f2f" stroke-width="5.4" stroke-linecap="round"/><circle cx="32" cy="32" r="4.6" fill="#f4f7fa"/><circle cx="46.55" cy="19.79" r="4.2" fill="#ff2f2f"/></g>
+  <circle cx="1165" cy="407" r="5.5" fill="#ff2f2f"/>
+  <circle cx="830" cy="514" r="4" fill="#9db0c2" opacity="0.8"/>
+  <g transform="translate(84 68) scale(0.6875)"><path d="M51 32 A19 19 0 1 1 35.3 13.29" fill="none" stroke="#ff2f2f" stroke-width="5.4" stroke-linecap="round"/><circle cx="32" cy="32" r="4.6" fill="#f4f7fa"/><circle cx="46.55" cy="19.79" r="4.2" fill="#ff2f2f"/></g>
+  <text x="144" y="94" font-family="'Trebuchet MS', 'Segoe UI', Verdana, sans-serif" font-size="28" font-weight="700" letter-spacing="6.5" fill="#f4f7fa" fill-opacity="1" text-anchor="start">COVENTA</text>
+  <text x="146" y="116" font-family="'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="10.5" font-weight="400" letter-spacing="2.6" fill="#9db0c2" fill-opacity="1" text-anchor="start">COVENTA.XYZ / SOLANA</text>
+  <line x1="84" y1="168" x2="700" y2="168" stroke="#1e2a36" stroke-width="1"/>
+  <text x="84" y="286" font-family="'Trebuchet MS', 'Segoe UI', Verdana, sans-serif" font-size="62" font-weight="700" letter-spacing="-2.2" fill="#f4f7fa" fill-opacity="1" text-anchor="start">The settlement layer</text>
+  <text x="84" y="356" font-family="'Trebuchet MS', 'Segoe UI', Verdana, sans-serif" font-size="62" font-weight="700" letter-spacing="-2.2" fill="#ff6b6b" fill-opacity="1" text-anchor="start">for autonomous agents.</text>
+  <text x="86" y="412" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="400" letter-spacing="0" fill="#c6d4e1" fill-opacity="1" text-anchor="start">Every agent gets a Solana PDA identity.</text>
+  <text x="86" y="442" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="400" letter-spacing="0" fill="#c6d4e1" fill-opacity="1" text-anchor="start">Every run writes a receipt: input hash, output hash, success flag.</text>
+  <rect x="84" y="474" width="212" height="30" rx="15" fill="none" stroke="#2b3c4b"/>
+  <text x="190" y="494" font-family="'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="10.5" font-weight="400" letter-spacing="2.2" fill="#9db0c2" fill-opacity="1" text-anchor="middle">STAKE-BACKED</text>
+  <rect x="312" y="474" width="222" height="30" rx="15" fill="none" stroke="#2b3c4b"/>
+  <text x="423" y="494" font-family="'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="10.5" font-weight="400" letter-spacing="2.2" fill="#9db0c2" fill-opacity="1" text-anchor="middle">NO CUSTODY</text>
+  <rect x="550" y="474" width="254" height="30" rx="15" fill="none" stroke="#2b3c4b"/>
+  <text x="677" y="494" font-family="'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="10.5" font-weight="400" letter-spacing="2.2" fill="#9db0c2" fill-opacity="1" text-anchor="middle">OPEN LEDGER</text>
+  <line x1="84" y1="540" x2="1116" y2="540" stroke="#1e2a36" stroke-width="1"/>
+  <text x="84" y="578" font-family="'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="11" font-weight="400" letter-spacing="2.6" fill="#9db0c2" fill-opacity="1" text-anchor="start">EVERY TASK LEAVES A RECEIPT</text>
+  <text x="1116" y="578" font-family="'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="11.5" font-weight="400" letter-spacing="2.6" fill="#ff6b6b" fill-opacity="1" text-anchor="end">@COVENTA_XYZ</text>
 </svg>

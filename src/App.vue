@@ -1,20 +1,22 @@
 <script setup>
 import { onBeforeUnmount, onMounted, ref } from 'vue'
-import FolioCover from './folio/FolioCover.vue'
-import Overture from './folio/Overture.vue'
-import ThroughputChapter from './folio/ThroughputChapter.vue'
-import RegisterChapter from './folio/RegisterChapter.vue'
-import ReceiptsChapter from './folio/ReceiptsChapter.vue'
-import StakeChapter from './folio/StakeChapter.vue'
-import ConsoleChapter from './folio/ConsoleChapter.vue'
-import Imprint from './folio/Imprint.vue'
-import WalletSlip from './folio/WalletSlip.vue'
-import Icon from './folio/Icon.vue'
-import IconSprite from './folio/IconSprite.vue'
+import GlyphField from './orbit/GlyphField.vue'
+import AbyssHeader from './orbit/AbyssHeader.vue'
+import TelemetryRail from './orbit/TelemetryRail.vue'
+import OrbitDock from './orbit/OrbitDock.vue'
+import OrbitCore from './orbit/OrbitCore.vue'
+import NetworkOrbit from './orbit/NetworkOrbit.vue'
+import RegistryOrbit from './orbit/RegistryOrbit.vue'
+import LedgerOrbit from './orbit/LedgerOrbit.vue'
+import VaultOrbit from './orbit/VaultOrbit.vue'
+import ConsoleOrbit from './orbit/ConsoleOrbit.vue'
+import AbyssFloor from './orbit/AbyssFloor.vue'
+import WalletHud from './orbit/WalletHud.vue'
+import OrbGlyph from './orbit/OrbGlyph.vue'
 import { AGENTS, BRAND, NAV_STATS, RECEIPTS } from './brand'
 import { clusterLabel, createAgentLocally } from './lib/solana'
 
-/* --- cover index observer -------------------------------------------------- */
+/* --- section observer ------------------------------------------------------ */
 const active = ref('network')
 let observer = null
 
@@ -93,40 +95,43 @@ const refresh = () => say('Re-indexed local preview ledger')
 </script>
 
 <template>
-  <div class="folio">
-    <IconSprite />
+  <div class="ab-void">
+    <GlyphField />
+    <div class="ab-backdrop" aria-hidden="true"></div>
 
-    <FolioCover :active="active" :wallet="wallet" :online="online" :block-height="blockHeight"
-                @navigate="navigate" @connect="walletOpen = true" />
+    <AbyssHeader :wallet="wallet" :block-height="blockHeight"
+                 @navigate="navigate" @connect="walletOpen = true" />
+    <TelemetryRail :block-height="blockHeight" :online="online" />
 
-    <div class="foil-column">
-      <main class="foil-main">
-        <Overture :agents="AGENTS" :block-height="blockHeight" :epoch="NAV_STATS.epoch"
-                  :settled24h="NAV_STATS.settled24h" :staked="NAV_STATS.staked"
-                  @primary="navigate('console')" @secondary="navigate('ledger')"
-                  @copy="(v) => copy(v, 'Program id')" />
+    <OrbitDock :active="active" :wallet="wallet"
+               @navigate="navigate" @connect="walletOpen = true" />
 
-        <ThroughputChapter :block-height="blockHeight" />
-        <RegisterChapter :agents="AGENTS" @copy="(v) => copy(v, 'Address')" @inspect="inspect" />
-        <ReceiptsChapter :receipts="RECEIPTS" :block-height="blockHeight"
-                         @copy="(v) => copy(v, 'Receipt')" @refresh="refresh" />
-        <StakeChapter :wallet="wallet" :staked="NAV_STATS.staked"
-                      @action="(a) => copy(`${a.kind} ${a.amount} ${BRAND.ticker}`, 'Queued')"
-                      @vote="(v) => say(`Vote recorded locally · ${v.id}`)" />
-        <ConsoleChapter :wallet="wallet" :busy="busy" :result="result"
-                        @deploy="deploy" @connect="walletOpen = true" />
-      </main>
+    <main class="ab-stage">
+      <OrbitCore :agents="AGENTS" :block-height="blockHeight" :epoch="NAV_STATS.epoch"
+                 :settled24h="NAV_STATS.settled24h" :staked="NAV_STATS.staked"
+                 @primary="navigate('console')" @secondary="navigate('ledger')"
+                 @copy="(v) => copy(v, 'Program id')" />
 
-      <Imprint @navigate="navigate" @copy="(v) => copy(v, 'Copied')" />
-    </div>
+      <NetworkOrbit :block-height="blockHeight" />
+      <RegistryOrbit :agents="AGENTS" @copy="(v) => copy(v, 'Address')" @inspect="inspect" />
+      <LedgerOrbit :receipts="RECEIPTS" :block-height="blockHeight"
+                   @copy="(v) => copy(v, 'Receipt')" @refresh="refresh" />
+      <VaultOrbit :wallet="wallet" :staked="NAV_STATS.staked"
+                  @action="(a) => copy(`${a.kind} ${a.amount} ${BRAND.ticker}`, 'Queued')"
+                  @vote="(v) => say(`Vote recorded locally · ${v.id}`)" />
+      <ConsoleOrbit :wallet="wallet" :busy="busy" :result="result"
+                    @deploy="deploy" @connect="walletOpen = true" />
+    </main>
 
-    <WalletSlip :open="walletOpen" :current="wallet"
-                @close="walletOpen = false"
-                @pick="(id) => { wallet = id; walletOpen = false; say(`${id} connected · ${clusterLabel}`) }" />
+    <AbyssFloor @navigate="navigate" @copy="(v) => copy(v, 'Copied')" />
+
+    <WalletHud :open="walletOpen" :current="wallet"
+               @close="walletOpen = false"
+               @pick="(id) => { wallet = id; walletOpen = false; say(`${id} connected · ${clusterLabel}`) }" />
 
     <transition name="toast">
-      <div v-if="toast" class="folio-toast" :class="`is-${toast.tone}`" role="status">
-        <Icon :kind="toast.tone === 'warn' ? 'alert' : 'check'" />
+      <div v-if="toast" class="ab-toast" :class="`ab-toast--${toast.tone}`" role="status">
+        <OrbGlyph :kind="toast.tone === 'warn' ? 'alert' : 'check'" />
         <span>{{ toast.message }}</span>
       </div>
     </transition>

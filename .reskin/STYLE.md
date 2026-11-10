@@ -1,32 +1,32 @@
-# Reskin art direction — Paper Protocol
+# Reskin art direction — Abyss Liquidity
 
 > Selected automatically. Do not ask the user to confirm or choose another direction.
 
-- **Style DNA:** `ethereum-paper` (crypto-editorial)
-- **Skeleton:** `documentary` (editorial)
-- **Seed:** `d70df6e440db1dbededc471ff1a5cadf8507021fd398fca6df6bd8c3eecab9d9`
-- **Source DNA:** [https://ethereum.org](https://ethereum.org)
-- **Live sampled:** yes — https://ethereum.org (3078 ms)
-- **Original:** terminal-console / dark / accent #670de5
+- **Style DNA:** `aave-abyss` (dark-technical)
+- **Skeleton:** `orbital` (spatial)
+- **Seed:** `c10184790494683f96d1a7f386e15bc64f7b2f71446130fc279cbb44d66c3bd3`
+- **Source DNA:** [https://aave.com](https://aave.com)
+- **Live sampled:** yes — https://aave.com (1178 ms)
+- **Original:** sidebar-workspace / light / accent #083f60
 
 ## Why this direction
 
-The selector sampled 8/10 blockchain references, scored every direction for perceptual distance from the original accent (#670de5) and background (#000000), added a deterministic seed jitter, and chose Paper Protocol because it is 97 ΔE away from the original accent and pairs with Documentary Ledger, a editorial skeleton rather than the original terminal-console.
+The selector sampled 8/10 blockchain references, scored every direction for perceptual distance from the original accent (#083f60) and background (#fffdf6), added a deterministic seed jitter, and chose Abyss Liquidity because it is 127 ΔE away from the original accent and pairs with Orbital, a spatial skeleton rather than the original sidebar-workspace.
 
 ## Live reference sampling
 
 | Style | URL | Result | Accent sampled | Ground sampled |
 |---|---|---|---|---|
-| ethereum-paper | https://ethereum.org | ok (3078 ms) | #0c5681 | #ffffff |
-| base-cobalt | https://www.base.org | ok (3967 ms) | #0000ff | #dde3e9 |
-| polygon-agora | https://polygon.technology | ok (4259 ms) | #670de5 | #000000 |
-| solana-spectrum | https://solana.com | ok (4540 ms) | #9945ff | #000000 |
+| solana-spectrum | https://solana.com | failed: HTTP 429 | — | — |
+| ethereum-paper | https://ethereum.org | ok (872 ms) | #0c5681 | #ffffff |
+| base-cobalt | https://www.base.org | ok (1150 ms) | #0000ff | #dde3e9 |
+| polygon-agora | https://polygon.technology | ok (1174 ms) | #670de5 | #000000 |
 | arbitrum-signal | https://arbitrum.io | failed: HTTP 403 | — | — |
-| aave-abyss | https://aave.com | ok (4188 ms) | #ff0000 | #000000 |
-| optimism-poster | https://www.optimism.io | ok (7980 ms) | #ff0421 | #fafaf9 |
-| cosmos-orbit | https://cosmos.network | ok (4470 ms) | #40b3ff | #000000 |
-| sui-tidal | https://sui.io | failed: timeout | — | — |
-| uniswap-bubblegum | https://uniswap.org | ok (13942 ms) | — | #ffffff |
+| aave-abyss | https://aave.com | ok (1178 ms) | #ff0000 | #000000 |
+| cosmos-orbit | https://cosmos.network | ok (1479 ms) | #40b3ff | #000000 |
+| uniswap-bubblegum | https://uniswap.org | ok (2306 ms) | — | #ffffff |
+| optimism-poster | https://www.optimism.io | ok (2843 ms) | #ff0421 | #fafaf9 |
+| sui-tidal | https://sui.io | ok (3370 ms) | #298dff | #ffffff |
 
 Live sampling is evidence, not a copy target. Never download or reuse a reference site's logo, imagery, copy, or code. Use only the abstract tokens below.
 
@@ -34,68 +34,68 @@ Live sampling is evidence, not a copy target. Never download or reuse a referenc
 
 | Candidate | Score | Accent ΔE from original | Layout | Live |
 |---|---:|---:|---|---|
-| Paper Protocol | 0.9138 | 97.3 | documentary | yes |
-| Signal Navy | 0.9052 | 104.2 | bento-canvas | no |
-| Poster Optimism | 0.9042 | 148 | gallery-scroll | yes |
-| Bubblegum Exchange | 0.8954 | 92.7 | split-stage | yes |
-| Tidal Sui | 0.8537 | 69.1 | gallery-scroll | no |
-| Cosmos Orbit | 0.7719 | 97.3 | documentary | yes |
-| Cobalt Blueprint | 0.7164 | 21.3 | bento-canvas | yes |
-| Abyss Liquidity | 0.7041 | 155.7 | orbital | yes |
-| Spectrum Terminal | 0.5441 | 17.5 | gallery-scroll | yes |
-| Agora Violet | 0.4077 | 18.4 | bento-canvas | yes |
+| Abyss Liquidity | 0.9692 | 127 | orbital | yes |
+| Poster Optimism | 0.9156 | 116.3 | ticker-stage | yes |
+| Agora Violet | 0.9084 | 94.1 | documentary | yes |
+| Bubblegum Exchange | 0.8724 | 79.5 | orbital | yes |
+| Cobalt Blueprint | 0.8642 | 117.8 | bento-canvas | yes |
+| Spectrum Terminal | 0.8594 | 61.7 | ticker-stage | no |
+| Cosmos Orbit | 0.8429 | 50.2 | gallery-scroll | yes |
+| Signal Navy | 0.6702 | 53 | command-rail | no |
+| Tidal Sui | 0.6247 | 51.6 | gallery-scroll | yes |
+| Paper Protocol | 0.5164 | 11.2 | documentary | yes |
 
 ## Skeleton brief
 
-**Documentary Ledger** — masthead instead of app bar; serif or high-contrast display voice with running-text rhythm; numbered sections and marginalia; tables styled as ledger rules, not cards; navigation is an index line under the masthead.
+**Orbital** — centered radial composition with concentric rings; route navigation arranged around the primary object; content revealed in a focused panel inside the orbit; very few straight edges; circular masks and arcs; large empty space around the core.
 
-Navigation: Masthead with the brand as a wordmark, route names as an index line, and a thin rule. No pills, no filled app bar, no sidebar.
+Navigation: Circular route ring around the core with accessible names; keyboard tab order follows the ring; mobile becomes a vertical arc.
 
 Structure:
-1. masthead with issue/date line
-1. index line of routes
-1. hero statement spanning 9 columns
-1. two-column body: 7-column ledger + 3-column marginalia
-1. footnotes and colophon
+1. core object with the page's primary figure
+1. orbit ring with routes
+1. focused content panel
+1. secondary arc of metrics
+1. footer on the outer ring
 
-Content mapping: Turn dashboard metrics into a lede paragraph with displayed figures. Tables become ledger rows with rules and tabular numerals. Forms become a typeset questionnaire. Keep every label and value; restyle hierarchy only.
+Content mapping: The primary metric becomes the core. Secondary metrics sit on the inner ring. Tables become a focused panel with a record switcher. Forms become a side panel that opens from the ring.
 
-Recipe: `.masthead{display:grid;grid-template-columns:1fr auto;align-items:end;border-bottom:2px solid var(--ink);padding-bottom:12px}.index{display:flex;gap:28px;border-bottom:1px solid var(--line);padding:12px 0;font:500 12px/1 var(--font-mono);letter-spacing:.12em;text-transform:uppercase}.body{display:grid;grid-template-columns:minmax(0,7fr) minmax(220px,3fr);gap:clamp(24px,5vw,72px)}.lede{font-size:clamp(2rem,4vw,4.6rem);line-height:.98}`
+Recipe: `.orbit{position:relative;min-height:100svh;display:grid;place-items:center}.ring{position:absolute;inset:8%;border:1px solid var(--line);border-radius:50%}.core{width:min(46vw,520px);aspect-ratio:1;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle at 35% 30%,var(--surfaceAlt),var(--surface))}.route{position:absolute;left:50%;top:50%;transform:rotate(var(--a)) translateX(var(--r)) rotate(calc(-1 * var(--a)))}`
 
-Risks: serif font alone is not a skeleton change; dense dashboards need tabular numerals and generous line-height
+Risks: circular layouts can break reading order; DOM order must match visual order; must collapse to a linear layout on mobile
 
 ## Design tokens
 
 ```css
 :root {
-  --bg: #ffffff;
-  --surface: #FFFDF8;
-  --surface-alt: #EDE9DF;
-  --ink: #1B1B1B;
-  --muted: #6B675F;
-  --accent: #0c5681;
-  --accent-safe: #0c5681;
-  --accent-2: #8B9DFF;
-  --line: #D9D3C7;
-  --success: #2F6B4F;
-  --danger: #A83A2A;
-  --warning: #8A5A00;
+  --bg: #000000;
+  --surface: #111A24;
+  --surface-alt: #182533;
+  --ink: #F4F7FA;
+  --muted: #8FA3B5;
+  --accent: #ff0000;
+  --accent-safe: #ff0000;
+  --accent-2: #ff00ff;
+  --line: #1E2A36;
+  --success: #5CE1A0;
+  --danger: #FF7A7A;
+  --warning: #F2C94C;
 
-  --font-display: "Iowan Old Style", "Palatino Linotype", Georgia, serif;
-  --font-body: "Charter", "Georgia", "Segoe UI", serif;
-  --font-mono: "Courier New", ui-monospace, monospace;
-  --display-weight: 500;
-  --display-tracking: -0.025em;
-  --label-tracking: 0.12em;
+  --font-display: "Trebuchet MS", "Segoe UI", sans-serif;
+  --font-body: "Segoe UI", "Helvetica Neue", sans-serif;
+  --font-mono: "Cascadia Mono", ui-monospace, monospace;
+  --display-weight: 650;
+  --display-tracking: -0.035em;
+  --label-tracking: 0.1em;
 
-  --radius-sm: 0px;
-  --radius-md: 2px;
-  --radius-lg: 4px;
-  --border: 1px solid var(--line);
-  --shadow: none;
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --border: 1px solid rgba(143, 163, 181, 0.18);
+  --shadow: 0 26px 70px rgba(0, 0, 0, 0.5);
 
-  --motion-duration: 300ms;
-  --motion-ease: ease-out;
+  --motion-duration: 240ms;
+  --motion-ease: cubic-bezier(.22,1,.36,1);
   --space-1: clamp(4px, .35vw, 6px);
   --space-2: clamp(8px, .7vw, 12px);
   --space-3: clamp(14px, 1.2vw, 20px);
@@ -109,10 +109,10 @@ Risks: serif font alone is not a skeleton change; dense dashboards need tabular 
 
 ## Component grammar
 
-- Surface: 1px solid var(--line); radius 2px; shadow none.
-- Type: display **"Iowan Old Style", "Palatino Linotype", Georgia, serif** at weight 500, tracking -0.025em; body **"Charter", "Georgia", "Segoe UI", serif**; numerals and micro-labels **"Courier New", ui-monospace, monospace**.
-- Texture: newsprint rules, drop caps, marginalia labels, ether gradient wash.
-- Motion: quiet, 300ms, ease-out. Always wrap non-essential motion in `@media (prefers-reduced-motion: no-preference)`.
+- Surface: 1px solid rgba(143, 163, 181, 0.18); radius 16px; shadow 0 26px 70px rgba(0, 0, 0, 0.5).
+- Type: display **"Trebuchet MS", "Segoe UI", sans-serif** at weight 650, tracking -0.035em; body **"Segoe UI", "Helvetica Neue", sans-serif**; numerals and micro-labels **"Cascadia Mono", ui-monospace, monospace**.
+- Texture: liquid glass, teal-magenta glow, fine grid, data sparklines.
+- Motion: fluid, 240ms, cubic-bezier(.22,1,.36,1). Always wrap non-essential motion in `@media (prefers-reduced-motion: no-preference)`.
 - Density: comfortable. Keep body text >= 14px and body contrast >= 4.5:1.
 - Use `--accent-safe` for text and icons on `--bg`; use `--accent` for fills and large shapes.
 
@@ -120,7 +120,7 @@ Risks: serif font alone is not a skeleton change; dense dashboards need tabular 
 
 The replacement must satisfy all of these:
 
-1. The source inventory archetype is `terminal-console`; the new skeleton is `documentary`. Do not fall back to the old shell during implementation.
+1. The source inventory archetype is `sidebar-workspace`; the new skeleton is `orbital`. Do not fall back to the old shell during implementation.
 2. Do not reuse any original class name, CSS selector, design token name, or original accent family.
 3. Rewrite templates, not only CSS. Every route must visibly use the new skeleton.
 4. Keep every token in `.reskin/content-contract.json`; move it, never rewrite it.
@@ -128,4 +128,4 @@ The replacement must satisfy all of these:
 
 ## Commit statement
 
-Use this sentence in the final report: "The UI was rebuilt around Paper Protocol / Documentary Ledger; the original terminal-console shell and palette were removed while the content contract stayed byte-for-byte intact."
+Use this sentence in the final report: "The UI was rebuilt around Abyss Liquidity / Orbital; the original sidebar-workspace shell and palette were removed while the content contract stayed byte-for-byte intact."
